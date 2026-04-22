@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Основные SEO мета-теги -->
+    <title>Как делается «чебурнет» — интервью Германа Клименко о защите от дронов и будущем VPN</title>
+    <meta name="description" content="Экс-советник президента по развитию интернета Герман Клименко объяснил, как делается «чебурнет», зачем нужны «белые списки» и почему государство не ставит задачу отключить Россию от зарубежного интернета.">
+    <meta name="keywords" content="чебурнет, Герман Клименко, экс-советник президента, интернет в России, белые списки, ТСПУ, VPN, Telegram, блокировки интернета">
+    <meta name="author" content="Герман Клименко / Аргументы и факты">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Russian">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph для соцсетей (Facebook, VK, Telegram и др.) -->
+    <meta property="og:title" content="Как делается «чебурнет» — экс-советник президента раскрыл механику">
+    <meta property="og:description" content="Герман Клименко о защите от дронов, борьбе с мошенниками и будущем VPN в России. Полное интервью.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/server-team1703/server/refs/heads/main/images/cheburnet.png">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="600">
+    <meta property="og:image:alt" content="Иллюстрация Чебурнет — схема ограничения интернета">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="Аналитика цифровой экономики">
+    <meta property="article:published_time" content="2026-03-23T12:42:00+03:00">
+    <meta property="article:author" content="Герман Клименко">
+    <meta property="article:section" content="Технологии">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Как делается «чебурнет» — интервью Германа Клименко">
+    <meta name="twitter:description" content="Экс-советник президента объяснил, зачем нужны «белые списки» и почему Россия не станет Северной Кореей.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/server-team1703/server/refs/heads/main/images/cheburnet.png">
+    
+    <!-- Canonical URL (указываем текущий адрес, если он известен, или оставляем относительный) -->
+    <link rel="canonical" href="https://telegaproxy.vercel.app/article-cheburnet.html">
+    
+    <!-- Schema.org разметка для статьи (структурированные данные) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Экс-советник президента по развитию интернета объяснил, как делается «чебурнет»",
+        "description": "Герман Клименко о защите от дронов, борьбе с мошенниками и будущем VPN в России.",
+        "image": "https://raw.githubusercontent.com/server-team1703/server/refs/heads/main/images/cheburnet.png",
+        "author": {
+            "@type": "Person",
+            "name": "Герман Клименко",
+            "jobTitle": "Председатель совета Фонда развития цифровой экономики",
+            "url": "https://ru.wikipedia.org/wiki/Клименко,_Герман_Сергеевич"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Аргументы и факты",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://aif.ru/i/logo-aif.png"
+            }
+        },
+        "datePublished": "2026-03-23T12:42:00+03:00",
+        "dateModified": "2026-03-23T12:42:00+03:00",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://telegaproxy.vercel.app/article-cheburnet.html"
+        },
+        "keywords": "чебурнет, Герман Клименко, белые списки, ТСПУ, VPN, Telegram, блокировки интернета"
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #eef2f5;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.55;
+            color: #1a2c3e;
+            padding: 2rem 1rem;
+        }
+
+        .article-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+            padding: 2rem 2rem;
+        }
+
+        .nav-top {
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #e2e9f0;
+            padding-bottom: 0.75rem;
+        }
+
+        .nav-bottom {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e2e9f0;
+            text-align: center;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            color: #2c7da0;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .back-link:hover {
+            color: #145c7a;
+            text-decoration: underline;
+        }
+
+        .article-title {
+            font-size: 1.9rem;
+            font-weight: 700;
+            line-height: 1.3;
+            color: #0b2b3b;
+            margin: 0.5rem 0 1rem 0;
+        }
+
+        .article-image {
+            margin: 1.5rem 0 1.5rem 0;
+            text-align: center;
+        }
+
+        .article-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin: 0 auto;
+        }
+
+        .image-caption {
+            font-size: 0.75rem;
+            color: #6c7e96;
+            margin-top: 0.5rem;
+            text-align: center;
+        }
+
+        .image-credit {
+            font-size: 0.75rem;
+            color: #6c7e96;
+            margin-bottom: 1.5rem;
+            border-top: 1px solid #e2e9f0;
+            padding-top: 0.6rem;
+        }
+
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin: 1.6rem 0 0.8rem 0;
+            color: #1e5c77;
+        }
+
+        .content p {
+            margin-bottom: 1.25rem;
+            color: #1f2f3e;
+        }
+
+        .quote-block {
+            margin: 1.6rem 0;
+            background: #f4f9fe;
+            border-left: 4px solid #2c7da0;
+            padding: 1.2rem 1.5rem;
+            border-radius: 12px;
+        }
+
+        .quote-text {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #0f3b4f;
+            margin-bottom: 0.5rem;
+            line-height: 1.45;
+        }
+
+        .quote-author {
+            font-size: 0.85rem;
+            color: #2c697e;
+            margin-top: 0.4rem;
+        }
+
+        hr {
+            margin: 1.5rem 0;
+            border: 0;
+            height: 1px;
+            background: #e2e9f0;
+        }
+
+        /* микро-разметка для улучшения читаемости (не влияет на SEO, но плюс) */
+        .content strong {
+            color: #176f8f;
+        }
+
+        @media (max-width: 550px) {
+            .article-container {
+                padding: 1.3rem;
+            }
+            .article-title {
+                font-size: 1.6rem;
+            }
+            .section-title {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="article-container">
+    <div class="nav-top">
+        <a href="index.html" class="back-link">← Назад к списку статей</a>
+    </div>
+
+    <h1 class="article-title">Экс-советник президента по развитию интернета объяснил, как делается «чебурнет»</h1>
+
+    <div class="article-image">
+        <img src="https://raw.githubusercontent.com/server-team1703/server/refs/heads/main/images/cheburnet.png" 
+             alt="Чебурнет — схема ограничения интернета в России, иллюстрация к интервью Германа Клименко"
+             title="Как делается чебурнет — инфографика"
+             loading="eager"
+             width="800"
+             height="600"
+             onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <div class="image-caption" style="display: none;">Иллюстрация: Чебурнет — схема работы «белых списков»</div>
+        <div class="image-caption">Иллюстрация: механизм «чебурнета» — ограничение доступа к зарубежным доменам</div>
+    </div>
+
+    <div class="image-credit">Источник фото: Александр Ощепков / NGS.RU</div>
+
+    <div class="content">
+        <p><strong>Российские власти не ставят задачи создать «чебурнет»</strong>, ограничения интернета призваны защитить россиян от дронов и мошенников. Об этом в интервью «Аргументам и фактам» заявил председатель совета Фонда развития цифровой экономики и бывший советник президента по вопросам развития интернета <strong>Герман Клименко</strong>.</p>
+
+        <div class="section-title">Про отключение интернета</div>
+        <p>Локальные отключения интернета чиновник объяснил сбоями при тестировании «белых списков» для работы одновременно и в Москве, и в регионах, при активной борьбе с Telegram и Whatsapp*. По мнению Клименко, в ближайшие дни технологии отладят, и ситуация нормализуется.</p>
+        <p>«Сделать единый продукт, чтобы он одновременно хорошо работал в столице и в регионах — задача специфическая. И видимо, в результате всех добавлений и изменений, внедрения разных правильных продуктов возникли сбои», — заявил он.</p>
+
+        <div class="section-title">Про «чебурнет»</div>
+        <p>По словам Клименко, государство не ставит задачу отключить Россию от зарубежного интернета. Цель введения «белых списков» — помешать вражеским дронам навигироваться через российские сим-карты, не дать им зайти в интернет, где оператор будет наводить их на цель.</p>
+
+        <div class="quote-block">
+            <div class="quote-text">«Чебурнет» делается по-другому — для этого достаточно нажать на кнопку, и тогда мы все сможем ходить только на домены зоны .ру или .рф. Просто взять и отрубить весь зарубежный трафик — и будет как в Северной Корее. Но такая задача не ставится.</div>
+            <div class="quote-author">Герман Клименко, председатель совета Фонда развития цифровой экономики</div>
+        </div>
+
+        <div class="section-title">Про борьбу с мошенниками</div>
+        <p>Роскомнадзор при помощи технических средств противодействия угрозам (ТСПУ) создает цифровую среду, где приватность останется, но анонимности, позволяющей совершать преступные действия, не будет. Чтобы воспользоваться этой средой, потребуется зарегистрировать аккаунт на российский телефонный номер и российскую почту.</p>
+        <p>По словам чиновника, это сделает поиск нарушителей закона проще, а условную цену одного дозвона для мошенников — выше. Сейчас у Роскомнадзора около 1500 ТСПУ, добавил Клименко.</p>
+
+        <div class="section-title">Про Telegram</div>
+        <p>Мессенджер Telegram Клименко назвал удобным сервисом и отметил, что сам им пользуется. Однако, по его словам, в Telegram «столько всего нехорошего».</p>
+        <div class="quote-block">
+            <div class="quote-text">Недавно знакомым депутатам, которые громко возмущались блокировками, я предложил эксперимент. Мы ввели в поиск некий набор слов, и тут же выскочил telegram-канал с видеороликами, на которых украинские дроны убивают русских солдат, скидывают бомбы, еще что-то делают.</div>
+            <div class="quote-author">Герман Клименко, председатель совета Фонда развития цифровой экономики</div>
+        </div>
+        <p>У государства нет иного выхода, кроме как ставить заслон от такого контента, заявил чиновник. По его мнению, власти просто порой плохо объясняют гражданам свои действия.</p>
+
+        <div class="section-title">Про VPN</div>
+        <p>Клименко отметил, что технически Роскомнадзор, вероятно, может запретить все VPN-сервисы. Однако это, по его мнению, негативно скажется на всей российской науке и медицине, потому что хорошие современные врачи читают свежие статьи на PubMed, физики и химики тоже работают с зарубежными научными изданиями, куда могут получить доступ только через VPN.</p>
+        <p>В качестве альтернативы он предложил создать государственный VPN. «Учредить компанию, которая формально к государству не будет иметь отношения, но которая сможет арендовать где-нибудь в Америке сервера и обеспечить нашим ученым доступ к зарубежной научной информации. Естественно, соблюдая все ограничения Роскомнадзора», — заявил Клименко.</p>
+
+        <hr>
+        <div style="font-size: 0.7rem; color: #8a99ae;">* Принадлежит организации, признанной экстремистской и запрещённой на территории РФ (Meta)</div>
+    </div>
+
+    <div class="nav-bottom">
+        <a href="https://telegaproxy.vercel.app/" class="back-link">← На главную</a>
+    </div>
+</div>
+
+    <script defer src="https://umami-stats-ten.vercel.app/script.js" data-website-id="706c1472-5d7d-48b3-9ffe-f99364dee7cd"></script>
+</body>
+</html>
