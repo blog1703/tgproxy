@@ -457,61 +457,79 @@ h1 {
     100% { opacity: 0.5; transform: scale(1); }
 }
 
-/* ===== FAQ ===== */
-.faq-section {
-    margin-top: 1.5rem;
-    text-align: left;
-}
-
-.faq-item {
+/* ===== TRUST BADGES (блок доверия) ===== */
+.trust-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    padding-top: 0.75rem;
     border-top: 1px solid rgba(255,255,255,0.08);
 }
 
-.faq-item:last-child {
-    border-bottom: 1px solid rgba(255,255,255,0.08);
+.trust-item {
+    font-size: 0.7rem;
+    color: #8b949e;
+    background: rgba(255,255,255,0.03);
+    padding: 0.25rem 0.6rem;
+    border-radius: 1rem;
+    letter-spacing: 0.01em;
 }
 
-.faq-question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    font-size: 0.875rem;
-    font-weight: 500;
+/* ===== SEO TEXT ===== */
+.seo-text {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.seo-text h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 1rem 0 0.5rem 0;
     color: #e6edf3;
-    padding: 0.875rem 0;
-    background: none;
-    border: none;
-    width: 100%;
-    text-align: left;
 }
 
-.faq-question span {
-    font-size: 1.125rem;
-    color: #8b949e;
-    transition: transform 0.25s;
+.seo-text h2:first-of-type {
+    margin-top: 0;
 }
 
-.faq-item.active .faq-question span {
-    transform: rotate(45deg);
+.seo-text h3 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 1rem 0 0.5rem 0;
+    color: #e6edf3;
 }
 
-.faq-answer {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+.seo-text h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 0.75rem 0 0.25rem 0;
+    color: #c9d1d9;
 }
 
-.faq-item.active .faq-answer {
-    max-height: 200px;
-}
-
-.faq-answer-inner {
-    font-size: 0.8125rem;
-    color: #8b949e;
+.seo-text p {
+    font-size: 0.8rem;
     line-height: 1.5;
-    padding-bottom: 0.875rem;
-    padding-left: 0.5rem;
+    color: #8b949e;
+    margin-bottom: 0.75rem;
+}
+
+.seo-text ul {
+    margin: 0.5rem 0 0.75rem 1.25rem;
+}
+
+.seo-text li {
+    font-size: 0.8rem;
+    color: #8b949e;
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
+}
+
+.seo-text strong {
+    color: #e6edf3;
+    font-weight: 500;
 }
 
 /* ===== FOOTER ===== */
@@ -525,6 +543,26 @@ h1 {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0.25rem 0;
+}
+
+.copyright {
+    font-size: 0.65rem;
+    opacity: 0.6;
+    margin-top: 0.5rem;
+}
+
+.update-time {
+    font-size: 0.65rem;
+    color: #6e7681;
+    margin: 0.25rem 0;
 }
 
 /* ===== LOADER ===== */
@@ -588,6 +626,27 @@ h1 {
     .content-wrapper {
         max-width: 100%;
         padding: 0 0.25rem;
+    }
+    
+    .trust-badges {
+        gap: 0.5rem;
+    }
+    
+    .trust-item {
+        font-size: 0.65rem;
+        padding: 0.2rem 0.5rem;
+    }
+    
+    .seo-text h2 {
+        font-size: 1rem;
+    }
+    
+    .seo-text h3 {
+        font-size: 0.9rem;
+    }
+    
+    .seo-text p, .seo-text li {
+        font-size: 0.75rem;
     }
 }
 
