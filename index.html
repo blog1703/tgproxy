@@ -136,7 +136,7 @@
             </div>
         </div>
         
-        <!-- SEO-текст -->
+        <!-- SEO-текст (открыт для поисковиков) -->
         <section class="seo-text">
             <h2>Что такое MTProto прокси и зачем он нужен</h2>
             <p>
@@ -163,27 +163,58 @@
             </ul>
             
             <h3>Часто задаваемые вопросы</h3>
-            
-            <div class="faq-item">
-                <h4>Это официальная функция Telegram?</h4>
-                <p>Да, Telegram официально поддерживает подключение через прокси. Настройки находятся в разделе «Данные и память» → «Тип прокси» → «MTProto».</p>
-            </div>
-            
-            <div class="faq-item">
-                <h4>Почему прокси перестаёт работать?</h4>
-                <p>Серверы могут менять свою доступность из-за нагрузки или блокировок. Мы автоматически обновляем список, чтобы вы всегда могли получить рабочие параметры.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h4>Нужно ли платить?</h4>
-                <p>Нет, наш сервис предоставляет бесплатные MTProto прокси. Баннеры — это партнёрские предложения, которые помогают поддерживать работу сайта.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h4>Безопасно ли использовать прокси?</h4>
-                <p>MTProto — это официальный протокол Telegram с шифрованием. Мы не храним логи и не собираем данные пользователей.</p>
-            </div>
         </section>
+        
+        <!-- FAQ в аккордеоне (скрыт, открывается по клику) -->
+        <div class="faq-section">
+            <div class="faq-item">
+                <button class="faq-question">
+                    Это официальная функция Telegram?
+                    <span>+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">
+                        Да, Telegram официально поддерживает подключение через прокси. Настройки находятся в разделе «Данные и память» → «Тип прокси» → «MTProto».
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    Почему прокси перестаёт работать?
+                    <span>+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">
+                        Серверы могут менять свою доступность из-за нагрузки или блокировок. Мы автоматически обновляем список, чтобы вы всегда могли получить рабочие параметры.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    Нужно ли платить?
+                    <span>+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">
+                        Нет, наш сервис предоставляет бесплатные MTProto прокси. Баннеры — это партнёрские предложения, которые помогают поддерживать работу сайта.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    Безопасно ли использовать прокси?
+                    <span>+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">
+                        MTProto — это официальный протокол Telegram с шифрованием. Мы не храним логи и не собираем данные пользователей.
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <!-- Баннер PlayStation -->
         <div class="banner bottom-banner">
@@ -212,7 +243,7 @@
     </div>
 </footer>
 
-<!-- FAQ Schema -->
+<!-- FAQ Schema (JSON-LD для поисковых систем) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
