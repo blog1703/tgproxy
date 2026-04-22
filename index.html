@@ -4,37 +4,62 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 
-<title>MTProto прокси для Telegram — быстрое подключение</title>
-<meta name="description" content="Рабочие MTProto прокси для Telegram. Подключение в один клик. Обновляемый список параметров для настройки доступа.">
+<title>MTProto прокси для Telegram — рабочие серверы и подключение в 1 клик</title>
+
+<meta name="description" content="Актуальные MTProto прокси для Telegram. Подключение в один клик через встроенные настройки. Список серверов регулярно обновляется.">
+
+<meta name="keywords" content="MTProto прокси, Telegram прокси, MTProto Telegram, прокси для Telegram, подключение Telegram, обход блокировок Telegram">
+
+<meta name="robots" content="index, follow">
+<meta name="author" content="TelegaProxy">
+<meta name="revisit-after" content="1 day">
 
 <link rel="canonical" href="https://telegaproxy.vercel.app/">
 
-<meta property="og:title" content="MTProto прокси для Telegram — быстрое подключение">
-<meta property="og:description" content="Рабочие MTProto прокси для Telegram. Подключение в один клик. Обновляемый список параметров для настройки доступа.">
-<meta property="og:url" content="https://telegaproxy.vercel.app/">
+<!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="MTProto для Telegram">
+<meta property="og:url" content="https://telegaproxy.vercel.app/">
+<meta property="og:title" content="MTProto прокси для Telegram — подключение в 1 клик">
+<meta property="og:description" content="Рабочие параметры MTProto прокси для Telegram. Быстрое подключение без ручной настройки. Список обновляется автоматически.">
+<meta property="og:image" content="https://telegaproxy.vercel.app/preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="MTProto прокси для Telegram">
 
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="MTProto прокси для Telegram — быстрое подключение">
-<meta name="twitter:description" content="Рабочие MTProto прокси для Telegram. Подключение в один клик. Обновляемый список параметров для настройки доступа.">
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MTProto прокси для Telegram — рабочие серверы">
+<meta name="twitter:description" content="Актуальные прокси Telegram с быстрым подключением в один клик.">
+<meta name="twitter:image" content="https://telegaproxy.vercel.app/preview.jpg">
 
 <!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/blog1703/tgonline/refs/heads/main/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<!-- Preconnect -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://blog1703.github.io">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
 <header class="site-header">
     <div class="header-container">
-        <a href="/" class="logo-link" aria-label="На главную">
+        <a href="/" class="logo-link" aria-label="MTProto прокси для Telegram — на главную">
             <img src="https://raw.githubusercontent.com/blog1703/tgproxy/refs/heads/main/logoproxy.png" 
-                 alt="MTProto Proxy" 
+                 alt="MTProto прокси для Telegram — подключение в один клик" 
                  class="logo-img"
-                 loading="eager">
+                 loading="eager"
+                 width="128"
+                 height="64">
         </a>
         
         <div class="burger-menu">
@@ -55,6 +80,7 @@
 <main class="main-content">
     <div class="content-wrapper">
         
+        <!-- Баннер ProxyMarket -->
         <div class="banner top-banner">
             <div class="banner-content">
                 <div class="banner-text">
@@ -65,17 +91,19 @@
                 <a href="https://ru.dashboard.proxy.market/?ref=E000143973" 
                    class="banner-button" 
                    target="_blank" 
-                   rel="nofollow noopener">
+                   rel="nofollow noopener sponsored">
                    Попробовать за 49 ₽
                 </a>
             </div>
         </div>
         
+        <!-- Основная карточка -->
         <div class="card">
             <h1>MTProto прокси для Telegram</h1>
-            <div class="sub">Нажмите кнопку, чтобы получить рабочий прокси</div>
+            <div class="sub">Получите актуальные параметры подключения в один клик</div>
+            
             <div class="stats" id="statsArea">
-                Загружено: <strong id="totalCount">—</strong> прокси
+                Загружено: <strong id="totalCount">—</strong> серверов
             </div>
             
             <button class="btn-primary" id="getProxyBtn">
@@ -84,11 +112,11 @@
             
             <div class="result-area" id="resultArea" style="display:none;">
                 <div class="proxy-container">
-                    <button class="nav-arrow" id="prevProxyBtn" aria-label="Предыдущий прокси">◀</button>
-                    <div class="proxy-link" id="proxyLink" role="button" tabindex="0" aria-label="Скопировать ссылку">—</div>
-                    <button class="nav-arrow" id="nextProxyBtn" aria-label="Следующий прокси">▶</button>
+                    <button class="nav-arrow" id="prevProxyBtn" aria-label="Предыдущий прокси из истории" title="Предыдущий прокси">◀</button>
+                    <div class="proxy-link" id="proxyLink" role="button" tabindex="0" aria-label="Нажмите чтобы скопировать ссылку">—</div>
+                    <button class="nav-arrow" id="nextProxyBtn" aria-label="Следующий прокси из истории" title="Следующий прокси">▶</button>
                 </div>
-                <button class="btn-connect" id="connectBtn">Connect</button>
+                <button class="btn-connect" id="connectBtn">Подключить в Telegram</button>
                 <div class="attempt-info" id="attemptInfo">
                     Попытка <strong id="attemptNum">0</strong> из <strong id="totalNum">0</strong>
                 </div>
@@ -96,43 +124,68 @@
             
             <div class="update-status">
                 <span class="status-icon"></span>
-                <span id="statusText">Загрузка...</span>
+                <span id="statusText">Загрузка списка...</span>
             </div>
             
-            <div class="faq-section">
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Это официальная функция? <span>+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <div class="faq-answer-inner">
-                            Да, Telegram поддерживает работу с дополнительными серверами через встроенные настройки.
-                        </div>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Почему соединение может меняться? <span>+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <div class="faq-answer-inner">
-                            Разные серверы могут иметь различную нагрузку. Вы можете выбрать другой вариант.
-                        </div>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Нужно ли что-то устанавливать? <span>+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <div class="faq-answer-inner">
-                            Нет, используется стандартный функционал приложения Telegram.
-                        </div>
-                    </div>
-                </div>
+            <!-- Блок доверия (Trust Badges) -->
+            <div class="trust-badges">
+                <span class="trust-item">Актуальные серверы</span>
+                <span class="trust-item">Автообновление</span>
+                <span class="trust-item">Подключение за секунду</span>
+                <span class="trust-item">Безопасно</span>
             </div>
         </div>
         
+        <!-- SEO-текст -->
+        <section class="seo-text">
+            <h2>Что такое MTProto прокси и зачем он нужен</h2>
+            <p>
+                <strong>MTProto прокси</strong> — это встроенная в Telegram технология, которая позволяет 
+                подключаться к серверам мессенджера через промежуточные узлы. Это особенно полезно в регионах, 
+                где доступ к Telegram может быть ограничен или замедлен. Наш сервис предоставляет <strong>актуальные 
+                рабочие прокси</strong> для Telegram, которые обновляются автоматически.
+            </p>
+            
+            <h2>Как подключить MTProto прокси в Telegram</h2>
+            <p>
+                Подключение занимает не более 10 секунд. Просто нажмите кнопку «Получить рабочий прокси», 
+                затем «Подключить в Telegram» — приложение само предложит применить настройки. 
+                <strong>Никаких ручных настроек</strong> и дополнительных приложений не требуется.
+            </p>
+            
+            <h3>Преимущества нашего сервиса</h3>
+            <ul>
+                <li><strong>Подключение в один клик</strong> — автоматическая генерация tg:// ссылки</li>
+                <li><strong>Автоматическое обновление</strong> списка прокси</li>
+                <li><strong>Работает на всех устройствах</strong> — iPhone, Android, Windows, macOS</li>
+                <li><strong>Безопасно</strong> — используется официальный протокол Telegram</li>
+                <li><strong>История прокси</strong> — можно вернуться к предыдущим рабочим серверам</li>
+            </ul>
+            
+            <h3>Часто задаваемые вопросы</h3>
+            
+            <div class="faq-item">
+                <h4>Это официальная функция Telegram?</h4>
+                <p>Да, Telegram официально поддерживает подключение через прокси. Настройки находятся в разделе «Данные и память» → «Тип прокси» → «MTProto».</p>
+            </div>
+            
+            <div class="faq-item">
+                <h4>Почему прокси перестаёт работать?</h4>
+                <p>Серверы могут менять свою доступность из-за нагрузки или блокировок. Мы автоматически обновляем список, чтобы вы всегда могли получить рабочие параметры.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h4>Нужно ли платить?</h4>
+                <p>Нет, наш сервис предоставляет бесплатные MTProto прокси. Баннеры — это партнёрские предложения, которые помогают поддерживать работу сайта.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h4>Безопасно ли использовать прокси?</h4>
+                <p>MTProto — это официальный протокол Telegram с шифрованием. Мы не храним логи и не собираем данные пользователей.</p>
+            </div>
+        </section>
+        
+        <!-- Баннер PlayStation -->
         <div class="banner bottom-banner">
             <div class="banner-content">
                 <div class="banner-text">
@@ -152,11 +205,71 @@
 </main>
 
 <footer class="site-footer">
-    Список обновляется автоматически
-    <div id="updateTime" style="font-size: 0.65rem; margin-top: 0.25rem;"></div>
+    <div class="footer-content">
+        <p>Список обновляется автоматически</p>
+        <div id="updateTime" class="update-time"></div>
+        <p class="copyright">© 2024 MTProto прокси для Telegram | Бесплатные рабочие серверы</p>
+    </div>
 </footer>
 
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "headline": "MTProto прокси для Telegram — частые вопросы",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Это официальная функция Telegram?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, Telegram официально поддерживает подключение через прокси. Настройки находятся в разделе «Данные и память» → «Тип прокси» → «MTProto»."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Почему прокси перестаёт работать?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Серверы могут менять свою доступность из-за нагрузки или блокировок. Мы автоматически обновляем список, чтобы вы всегда могли получить рабочие параметры."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Нужно ли платить за прокси?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Нет, наш сервис предоставляет бесплатные MTProto прокси. Баннеры — это партнёрские предложения, которые помогают поддерживать работу сайта."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Безопасно ли использовать MTProto прокси?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MTProto — это официальный протокол Telegram с шифрованием. Мы не храним логи и не собираем данные пользователей."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "MTProto прокси для Telegram",
+  "url": "https://telegaproxy.vercel.app/",
+  "description": "Бесплатные актуальные MTProto прокси для Telegram с подключением в один клик",
+  "inLanguage": "ru"
+}
+</script>
+
 <script src="js/main.js" defer></script>
+
+<!-- Analytics -->
 <script defer src="https://umami-stats-ten.vercel.app/script.js" data-website-id="706c1472-5d7d-48b3-9ffe-f99364dee7cd"></script>
 
 </body>
