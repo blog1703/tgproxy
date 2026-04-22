@@ -29,13 +29,17 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     background: radial-gradient(1200px at 20% -10%, #1f3a8a33, transparent),
                 radial-gradient(800px at 90% 10%, #16a34a22, transparent),
                 #0b0f14;
     color: #e6edf3;
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -48,6 +52,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
+    flex-shrink: 0;
 }
 
 .header-container {
@@ -177,7 +182,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
 }
 
 .content-wrapper {
@@ -190,7 +195,7 @@ body {
     background: rgba(22, 27, 34, 0.7);
     backdrop-filter: blur(16px);
     border-radius: 1.5rem;
-    padding: 2rem 1.5rem;
+    padding: 1.75rem 1.5rem;
     border: 1px solid rgba(255,255,255,.06);
     box-shadow: 0 10px 30px rgba(0,0,0,.4);
     transition: transform 0.25s, box-shadow 0.25s;
@@ -210,11 +215,11 @@ body {
 }
 
 .top-banner {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .bottom-banner {
-    margin-top: 1.25rem;
+    margin-top: 1rem;
 }
 
 .banner-content {
@@ -262,7 +267,7 @@ body {
 
 /* ===== TYPOGRAPHY ===== */
 h1 {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
     letter-spacing: -0.01em;
@@ -270,7 +275,7 @@ h1 {
 
 .sub {
     color: #8b949e;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
     font-size: 0.85rem;
 }
 
@@ -288,7 +293,7 @@ h1 {
 /* ===== BUTTONS ===== */
 .btn-primary {
     width: 100%;
-    padding: 0.9rem;
+    padding: 0.85rem;
     border: none;
     border-radius: 0.9rem;
     background: linear-gradient(135deg, #22c55e, #16a34a);
@@ -316,7 +321,7 @@ h1 {
 
 /* ===== RESULT AREA ===== */
 .result-area {
-    margin-top: 1.2rem;
+    margin-top: 1rem;
     padding: 1rem;
     border-radius: 0.8rem;
     background: rgba(13, 17, 23, 0.8);
@@ -335,7 +340,6 @@ h1 {
     }
 }
 
-/* Контейнер для прокси со стрелками */
 .proxy-container {
     display: flex;
     align-items: center;
@@ -418,7 +422,7 @@ h1 {
     text-align: center;
 }
 
-/* ===== СТАТУС ОБНОВЛЕНИЯ (всегда зелёный) ===== */
+/* ===== СТАТУС ОБНОВЛЕНИЯ ===== */
 .update-status {
     margin-top: 1rem;
     font-size: 0.75rem;
@@ -505,11 +509,12 @@ h1 {
 /* ===== FOOTER ===== */
 .site-footer {
     text-align: center;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
     font-size: 0.7rem;
     color: #6e7681;
     border-top: 1px solid rgba(255,255,255,0.05);
-    margin-top: 1rem;
+    margin-top: 0;
+    flex-shrink: 0;
 }
 
 /* ===== LOADER ===== */
@@ -532,7 +537,7 @@ h1 {
 /* ===== RESPONSIVE ===== */
 @media (max-width: 480px) {
     .card {
-        padding: 1.5rem 1rem;
+        padding: 1.25rem 1rem;
     }
     
     .banner-content {
@@ -560,6 +565,10 @@ h1 {
         height: 32px;
         font-size: 1rem;
     }
+    
+    .main-content {
+        padding: 1rem;
+    }
 }
 
 .visually-hidden {
@@ -580,7 +589,7 @@ h1 {
 <header class="site-header">
     <div class="header-container">
         <a href="/" class="logo-link" aria-label="На главную">
-            <img src="https://raw.githubusercontent.com/blog1703/tgproxy/refs/heads/main/logosite1.png" 
+            <img src="https://raw.githubusercontent.com/blog1703/tgonline/refs/heads/main/logofinal.png" 
                  alt="MTProto Proxy" 
                  class="logo-img"
                  loading="eager">
@@ -643,7 +652,6 @@ h1 {
                 </div>
             </div>
             
-            <!-- Индикатор статуса - всегда зелёный, не кликабельный -->
             <div class="update-status">
                 <span class="status-icon"></span>
                 <span id="statusText">Загрузка...</span>
@@ -708,14 +716,12 @@ h1 {
 
 <script>
 (function() {
-    // ===== CONFIGURATION =====
     const PROXY_LIST_URL = 'https://blog1703.github.io/tgonline/proxies.txt';
     const FETCH_TIMEOUT = 10000;
     const STORAGE_KEY = 'lastProxyIndex';
     const HISTORY_KEY = 'proxyHistory';
     const HISTORY_MAX_SIZE = 10;
     
-    // ===== STATE =====
     let state = {
         cachedProxies: [],
         currentIndex: -1,
@@ -727,7 +733,6 @@ h1 {
         historyPosition: -1
     };
     
-    // ===== DOM ELEMENTS =====
     const elements = {
         getProxyBtn: document.getElementById('getProxyBtn'),
         resultArea: document.getElementById('resultArea'),
@@ -742,7 +747,6 @@ h1 {
         statusText: document.getElementById('statusText')
     };
     
-    // ===== UTILITIES =====
     function simpleHash(str) {
         let hash = 0;
         for (let i = 0; i < str.length; i++) {
@@ -772,7 +776,6 @@ h1 {
         }
     }
     
-    // Форматирование времени в человеческий формат
     function formatTimeAgo(date) {
         const seconds = Math.floor((new Date() - date) / 1000);
         
@@ -803,7 +806,6 @@ h1 {
         return 'дней';
     }
     
-    // Парсинг даты из строки "2026-04-22 15:30:11 (MSK)" или "2026-04-22 15:30:11"
     function parseDateFromString(dateStr) {
         try {
             let cleaned = dateStr.split('(')[0].trim();
@@ -816,7 +818,6 @@ h1 {
         }
     }
     
-    // Обновление индикатора на основе данных из футера
     function updateStatusIndicator() {
         if (elements.updateTime && elements.updateTime.textContent) {
             let updateText = elements.updateTime.textContent;
@@ -833,7 +834,6 @@ h1 {
         elements.statusText.textContent = 'Список обновлён';
     }
     
-    // ===== ИСТОРИЯ ПРОКСИ =====
     function addToHistory(url) {
         if (!url) return;
         if (state.history.length > 0 && state.history[state.history.length - 1].url === url) return;
@@ -898,7 +898,6 @@ h1 {
         }
     }
     
-    // ===== CORE FUNCTIONS =====
     async function loadProxies() {
         if (state.isLoading) return false;
         
@@ -1050,7 +1049,6 @@ h1 {
         }
     }
     
-    // ===== FAQ =====
     function initFaq() {
         const faqItems = document.querySelectorAll('.faq-item');
         faqItems.forEach(item => {
@@ -1066,7 +1064,6 @@ h1 {
         });
     }
     
-    // ===== MOBILE MENU =====
     function initMobileMenu() {
         const burgerIcon = document.getElementById('burgerIcon');
         const mobileMenu = document.getElementById('mobileMenu');
@@ -1090,7 +1087,6 @@ h1 {
         });
     }
     
-    // ===== INITIALIZATION =====
     function init() {
         loadHistory();
         
