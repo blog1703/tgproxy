@@ -1,515 +1,748 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 
-    <title>MTProto прокси для Telegram — быстрое подключение</title>
-    <meta name="description" content="Рабочие MTProto прокси для Telegram. Подключение в один клик. Обновляемый список параметров для настройки доступа.">
+<title>MTProto прокси для Telegram — быстрое подключение</title>
+<meta name="description" content="Рабочие MTProto прокси для Telegram. Подключение в один клик. Обновляемый список параметров для настройки доступа.">
+
+<link rel="canonical" href="https://telegaproxy.vercel.app/">
+
+<meta property="og:title" content="MTProto прокси для Telegram — быстрое подключение">
+<meta property="og:description" content="Рабочие MTProto прокси для Telegram. Подключение в один клик. Обновляемый список параметров для настройки доступа.">
+<meta property="og:url" content="https://telegaproxy.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MTProto для Telegram">
+<meta property="og:locale" content="ru_RU">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MTProto прокси для Telegram — быстрое подключение">
+<meta name="twitter:description" content="Рабочие MTProto прокси для Telegram. Подключение в один клик. Обновляемый список параметров для настройки доступа.">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: radial-gradient(1200px at 20% -10%, #1f3a8a33, transparent),
+                radial-gradient(800px at 90% 10%, #16a34a22, transparent),
+                #0b0f14;
+    color: #e6edf3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== HEADER ===== */
+.site-header {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    height: 32px;
+    width: auto;
+    display: block;
+    transition: opacity 0.2s;
+}
+
+.logo-img:hover {
+    opacity: 0.8;
+}
+
+/* ===== МОБИЛЬНОЕ МЕНЮ ===== */
+.burger-menu {
+    display: flex;
+    align-items: center;
+}
+
+.burger-icon {
+    cursor: pointer;
+    width: 22px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.burger-icon span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #c9d1d9;
+    border-radius: 2px;
+    transition: all 0.2s;
+}
+
+.burger-icon:hover span {
+    background: #ffffff;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 15, 20, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    flex-direction: column;
+    gap: 2rem;
+    animation: fadeIn 0.3s ease;
+}
+
+.mobile-menu.show {
+    display: flex;
+}
+
+.mobile-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+}
+
+.mobile-menu a:hover {
+    color: #58a6ff;
+    background: rgba(88, 166, 255, 0.1);
+    transform: scale(1.05);
+}
+
+.close-menu {
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #c9d1d9;
+    background: none;
+    border: none;
+    padding: 0;
+    line-height: 1;
+    transition: color 0.2s;
+}
+
+.close-menu:hover {
+    color: #ffffff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        backdrop-filter: blur(0px);
+    }
+    to {
+        opacity: 1;
+        backdrop-filter: blur(20px);
+    }
+}
+
+.desktop-nav {
+    display: none;
+}
+
+/* ===== MAIN CONTENT ===== */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 460px;
+}
+
+/* ===== CARDS & BANNERS ===== */
+.card {
+    background: rgba(22, 27, 34, 0.7);
+    backdrop-filter: blur(16px);
+    border-radius: 1.5rem;
+    padding: 2rem 1.5rem;
+    border: 1px solid rgba(255,255,255,.06);
+    box-shadow: 0 10px 30px rgba(0,0,0,.4);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 50px rgba(0,0,0,.6);
+}
+
+.banner {
+    background: rgba(22, 27, 34, 0.6);
+    backdrop-filter: blur(12px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 0.75rem 1rem;
+}
+
+.top-banner {
+    margin-bottom: 1.25rem;
+}
+
+.bottom-banner {
+    margin-top: 1.25rem;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    gap: 0.875rem;
+}
+
+.banner-text {
+    flex: 1;
+}
+
+.banner-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #e6edf3;
+    margin-bottom: 0.25rem;
+}
+
+.banner-desc {
+    font-size: 0.6875rem;
+    color: #8b949e;
+    line-height: 1.4;
+}
+
+.banner-button {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: white;
+    border: none;
+    padding: 0.375rem 0.875rem;
+    border-radius: 1.25rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.banner-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(34,197,94,0.3);
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.01em;
+}
+
+.sub {
+    color: #8b949e;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+}
+
+.stats {
+    font-size: 0.8125rem;
+    color: #8b949e;
+    margin-bottom: 1.25rem;
+}
+
+.stats strong {
+    color: #e6edf3;
+    font-weight: 600;
+}
+
+/* ===== BUTTONS ===== */
+.btn-primary {
+    width: 100%;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 0.9rem;
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s;
+    box-shadow: 0 8px 20px rgba(34,197,94,0.25);
+    font-size: 0.9375rem;
+}
+
+.btn-primary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(34,197,94,0.4);
+}
+
+.btn-primary:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ===== RESULT AREA ===== */
+.result-area {
+    margin-top: 1.2rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    background: rgba(13, 17, 23, 0.8);
+    border: 1px solid rgba(255,255,255,.05);
+    animation: fadeSlide 0.3s ease;
+}
+
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Контейнер для прокси со стрелками */
+.proxy-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.nav-arrow {
+    background: rgba(88, 166, 255, 0.1);
+    border: 1px solid rgba(88, 166, 255, 0.2);
+    border-radius: 0.5rem;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 1.2rem;
+    color: #58a6ff;
+    flex-shrink: 0;
+}
+
+.nav-arrow:hover:not(:disabled) {
+    background: rgba(88, 166, 255, 0.2);
+    transform: scale(1.05);
+    border-color: rgba(88, 166, 255, 0.4);
+}
+
+.nav-arrow:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.proxy-link {
+    flex: 1;
+    font-family: 'SF Mono', 'Monaco', 'Cascadia Code', monospace;
+    font-size: 0.75rem;
+    color: #58a6ff;
+    padding: 0.6rem;
+    background: rgba(88,166,255,.08);
+    border-radius: 0.6rem;
+    border: 1px solid rgba(88,166,255,.2);
+    cursor: pointer;
+    transition: all 0.2s;
+    word-break: break-all;
+    text-align: center;
+}
+
+.proxy-link:hover {
+    background: rgba(88,166,255,.15);
+    transform: scale(1.02);
+}
+
+.btn-connect {
+    margin-top: 0.7rem;
+    background: linear-gradient(135deg, #238636, #1a6b2c);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    transition: all 0.2s;
+}
+
+.btn-connect:hover {
+    transform: translateY(-1px);
+    background: linear-gradient(135deg, #2ea043, #1f7a33);
+}
+
+.attempt-info {
+    font-size: 0.7rem;
+    color: #6e7681;
+    margin-top: 0.75rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    text-align: center;
+}
+
+/* ===== СТАТУС ОБНОВЛЕНИЯ (всегда зелёный) ===== */
+.update-status {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: rgba(255,255,255,0.02);
+}
+
+.status-icon {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    background: #22c55e;
+    box-shadow: 0 0 8px #22c55e;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.5; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.2); }
+    100% { opacity: 0.5; transform: scale(1); }
+}
+
+/* ===== FAQ ===== */
+.faq-section {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.faq-item {
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.faq-item:last-child {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #e6edf3;
+    padding: 0.875rem 0;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+.faq-question span {
+    font-size: 1.125rem;
+    color: #8b949e;
+    transition: transform 0.25s;
+}
+
+.faq-item.active .faq-question span {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.faq-item.active .faq-answer {
+    max-height: 200px;
+}
+
+.faq-answer-inner {
+    font-size: 0.8125rem;
+    color: #8b949e;
+    line-height: 1.5;
+    padding-bottom: 0.875rem;
+    padding-left: 0.5rem;
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+    color: #6e7681;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    margin-top: 1rem;
+}
+
+/* ===== LOADER ===== */
+.loader {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #fff;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 480px) {
+    .card {
+        padding: 1.5rem 1rem;
+    }
     
-    <link rel="canonical" href="https://telegaproxy.vercel.app/">
+    .banner-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    
+    .banner-button {
+        white-space: normal;
+        font-size: 0.6875rem;
+        padding: 0.375rem 0.75rem;
+    }
+    
+    .logo-img {
+        height: 28px;
+    }
+    
+    h1 {
+        font-size: 1.2rem;
+    }
+    
+    .nav-arrow {
+        width: 32px;
+        height: 32px;
+        font-size: 1rem;
+    }
+}
 
-    <meta property="og:title" content="MTProto прокси для Telegram — быстрое подключение">
-    <meta property="og:description" content="Рабочие MTProto прокси для Telegram. Подключение в один клик. Обновляемый список параметров для настройки доступа.">
-    <meta property="og:url" content="https://telegaproxy.vercel.app/">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="MTProto для Telegram">
-    <meta property="og:locale" content="ru_RU">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="MTProto прокси для Telegram — быстрое подключение">
-    <meta name="twitter:description" content="Рабочие MTProto прокси для Telegram. Подключение в один клик. Обновляемый список параметров для настройки доступа.">
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: 'Inter', sans-serif;
-            background: #0f1720;
-            color: #e6edf3;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        .site-header {
-            width: 100%;
-            background: #0f1720;
-            padding: 16px 20px;
-            position: relative;
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-        }
-        .header-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-        }
-        .logo-img {
-            height: 100px;
-            width: auto;
-            display: block;
-        }
-        
-        /* Десктопная ссылка "Новости" с эффектом свечения снизу */
-        .desktop-news {
-            display: none;
-        }
-        .desktop-news a {
-            color: #c9d1d9;
-            text-decoration: none;
-            font-size: 15px;
-            font-weight: 500;
-            padding: 6px 0;
-            transition: all 0.3s ease;
-            position: relative;
-        }
-        .desktop-news a::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 0;
-            height: 2px;
-            background: #58a6ff;
-            box-shadow: 0 0 6px #58a6ff;
-            transition: width 0.3s ease;
-        }
-        .desktop-news a:hover {
-            color: #ffffff;
-        }
-        .desktop-news a:hover::after {
-            width: 80%;
-        }
-
-        /* Бургер-меню (только для мобильных) */
-        .burger-menu {
-            display: flex;
-            align-items: center;
-        }
-        .burger-icon {
-            cursor: pointer;
-            width: 28px;
-            height: 28px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        .burger-icon span {
-            display: block;
-            height: 2px;
-            width: 100%;
-            background: #c9d1d9;
-            border-radius: 2px;
-            transition: all 0.2s;
-        }
-        .burger-icon:hover span {
-            background: #ffffff;
-        }
-        
-        /* Мобильное меню (полноэкранное) */
-        .mobile-menu {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.85);
-            backdrop-filter: blur(8px);
-            display: none;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-            flex-direction: column;
-        }
-        .mobile-menu a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 24px;
-            font-weight: 500;
-            padding: 16px 0;
-            transition: color 0.2s;
-        }
-        .mobile-menu a:hover {
-            color: #58a6ff;
-        }
-        .mobile-menu.show {
-            display: flex;
-        }
-        .close-menu {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            font-size: 32px;
-            cursor: pointer;
-            color: #c9d1d9;
-        }
-        .close-menu:hover {
-            color: #ffffff;
-        }
-
-        @media (min-width: 769px) {
-            .burger-menu {
-                display: none;
-            }
-            .desktop-news {
-                display: block;
-            }
-        }
-
-        .main-content {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 32px 20px;
-        }
-        .container {
-            width: 100%;
-            max-width: 460px;
-            background: #161b22;
-            border-radius: 20px;
-            padding: 32px 24px;
-            text-align: center;
-            border: 1px solid rgba(255,255,255,0.05);
-        }
-        h1 { font-size: 20px; font-weight: 500; margin-bottom: 6px; }
-        .sub { font-size: 13px; color: #8b949e; margin-bottom: 24px; }
-        .stats { font-size: 13px; color: #8b949e; margin-bottom: 20px; }
-        .stats strong { color: #e6edf3; font-weight: 500; }
-
-        button {
-            width: 100%;
-            padding: 14px;
-            border-radius: 12px;
-            border: none;
-            background: #238636;
-            color: white;
-            font-size: 15px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-        button:hover { background: #2ea043; }
-        button:disabled { opacity: 0.5; cursor: not-allowed; }
-
-        .result-area {
-            margin-top: 20px;
-            padding: 16px;
-            border-radius: 12px;
-            background: #0d1117;
-            display: none;
-            text-align: left;
-            border: 1px solid rgba(255,255,255,0.05);
-        }
-        .proxy-link {
-            display: block;
-            font-family: monospace;
-            font-size: 12px;
-            color: #58a6ff;
-            word-break: break-all;
-            margin-bottom: 12px;
-            padding: 8px;
-            background: #0b141a;
-            border-radius: 12px;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-        .proxy-link:hover { background: #1e2a36; }
-        .flex-row { display: flex; gap: 12px; align-items: center; justify-content: center; flex-wrap: wrap; }
-        
-        .connect-button {
-            background: #238636;
-            color: white;
-            border: none;
-            padding: 8px 20px;
-            border-radius: 8px;
-            font-size: 14px;
-            font-weight: 500;
-            cursor: pointer;
-            width: auto;
-            transition: background 0.2s;
-        }
-        .connect-button:hover { background: #2ea043; }
-        
-        .attempt-info {
-            font-size: 12px;
-            color: #8b949e;
-            margin-top: 12px;
-            padding-top: 8px;
-            border-top: 1px solid rgba(255,255,255,0.05);
-        }
-        .status { margin-top: 16px; font-size: 13px; color: #8b949e; }
-
-        .site-footer {
-            width: 100%;
-            background: #0f1720;
-            padding: 20px;
-            margin-top: 20px;
-        }
-        .footer-container {
-            max-width: 460px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        .footer-text { font-size: 11px; color: #6e7681; margin-bottom: 8px; }
-        .update-time { font-size: 11px; color: #6e7681; }
-
-        .banner {
-            max-width: 460px;
-            margin: 0 auto;
-            background: #161b22;
-            border-radius: 12px;
-            border: 1px solid rgba(255,255,255,0.08);
-        }
-        .top-banner {
-            margin-bottom: 20px;
-            padding: 12px 16px;
-        }
-        .bottom-banner {
-            margin-top: 20px;
-            padding: 12px 16px;
-        }
-        .banner-content {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-        }
-        .banner-text { flex: 1; }
-        .banner-title { font-size: 14px; font-weight: 500; color: #e6edf3; margin-bottom: 4px; }
-        .banner-desc { font-size: 11px; color: #8b949e; line-height: 1.4; }
-        .banner-button {
-            background: #238636;
-            color: white;
-            border: none;
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 12px;
-            font-weight: 500;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-            white-space: nowrap;
-        }
-        .banner-button:hover { background: #2ea043; }
-
-        .faq-section {
-            margin-top: 20px;
-            text-align: left;
-        }
-        .faq-item {
-            border-top: 1px solid rgba(255,255,255,0.08);
-        }
-        .faq-question {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: 500;
-            color: #e6edf3;
-            padding: 12px 0;
-        }
-        .faq-question span {
-            font-size: 18px;
-            color: #8b949e;
-            transition: transform 0.2s;
-        }
-        .faq-item.active .faq-question span {
-            transform: rotate(45deg);
-        }
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.35s ease-out;
-        }
-        .faq-item.active .faq-answer {
-            max-height: 200px;
-        }
-        .faq-answer-inner {
-            font-size: 13px;
-            color: #8b949e;
-            line-height: 1.5;
-            padding-bottom: 12px;
-            padding-left: 8px;
-        }
-
-        @media (max-width: 480px) {
-            .banner-content {
-                flex-direction: column;
-                text-align: center;
-                gap: 8px;
-            }
-            .banner-button {
-                white-space: normal;
-                padding: 4px 10px;
-                font-size: 11px;
-            }
-            .banner-title {
-                font-size: 13px;
-            }
-            .banner-desc {
-                font-size: 10px;
-            }
-            .faq-question {
-                font-size: 13px;
-            }
-            .faq-answer-inner {
-                font-size: 12px;
-            }
-            .logo-img {
-                height: 60px;
-            }
-        }
-
-        .loader {
-            display: inline-block;
-            width: 16px;
-            height: 16px;
-            border: 2px solid #fff;
-            border-top-color: transparent;
-            border-radius: 50%;
-            animation: spin 0.6s linear infinite;
-            margin-right: 6px;
-            vertical-align: middle;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-    </style>
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+</style>
 </head>
+
 <body>
 
-    <header class="site-header">
-        <div class="header-container">
-            <a href="/" class="logo-link">
-                <img src="https://raw.githubusercontent.com/blog1703/tgonline/refs/heads/main/logofinal.png" alt="MTProto Proxy" class="logo-img">
-            </a>
-            <!-- Десктопная ссылка "Новости" с эффектом свечения снизу -->
-            <div class="desktop-news">
+<header class="site-header">
+    <div class="header-container">
+        <a href="/" class="logo-link" aria-label="На главную">
+            <img src="https://raw.githubusercontent.com/blog1703/tgonline/refs/heads/main/logofinal.png" 
+                 alt="MTProto Proxy" 
+                 class="logo-img"
+                 loading="eager">
+        </a>
+        
+        <div class="burger-menu">
+            <button class="burger-icon" id="burgerIcon" aria-label="Открыть меню" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="visually-hidden">Меню</span>
+            </button>
+            <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Мобильное меню">
+                <button class="close-menu" id="closeMenu" aria-label="Закрыть меню">&times;</button>
                 <a href="/blog/index.html" target="_blank" rel="noopener noreferrer">Новости</a>
             </div>
-            <!-- Бургер-меню (только для мобильных) -->
-            <div class="burger-menu">
-                <div class="burger-icon" id="burgerIcon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        </div>
+    </div>
+</header>
+
+<main class="main-content">
+    <div class="content-wrapper">
+        
+        <div class="banner top-banner">
+            <div class="banner-content">
+                <div class="banner-text">
+                    <div class="banner-title">ProxyMarket</div>
+                    <div class="banner-desc">Прокси IPv4 и IPv6 для любых целей</div>
+                    <div class="banner-desc" style="font-size: 0.625rem; margin-top: 0.25rem;">Чистые подсети | 100% гарантия возврата</div>
                 </div>
-                <div class="mobile-menu" id="mobileMenu">
-                    <div class="close-menu" id="closeMenu">&times;</div>
-                    <a href="/blog/index.html" target="_blank" rel="noopener noreferrer">Новости</a>
+                <a href="https://ru.dashboard.proxy.market/?ref=E000143973" 
+                   class="banner-button" 
+                   target="_blank" 
+                   rel="nofollow noopener">
+                   Попробовать за 49 ₽
+                </a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h1>MTProto прокси для Telegram</h1>
+            <div class="sub">Нажмите кнопку, чтобы получить рабочий прокси</div>
+            <div class="stats" id="statsArea">
+                Загружено: <strong id="totalCount">—</strong> прокси
+            </div>
+            
+            <button class="btn-primary" id="getProxyBtn">
+                Получить рабочий прокси
+            </button>
+            
+            <div class="result-area" id="resultArea" style="display:none;">
+                <div class="proxy-container">
+                    <button class="nav-arrow" id="prevProxyBtn" aria-label="Предыдущий прокси">◀</button>
+                    <div class="proxy-link" id="proxyLink" role="button" tabindex="0" aria-label="Скопировать ссылку">—</div>
+                    <button class="nav-arrow" id="nextProxyBtn" aria-label="Следующий прокси">▶</button>
+                </div>
+                <button class="btn-connect" id="connectBtn">Connect</button>
+                <div class="attempt-info" id="attemptInfo">
+                    Попытка <strong id="attemptNum">0</strong> из <strong id="totalNum">0</strong>
+                </div>
+            </div>
+            
+            <!-- Индикатор статуса - всегда зелёный, не кликабельный -->
+            <div class="update-status">
+                <span class="status-icon"></span>
+                <span id="statusText">Загрузка...</span>
+            </div>
+            
+            <div class="faq-section">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Это официальная функция? <span>+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Да, Telegram поддерживает работу с дополнительными серверами через встроенные настройки.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Почему соединение может меняться? <span>+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Разные серверы могут иметь различную нагрузку. Вы можете выбрать другой вариант.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Нужно ли что-то устанавливать? <span>+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Нет, используется стандартный функционал приложения Telegram.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-
-    <main class="main-content">
-        <div style="width: 100%; max-width: 460px; margin: 0 auto;">
-
-            <div class="banner top-banner">
-                <div class="banner-content">
-                    <div class="banner-text" style="flex: 1;">
-                        <div class="banner-title">ProxyMarket</div>
-                        <div class="banner-desc">Прокси IPv4 и IPv6 для любых целей</div>
-                        <div class="banner-desc" style="font-size: 10px; margin-top: 4px;">Подбор прокси под вас | Только чистые подсети | 100% гарантия возврата</div>
-                    </div>
-                    <a href="https://ru.dashboard.proxy.market/?ref=E000143973" class="banner-button" target="_blank" rel="nofollow">Попробовать за 49 ₽</a>
+        
+        <div class="banner bottom-banner">
+            <div class="banner-content">
+                <div class="banner-text">
+                    <div class="banner-title">Твой билет в мир PlayStation</div>
+                    <div class="banner-desc">С помощью прокси оплачивай подписки в Турции, США и других регионах</div>
                 </div>
+                <a href="/blog/nastroyka-proksi-na-playstation-5-i-playstation-4-poshagovaya-instruktsiya.html" 
+                   class="banner-button" 
+                   target="_blank" 
+                   rel="noopener">
+                   Попробовать
+                </a>
             </div>
-
-            <div class="container">
-                <h1>MTProto прокси для Telegram</h1>
-                <div class="sub">Нажмите кнопку, чтобы получить рабочий прокси</div>
-                <div class="stats" id="statsArea">Загружено: <strong id="totalCount">—</strong> прокси</div>
-                <button id="getProxyBtn">Получить прокси</button>
-                <div class="result-area" id="resultArea">
-                    <div class="proxy-link" id="proxyLink">—</div>
-                    <div class="flex-row">
-                        <button class="connect-button" id="connectBtn">Connect</button>
-                    </div>
-                    <div class="attempt-info" id="attemptInfo">Попытка <strong id="attemptNum">0</strong> из <strong id="totalNum">0</strong></div>
-                </div>
-                <div class="status" id="statusMsg">Готово</div>
-
-                <div class="faq-section">
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            Это официальная функция? <span>+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <div class="faq-answer-inner">
-                                Да, Telegram поддерживает работу с дополнительными серверами через встроенные настройки.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            Почему соединение может меняться? <span>+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <div class="faq-answer-inner">
-                                Разные серверы могут иметь различную нагрузку. Вы можете выбрать другой вариант.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            Нужно ли что-то устанавливать? <span>+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <div class="faq-answer-inner">
-                                Нет, используется стандартный функционал приложения Telegram.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="banner bottom-banner">
-                <div class="banner-content">
-                    <div class="banner-text">
-                        <div class="banner-title">Твой билет в мир PlayStation</div>
-                        <div class="banner-desc">С помощью прокси оплачивай подписки в Турции, США и других регионах</div>
-                    </div>
-                    <a href="/blog/nastroyka-proksi-na-playstation-5-i-playstation-4-poshagovaya-instruktsiya.html" class="banner-button" target="_blank" rel="nofollow">Попробовать</a>
-                </div>
-            </div>
-
         </div>
-    </main>
+        
+    </div>
+</main>
 
-    <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-text">Список обновляется автоматически</div>
-            <div class="update-time" id="updateTime"></div>
-        </div>
-    </footer>
+<footer class="site-footer">
+    Список обновляется автоматически
+    <div id="updateTime" style="font-size: 0.65rem; margin-top: 0.25rem;"></div>
+</footer>
 
 <script>
-(function(){
+(function() {
+    // ===== CONFIGURATION =====
     const PROXY_LIST_URL = 'https://blog1703.github.io/tgonline/proxies.txt';
     const FETCH_TIMEOUT = 10000;
-    const AUTO_REFRESH_INTERVAL = 30 * 60 * 1000;
-
-    let cachedProxies = [];
-    let currentIndex = -1;
-    let currentProxyUrl = '';
-    let isLoading = false;
-    let lastContentHash = '';
-
-    const getProxyBtn = document.getElementById('getProxyBtn');
-    const resultArea = document.getElementById('resultArea');
-    const proxyLinkDiv = document.getElementById('proxyLink');
-    const connectBtn = document.getElementById('connectBtn');
-    const statusMsg = document.getElementById('statusMsg');
-    const updateTimeSpan = document.getElementById('updateTime');
-    const totalCountSpan = document.getElementById('totalCount');
-    const attemptNumSpan = document.getElementById('attemptNum');
-    const totalNumSpan = document.getElementById('totalNum');
-
+    const STORAGE_KEY = 'lastProxyIndex';
+    const HISTORY_KEY = 'proxyHistory';
+    const HISTORY_MAX_SIZE = 10;
+    
+    // ===== STATE =====
+    let state = {
+        cachedProxies: [],
+        currentIndex: -1,
+        currentProxyUrl: '',
+        isLoading: false,
+        lastContentHash: '',
+        debounceTimer: null,
+        history: [],
+        historyPosition: -1
+    };
+    
+    // ===== DOM ELEMENTS =====
+    const elements = {
+        getProxyBtn: document.getElementById('getProxyBtn'),
+        resultArea: document.getElementById('resultArea'),
+        proxyLink: document.getElementById('proxyLink'),
+        connectBtn: document.getElementById('connectBtn'),
+        updateTime: document.getElementById('updateTime'),
+        totalCount: document.getElementById('totalCount'),
+        totalNum: document.getElementById('totalNum'),
+        attemptNum: document.getElementById('attemptNum'),
+        prevProxyBtn: document.getElementById('prevProxyBtn'),
+        nextProxyBtn: document.getElementById('nextProxyBtn'),
+        statusText: document.getElementById('statusText')
+    };
+    
+    // ===== UTILITIES =====
     function simpleHash(str) {
         let hash = 0;
         for (let i = 0; i < str.length; i++) {
@@ -519,7 +752,13 @@
         }
         return hash.toString();
     }
-
+    
+    function sanitizeText(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+    
     async function fetchWithTimeout(url, timeout = FETCH_TIMEOUT) {
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), timeout);
@@ -532,77 +771,254 @@
             throw err;
         }
     }
-
-    async function loadProxies(force = false) {
-        if (isLoading) return false;
-        isLoading = true;
-        statusMsg.innerHTML = '<span class="loader"></span> Загрузка...';
-        getProxyBtn.disabled = true;
+    
+    // Форматирование времени в человеческий формат
+    function formatTimeAgo(date) {
+        const seconds = Math.floor((new Date() - date) / 1000);
+        
+        if (seconds < 60) return 'только что';
+        const minutes = Math.floor(seconds / 60);
+        if (minutes < 60) return `${minutes} ${getMinuteWord(minutes)} назад`;
+        const hours = Math.floor(minutes / 60);
+        if (hours < 24) return `${hours} ${getHourWord(hours)} назад`;
+        const days = Math.floor(hours / 24);
+        return `${days} ${getDayWord(days)} назад`;
+    }
+    
+    function getMinuteWord(n) {
+        if (n % 10 === 1 && n % 100 !== 11) return 'минуту';
+        if ([2,3,4].includes(n % 10) && ![12,13,14].includes(n % 100)) return 'минуты';
+        return 'минут';
+    }
+    
+    function getHourWord(n) {
+        if (n % 10 === 1 && n % 100 !== 11) return 'час';
+        if ([2,3,4].includes(n % 10) && ![12,13,14].includes(n % 100)) return 'часа';
+        return 'часов';
+    }
+    
+    function getDayWord(n) {
+        if (n % 10 === 1 && n % 100 !== 11) return 'день';
+        if ([2,3,4].includes(n % 10) && ![12,13,14].includes(n % 100)) return 'дня';
+        return 'дней';
+    }
+    
+    // Парсинг даты из строки "2026-04-22 15:30:11 (MSK)" или "2026-04-22 15:30:11"
+    function parseDateFromString(dateStr) {
         try {
-            const response = await fetchWithTimeout(PROXY_LIST_URL);
-            if (!response.ok) throw new Error('HTTP ' + response.status);
-            const text = await response.text();
-            const newHash = simpleHash(text);
-            if (!force && lastContentHash === newHash && cachedProxies.length > 0) {
-                statusMsg.textContent = 'Список актуален';
-                getProxyBtn.disabled = false;
-                isLoading = false;
+            let cleaned = dateStr.split('(')[0].trim();
+            let [datePart, timePart] = cleaned.split(' ');
+            let [year, month, day] = datePart.split('-');
+            let [hour, minute, second] = timePart.split(':');
+            return new Date(year, month-1, day, hour, minute, second);
+        } catch(e) {
+            return null;
+        }
+    }
+    
+    // Обновление индикатора на основе данных из футера
+    function updateStatusIndicator() {
+        if (elements.updateTime && elements.updateTime.textContent) {
+            let updateText = elements.updateTime.textContent;
+            let match = updateText.match(/Обновлено:\s*(.+)/);
+            if (match && match[1]) {
+                let date = parseDateFromString(match[1]);
+                if (date && !isNaN(date.getTime())) {
+                    let timeAgo = formatTimeAgo(date);
+                    elements.statusText.textContent = `Список обновлён ${timeAgo}`;
+                    return;
+                }
+            }
+        }
+        elements.statusText.textContent = 'Список обновлён';
+    }
+    
+    // ===== ИСТОРИЯ ПРОКСИ =====
+    function addToHistory(url) {
+        if (!url) return;
+        if (state.history.length > 0 && state.history[state.history.length - 1].url === url) return;
+        
+        state.history.push({ url: url, timestamp: new Date().toISOString() });
+        if (state.history.length > HISTORY_MAX_SIZE) state.history.shift();
+        
+        try { localStorage.setItem(HISTORY_KEY, JSON.stringify(state.history)); } catch(e) {}
+        state.historyPosition = state.history.length - 1;
+    }
+    
+    function loadHistory() {
+        try {
+            const saved = localStorage.getItem(HISTORY_KEY);
+            if (saved) {
+                state.history = JSON.parse(saved);
+                if (state.history.length > HISTORY_MAX_SIZE) state.history = state.history.slice(-HISTORY_MAX_SIZE);
+                if (state.history.length > 0) state.historyPosition = state.history.length - 1;
+            }
+        } catch(e) {}
+    }
+    
+    function goBackInHistory() {
+        if (state.historyPosition > 0) {
+            state.historyPosition--;
+            const historyItem = state.history[state.historyPosition];
+            if (historyItem) {
+                state.currentProxyUrl = historyItem.url;
+                updateProxyDisplay();
+                updateNavigationButtons();
                 return true;
             }
-            lastContentHash = newHash;
+        }
+        return false;
+    }
+    
+    function goForwardInHistory() {
+        if (state.historyPosition < state.history.length - 1) {
+            state.historyPosition++;
+            const historyItem = state.history[state.historyPosition];
+            if (historyItem) {
+                state.currentProxyUrl = historyItem.url;
+                updateProxyDisplay();
+                updateNavigationButtons();
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    function updateNavigationButtons() {
+        if (elements.prevProxyBtn) elements.prevProxyBtn.disabled = state.historyPosition <= 0;
+        if (elements.nextProxyBtn) elements.nextProxyBtn.disabled = state.historyPosition >= state.history.length - 1;
+    }
+    
+    function updateProxyDisplay() {
+        if (elements.proxyLink) elements.proxyLink.textContent = state.currentProxyUrl;
+        if (state.historyPosition >= 0 && state.history.length > 0) {
+            if (elements.attemptNum) elements.attemptNum.textContent = `${state.historyPosition + 1} (из истории)`;
+        } else if (state.currentIndex >= 0) {
+            if (elements.attemptNum) elements.attemptNum.textContent = `${state.currentIndex + 1}`;
+        }
+    }
+    
+    // ===== CORE FUNCTIONS =====
+    async function loadProxies() {
+        if (state.isLoading) return false;
+        
+        state.isLoading = true;
+        elements.statusText.innerHTML = '<span class="loader"></span> Загрузка...';
+        elements.getProxyBtn.disabled = true;
+        
+        try {
+            const response = await fetchWithTimeout(PROXY_LIST_URL);
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            
+            const text = await response.text();
+            const newHash = simpleHash(text);
+            
+            if (newHash === state.lastContentHash && state.cachedProxies.length > 0) {
+                updateStatusIndicator();
+                elements.getProxyBtn.disabled = false;
+                state.isLoading = false;
+                return true;
+            }
+            
+            state.lastContentHash = newHash;
+            
             const updateMatch = text.match(/# Updated: (.*?)(?:\n|$)/);
-            if (updateMatch) updateTimeSpan.textContent = 'Обновлено: ' + updateMatch[1];
-            const proxies = text.split('\n').filter(line => line.trim().startsWith('tg://'));
-            if (!proxies.length) throw new Error('Список пуст');
-            const wasEmpty = cachedProxies.length === 0;
-            cachedProxies = proxies;
-            if (wasEmpty) currentIndex = -1;
-            totalCountSpan.textContent = proxies.length;
-            totalNumSpan.textContent = proxies.length;
-            statusMsg.textContent = 'Готово';
-            getProxyBtn.disabled = false;
-            isLoading = false;
+            if (updateMatch && elements.updateTime) {
+                elements.updateTime.textContent = 'Обновлено: ' + sanitizeText(updateMatch[1]);
+            }
+            
+            const proxies = text.split('\n')
+                .map(line => line.trim())
+                .filter(line => line.startsWith('tg://') && line.length > 10);
+            
+            if (!proxies.length) throw new Error('Список прокси пуст');
+            
+            state.cachedProxies = proxies;
+            
+            const savedIndex = localStorage.getItem(STORAGE_KEY);
+            if (savedIndex && parseInt(savedIndex) < proxies.length) {
+                state.currentIndex = parseInt(savedIndex);
+            } else {
+                state.currentIndex = -1;
+            }
+            
+            if (elements.totalCount) elements.totalCount.textContent = proxies.length;
+            if (elements.totalNum) elements.totalNum.textContent = proxies.length;
+            
+            updateStatusIndicator();
+            elements.getProxyBtn.disabled = false;
+            state.isLoading = false;
             return true;
+            
         } catch (err) {
-            statusMsg.textContent = err.name === 'AbortError' ? 'Ошибка: таймаут загрузки' : 'Ошибка загрузки';
-            getProxyBtn.disabled = false;
-            isLoading = false;
+            console.error('Load error:', err);
+            const errorMsg = err.name === 'AbortError' ? 'Ошибка: таймаут загрузки' : 'Ошибка загрузки списка';
+            elements.statusText.textContent = errorMsg;
+            elements.getProxyBtn.disabled = false;
+            state.isLoading = false;
             return false;
         }
     }
-
+    
     function showNextProxy() {
-        if (!cachedProxies.length) return false;
-        currentIndex = (currentIndex + 1) % cachedProxies.length;
-        currentProxyUrl = cachedProxies[currentIndex];
-        proxyLinkDiv.textContent = currentProxyUrl;
-        attemptNumSpan.textContent = currentIndex + 1;
+        if (!state.cachedProxies.length) return false;
+        
+        state.currentIndex = (state.currentIndex + 1) % state.cachedProxies.length;
+        state.currentProxyUrl = state.cachedProxies[state.currentIndex];
+        
+        addToHistory(state.currentProxyUrl);
+        updateProxyDisplay();
+        updateNavigationButtons();
+        
+        if (elements.totalNum && state.currentIndex >= 0) {
+            if (elements.attemptNum) elements.attemptNum.textContent = `${state.currentIndex + 1}`;
+        }
+        
+        localStorage.setItem(STORAGE_KEY, state.currentIndex.toString());
         return true;
     }
-
+    
     async function handleGetProxy() {
-        if (isLoading) { statusMsg.textContent = 'Загрузка, подождите...'; return; }
-        if (!cachedProxies.length) { const loaded = await loadProxies(); if (!loaded) return; }
-        getProxyBtn.disabled = true;
-        getProxyBtn.innerHTML = '<span class="loader"></span> Поиск';
-        const success = showNextProxy();
-        if (success) {
-            resultArea.style.display = 'block';
-            statusMsg.textContent = 'Готово';
-        } else {
-            statusMsg.textContent = 'Нет доступных прокси';
+        if (state.debounceTimer) return;
+        state.debounceTimer = setTimeout(() => { state.debounceTimer = null; }, 500);
+        
+        if (state.isLoading) {
+            elements.statusText.textContent = 'Загрузка, подождите...';
+            return;
         }
-        getProxyBtn.disabled = false;
-        getProxyBtn.textContent = 'Получить прокси';
+        
+        if (!state.cachedProxies.length) {
+            const loaded = await loadProxies();
+            if (!loaded) return;
+        }
+        
+        elements.getProxyBtn.disabled = true;
+        const originalText = elements.getProxyBtn.innerHTML;
+        elements.getProxyBtn.innerHTML = '<span class="loader"></span> Поиск...';
+        
+        const success = showNextProxy();
+        
+        if (success && state.currentProxyUrl) {
+            if (elements.resultArea) elements.resultArea.style.display = 'block';
+            updateStatusIndicator();
+        } else {
+            elements.statusText.textContent = 'Нет доступных прокси';
+        }
+        
+        elements.getProxyBtn.disabled = false;
+        elements.getProxyBtn.innerHTML = originalText;
     }
-
+    
     async function copyToClipboard(text) {
+        if (!text) return false;
         try {
             await navigator.clipboard.writeText(text);
             return true;
         } catch (err) {
             const textarea = document.createElement('textarea');
             textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
             document.body.appendChild(textarea);
             textarea.select();
             const success = document.execCommand('copy');
@@ -610,65 +1026,100 @@
             return success;
         }
     }
-
-    proxyLinkDiv.addEventListener('click', async () => {
-        if (currentProxyUrl) {
-            const ok = await copyToClipboard(currentProxyUrl);
-            if (ok) {
-                statusMsg.textContent = '✅ Ссылка скопирована!';
-                setTimeout(() => { if (statusMsg.textContent === '✅ Ссылка скопирована!') statusMsg.textContent = 'Готово'; }, 2000);
-            } else {
-                statusMsg.textContent = '❌ Ошибка копирования';
-            }
+    
+    async function handleProxyLinkClick() {
+        if (!state.currentProxyUrl) return;
+        const success = await copyToClipboard(state.currentProxyUrl);
+        if (success) {
+            const originalText = elements.statusText.textContent;
+            elements.statusText.textContent = '✅ Ссылка скопирована!';
+            setTimeout(() => {
+                if (elements.statusText.textContent === '✅ Ссылка скопирована!') {
+                    updateStatusIndicator();
+                }
+            }, 2000);
+        } else {
+            elements.statusText.textContent = '❌ Ошибка копирования';
+            setTimeout(() => updateStatusIndicator(), 2000);
         }
-    });
-
-    connectBtn.addEventListener('click', () => {
-        if (currentProxyUrl) window.open(currentProxyUrl, '_blank');
-    });
-
-    async function autoRefresh() {
-        if (isLoading) return;
-        try {
-            const response = await fetchWithTimeout(PROXY_LIST_URL);
-            if (!response.ok) return;
-            const text = await response.text();
-            const newHash = simpleHash(text);
-            if (newHash !== lastContentHash && cachedProxies.length > 0) {
-                await loadProxies(true);
-                statusMsg.textContent = 'Список обновлён';
-                setTimeout(() => { if (statusMsg.textContent === 'Список обновлён') statusMsg.textContent = 'Готово'; }, 2000);
-            }
-        } catch(e) {}
     }
-
-    getProxyBtn.addEventListener('click', handleGetProxy);
-    setInterval(autoRefresh, AUTO_REFRESH_INTERVAL);
-    loadProxies();
-
-    document.querySelectorAll('.faq-question').forEach(item => {
-        item.addEventListener('click', () => {
-            const parent = item.parentElement;
-            parent.classList.toggle('active');
+    
+    function handleConnect() {
+        if (state.currentProxyUrl && state.currentProxyUrl.startsWith('tg://')) {
+            window.open(state.currentProxyUrl, '_blank');
+        }
+    }
+    
+    // ===== FAQ =====
+    function initFaq() {
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            if (question) {
+                question.addEventListener('click', () => {
+                    item.classList.toggle('active');
+                    const expanded = item.classList.contains('active');
+                    question.setAttribute('aria-expanded', expanded);
+                });
+                question.setAttribute('aria-expanded', 'false');
+            }
         });
-    });
-
-    // Бургер-меню (только для мобильных)
-    const burgerIcon = document.getElementById('burgerIcon');
-    const mobileMenu = document.getElementById('mobileMenu');
-    const closeMenu = document.getElementById('closeMenu');
-    if (burgerIcon && mobileMenu) {
-        const toggleMenu = () => mobileMenu.classList.toggle('show');
+    }
+    
+    // ===== MOBILE MENU =====
+    function initMobileMenu() {
+        const burgerIcon = document.getElementById('burgerIcon');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const closeMenu = document.getElementById('closeMenu');
+        
+        if (!burgerIcon || !mobileMenu) return;
+        
+        const toggleMenu = () => {
+            const isOpen = mobileMenu.classList.toggle('show');
+            burgerIcon.setAttribute('aria-expanded', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        };
+        
         burgerIcon.addEventListener('click', toggleMenu);
         if (closeMenu) closeMenu.addEventListener('click', toggleMenu);
         mobileMenu.addEventListener('click', (e) => {
             if (e.target === mobileMenu) toggleMenu();
         });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && mobileMenu.classList.contains('show')) toggleMenu();
+        });
     }
+    
+    // ===== INITIALIZATION =====
+    function init() {
+        loadHistory();
+        
+        if (elements.getProxyBtn) elements.getProxyBtn.addEventListener('click', handleGetProxy);
+        if (elements.proxyLink) {
+            elements.proxyLink.addEventListener('click', handleProxyLinkClick);
+            elements.proxyLink.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    handleProxyLinkClick();
+                }
+            });
+        }
+        if (elements.connectBtn) elements.connectBtn.addEventListener('click', handleConnect);
+        if (elements.prevProxyBtn) elements.prevProxyBtn.addEventListener('click', () => goBackInHistory());
+        if (elements.nextProxyBtn) elements.nextProxyBtn.addEventListener('click', () => goForwardInHistory());
+        
+        initFaq();
+        initMobileMenu();
+        loadProxies();
+        
+        setInterval(() => updateStatusIndicator(), 10000);
+    }
+    
+    init();
 })();
 </script>
 
-    <script defer src="https://umami-stats-ten.vercel.app/script.js" data-website-id="706c1472-5d7d-48b3-9ffe-f99364dee7cd"></script>
+<script defer src="https://umami-stats-ten.vercel.app/script.js" data-website-id="706c1472-5d7d-48b3-9ffe-f99364dee7cd"></script>
 
 </body>
 </html>
