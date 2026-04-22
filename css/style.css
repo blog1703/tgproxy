@@ -40,14 +40,14 @@ body {
 }
 
 .logo-img {
-    height: 32px;
+    height: 64px;
     width: auto;
     display: block;
     transition: opacity 0.2s;
 }
 
 .logo-img:hover {
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 /* ===== МОБИЛЬНОЕ МЕНЮ ===== */
@@ -530,7 +530,8 @@ h1 {
     }
     
     .logo-img {
-        height: 28px;
+        height: 48px;
+        width: auto;
     }
     
     h1 {
