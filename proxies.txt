@@ -1,0 +1,28 @@
+# Updated: 2026-04-22 14:59:11 (MSK)
+# Total proxies: 24
+# Sources: ProxyMTProto, TProxyRU
+
+tg://proxy?server=peyk.acharbashi.info&port=4515&secret=eee9a4f23b1d768c04a8d7f39120ca5b6e626973636f7474692e79656b74616e65742e636f6d
+tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
+tg://proxy?server=188.137.242.226&port=443&secret=dd63ddf70c2fa66dfa8a66e5c244d02c13
+tg://proxy?server=64.188.65.63&port=443&secret=21f80d43f4bbd90405cecc8435645867
+tg://proxy?server=poll2104.mtproxygram.lol&port=443&secret=eef52f8bf7270831df2823e04b85cc826062726f777365722e79616e6465782e636f6d
+tg://proxy?server=rkn.tg&port=1337&secret=dda2d3fa639a6ddcf8d6d1c5913d001531
+tg://proxy?server=dedicated.love-internet.xyz&port=4515&secret=eee9a4f23b1d768c04a8d7f39120ca5b6e626973636f7474692e79656b74616e65742e636f6d
+tg://proxy?server=r.vkgosuslugi.ru&port=443&secret=eeb3c40cca79ad207666c65909f2b281be77622e7275
+tg://proxy?server=45.89.106.105&port=443&secret=c37205d68bea62f341900a44e0dde5b6
+tg://proxy?server=free-germany2.kimt.space&port=443&secret=ee927123552f30f69883d9d62d16382d66667265652d6765726d616e79322e6b696d742e7370616365
+tg://proxy?server=free-germany.kimt.space&port=443&secret=ee7b7ef45d40766b5b5f494f801f53af40667265652d6765726d616e792e6b696d742e7370616365
+tg://proxy?server=dr3.dedus.pro&port=443&secret=eef97fccdfa1bf4c0de586e6282f07778c706574726f766963682e7275
+tg://proxy?server=138.124.255.140&port=443&secret=ee499ae63085c1db81cccf337fc9507d8a706574726f766963682e7275
+tg://proxy?server=2.27.22.13&port=443&secret=770c63621136701517a7e0d4c2643600
+tg://proxy?server=2.26.101.98&port=443&secret=ee79612e72759919d926b370909e148e
+tg://proxy?server=news1804.mtproxygram.lol&port=443&secret=ee7b24a10d317732c2de878d4a2735c14d62726f777365722e79616e6465782e636f6d
+tg://proxy?server=193.25.216.19&port=443&secret=ee79612e7275ed3a9baef550b4583f00
+tg://proxy?server=dr2.dedus.pro&port=443&secret=eef97fccdfa1bf4c0de586e6282f07778c706574726f766963682e7275
+tg://proxy?server=2.27.42.231&port=443&secret=ee4f93dd09cb3301c90fbef6feabce2654706574726f766963682e7275
+tg://proxy?server=y.vkgosuslugi.ru&port=443&secret=eef7f61a772049acbf6712254678726d8477622e7275
+tg://proxy?server=pr2.fluxsolutions.ru&port=443&secret=ee36d81171544e3a74ef3a91e3e4933b847072322e666c7578736f6c7574696f6e732e7275
+tg://proxy?server=fra42.mtproxygram.pro&port=443&secret=eeb3126d2c304e0be28a496e4d06dfa9c362726f777365722e79616e6465782e636f6d
+tg://proxy?server=proxytop.space&port=443&secret=7d793037a0760186574b0282f2f435e7
+tg://proxy?server=mtproto-de2.nolimited.space&port=443&secret=eebdfa6443f1b57d30b232b9d1a05fb11c766b2e7275

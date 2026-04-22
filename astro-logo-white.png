@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог | MTProto для Telegram</title>
+    <meta name="description" content="Полезные статьи о настройке прокси, VPN, обходе блокировок и новых ограничениях интернета в России.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f1720;
+            color: #e6edf3;
+            line-height: 1.5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            background: #161b22;
+            border-radius: 20px;
+            padding: 32px 28px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #8b949e;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: #58a6ff;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            letter-spacing: -0.3px;
+        }
+
+        .blog-description {
+            font-size: 14px;
+            color: #8b949e;
+            margin-bottom: 28px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .posts-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .posts-list li {
+            background: #0d1117;
+            border-radius: 16px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: 1px solid transparent;
+        }
+
+        .post-link {
+            display: block;
+            padding: 18px 20px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .posts-list li:hover {
+            border-color: rgba(88, 166, 255, 0.3);
+            background: #11161f;
+            transform: translateY(-1px);
+        }
+
+        .post-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: #e6edf3;
+            line-height: 1.4;
+        }
+
+        .post-meta {
+            font-size: 12px;
+            color: #58a6ff;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .post-excerpt {
+            font-size: 13px;
+            color: #8b949e;
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            .post-link {
+                padding: 14px 16px;
+            }
+            .post-title {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="/" class="back-link">← На главную</a>
+
+    <h1>Блог</h1>
+    <div class="blog-description">
+        Полезные статьи о настройке серверов, инструкции и обзоры
+    </div>
+
+    <ul class="posts-list">
+        <!-- СТАТЬЯ 1: PS5 -->
+        <li onclick="window.location.href='nastroyka-proksi-na-playstation-5-i-playstation-4-poshagovaya-instruktsiya.html'">
+            <a href="nastroyka-proksi-na-playstation-5-i-playstation-4-poshagovaya-instruktsiya.html" class="post-link">
+                <div class="post-title">Настройка прокси на PlayStation 5 и PlayStation 4</div>
+                <div class="post-meta">
+                    <span>📅 10 апреля 2026</span>
+                    <span>🔧 Настройки и гайды</span>
+                </div>
+                <div class="post-excerpt">
+                    Пошаговая инструкция по настройке прокси для PS5 и PS4. Как выбрать, купить и настроить прокси-сервер для оплаты подписок и покупки игр из любой страны.
+                </div>
+            </a>
+        </li>
+
+        <!-- СТАТЬЯ 2: ЧЕБУРНЕТ / КЛИМЕНКО -->
+        <li onclick="window.location.href='eks-sovetnik-prezidenta-german-klimenko-cheburnet-internet-ogranicheniya.html'">
+            <a href="eks-sovetnik-prezidenta-german-klimenko-cheburnet-internet-ogranicheniya.html" class="post-link">
+                <div class="post-title">Экс-советник президента объяснил, как делается «чебурнет»</div>
+                <div class="post-meta">
+                    <span>📅 23 марта 2026</span>
+                    <span>📰 Новости и аналитика</span>
+                </div>
+                <div class="post-excerpt">
+                    Герман Клименко о целях «белых списков», борьбе с дронами, ограничениях Telegram и возможном создании государственного VPN для учёных.
+                </div>
+            </a>
+        </li>
+
+        <!-- СТАТЬЯ 3: ПЛАТА ЗА VPN-ТРАФИК -->
+        <li onclick="window.location.href='plat-za-vpn-traffic-2026.html'">
+            <a href="plat-za-vpn-traffic-2026.html" class="post-link">
+                <div class="post-title">Превысил — готовь деньги. Чем грозит плата за VPN-трафик в 2026 году</div>
+                <div class="post-meta">
+                    <span>📅 15 апреля 2026</span>
+                    <span>⚠️ Важное предупреждение</span>
+                </div>
+                <div class="post-excerpt">
+                    Операторы могут ввести плату за международный трафик VPN свыше 15 ГБ. Рассказываем, кому грозят санкции, сколько стоят лишние гигабайты и как не потерять доступ к Telegram.
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<script defer src="https://umami-stats-ten.vercel.app/script.js" data-website-id="706c1472-5d7d-48b3-9ffe-f99364dee7cd"></script>
+
+</body>
+</html>

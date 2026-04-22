@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройка прокси на PlayStation 5 и 4 | Инструкция</title>
+    <meta name="description" content="Пошаговая инструкция по настройке прокси для PS5 и PS4. Как выбрать, купить и настроить прокси-сервер для оплаты подписок и покупки игр из любой страны.">
+    <meta name="keywords" content="PS5 прокси, настройка прокси PS5, прокси для PlayStation, купить подписку PS5 из России">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f1720;
+            color: #e6edf3;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            background: #161b22;
+            border-radius: 20px;
+            padding: 40px 32px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 24px;
+            color: #8b949e;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: #58a6ff;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 500;
+            margin: 32px 0 16px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 500;
+            margin: 24px 0 12px 0;
+            color: #c9d1d9;
+        }
+
+        p {
+            font-size: 15px;
+            color: #c9d1d9;
+            margin-bottom: 16px;
+        }
+
+        ul, ol {
+            margin: 16px 0 16px 24px;
+            color: #c9d1d9;
+            font-size: 15px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .article-image {
+            margin: 24px 0;
+            text-align: center;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .article-image img {
+            max-width: 100%;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.08);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .article-image:hover {
+            opacity: 0.9;
+        }
+
+        .image-caption {
+            font-size: 12px;
+            color: #6e7681;
+            margin-top: 8px;
+            text-align: center;
+        }
+
+        .info-banner {
+            background: #0d1117;
+            border-left: 3px solid #238636;
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 24px 0;
+        }
+
+        .info-banner p {
+            margin-bottom: 0;
+            font-size: 14px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            cursor: pointer;
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 8px;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px 20px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="index.html" class="back-link">← Назад к списку статей</a>
+
+    <h1>Настройка прокси на PlayStation 5 и PlayStation 4: пошаговая инструкция</h1>
+    <p style="color: #8b949e; margin-bottom: 24px;">Настройки и гайды</p>
+
+    <p>Многие пользователи из СНГ сталкиваются с трудностями при покупке подписки или игр для консоли PS. В статье мы расскажем, как купить подписку на PS4 и PS5 из России и других стран с помощью прокси. Чтобы начать работу с прокси, вы можете <a href="https://t.me/astroproxy_support_bot" target="_blank" rel="nofollow">запросить бесплатный тест у нашей техподдержки</a> (мы начислим $3 на баланс вашего аккаунта).</p>
+
+    <h2>Какие прокси выбрать для PlayStation?</h2>
+    <p>Есть несколько видов прокси: резидентные, мобильные и серверные. Для подключения к PSN лучше использовать резидентные или мобильные прокси</a>. Они основаны на настоящих IP-адресах провайдеров и работают стабильнее.</p>
+    <p>Брать прокси для PS5 и PS4 стоит только у провайдеров с пулом IP-адресов из белых списков, то есть полученных с согласия реальных пользователей. Иначе вы можете столкнуться с проблемами при подключении прокси или оплате подписки. Выбирайте провайдеров, которые поддерживают ротацию IP-адресов прокси, а также соблюдают принципы этичности. Например, сервис Astro.</p>
+    <p>Бесплатные прокси для PlayStation не подойдут.
+
+    <h3>Есть ли бесплатный тест прокси для PS5 и PS4?</h3>
+    <p>У нас есть тестовый период: на баланс аккаунта начисляются $3, которые можно потратить на покупку любых прокси. Чтобы <a href="https://t.me/astroproxy_support_bot" target="_blank" rel="nofollow">получить бесплатный тест, напишите нам в Telegram</a>. Мы начислим тестовые средства на баланс вашего аккаунта и поможем настроить прокси на консоли PS.</p>
+
+    <h3>Как купить прокси для PS5, PS4?</h3>
+    <p><a href="https://astroproxy.com/r/6b1442a44cbc36a3c277b86bb1f19e9b?lang=ru" target="_blank" rel="nofollow">Зарегистрируйтесь на официальном сайте Astro</a>, пройдите верификацию личности и войдите в личный кабинет. Затем:</p>
+    <ol>
+        <li>В разделе «Платежи» пополните баланс или сначала воспользуйтесь бесплатным тестом прокси;</li>
+        <li>В разделе «Мои прокси» нажмите «Добавить порт»;</li>
+    </ol>
+
+    <div class="article-image" onclick="openModal(this)">
+        <img src="https://blog.astroproxy.com/storage/uploads/images/130/ast-pic-1-60321a30-a77e-4500-9a25-ed136e8a9ba6.png" alt="Как купить прокси для PS5, PS4?">
+        <div class="image-caption">Добавление порта в личном кабинете</div>
+    </div>
+
+    <ol start="3">
+        <li>Настройте обязательные поля:</li>
+    </ol>
+    <ul>
+        <li>«Тип сети»: Residential или Mobile;</li>
+        <li>«Страна»: укажите регион с доступом к оплате PSN (например, Турция или Украина);</li>
+        <li>«Город»: город в выбранной стране;</li>
+        <li>«Доступ разрешен IP»: внешний IP-адрес вашей сети (узнать этот адрес можно на сайте <a href="https://2ip.ru" target="_blank">2ip.ru</a> в секции «Ваш IP адрес»);</li>
+        <li>«Объем трафика»: вы можете выбрать любой объем трафика, начиная от 100 МБ.</li>
+    </ul>
+
+    <div class="article-image" onclick="openModal(this)">
+        <img src="https://blog.astroproxy.com/storage/uploads/images/130/ast-pic-2-32cbb875-721e-4178-a54f-d8561be8fd94.png" alt="Настройка полей прокси">
+        <div class="image-caption">Пример настройки полей прокси</div>
+    </div>
+
+    <p>4. Нажмите «Сохранить»;</p>
+    <div class="info-banner">
+        <p><strong>Важно:</strong> если ваш домашний IP динамический, то при смене IP-адреса прокси работать не будет. При ошибке «Нет подключения к интернету» перейдите на <a href="https://2ip.ru" target="_blank">2ip.ru</a> и проверьте IP-адрес.</p>
+    </div>
+
+    <p>Если IP-адрес изменился, зайдите в личный кабинет на сайте Astro и обновите данные:</p>
+    <ol>
+        <li>В разделе «Мои прокси» найдите созданный ранее порт и нажмите «Редактировать»;</li>
+        <li>Добавьте новый IP в поле «Доступ разрешен IP»;</li>
+    </ol>
+
+    <div class="article-image" onclick="openModal(this)">
+        <img src="https://blog.astroproxy.com/storage/uploads/images/130/ast-pic-3-6d96a81d-7f35-4196-996b-781970281203.png" alt="Редактирование IP в прокси">
+        <div class="image-caption">Редактирование IP-адреса в настройках прокси</div>
+    </div>
+
+    <p>3. Нажмите «Сохранить».</p>
+
+    <h2>Как настроить прокси на PS5, PS4?</h2>
+    <p><strong>Важно:</strong> настроить прокси от Astro напрямую на PlayStation 4 не получится. <a href="https://wa.me/447480393042?text=" target="_blank" rel="nofollow">Напишите в нашу техподдержку</a>, и мы поможем вам найти альтернативный вариант настройки прокси для PS4.</p>
+    <p>Чтобы настроить прокси на PlayStation 5, перейдите в «Настройки» из главного меню консоли. Затем:</p>
+    <ol>
+        <li>На вкладке «Сеть» выберите «Настройки» и нажмите «Установить соединение с Интернетом»;</li>
+    </ol>
+
+    <div class="article-image" onclick="openModal(this)">
+        <img src="https://blog.astroproxy.com/storage/uploads/images/130/2025-12-15-23-42-47-c2f84f16-d241-4ac8-8731-b9f475852dc7.png" alt="Настройка сети на PS5">
+        <div class="image-caption">Выбор настройки соединения с интернетом на PS5</div>
+    </div>
+
+    <ol start="2">
+        <li>Настроить подключение можно либо по Wi-Fi, либо по LAN:</li>
+    </ol>
+    <ul>
+        <li>LAN: нажмите «Настройка проводной LAN»;</li>
+        <li>Wi-Fi: нажмите на вашу сеть Wi-Fi.</li>
+    </ul>
+
+    <div class="article-image" onclick="openModal(this)">
+        <img src="https://blog.astroproxy.com/storage/uploads/images/130/2025-12-15-23-43-39-3a9b7454-3b29-48cb-a902-edd9a8b3465d.png" alt="Выбор типа сети на PS5">
+        <div class="image-caption">Выбор типа подключения (LAN или Wi-Fi)</div>
+    </div>
+
+    <ol start="3">
+        <li>В поле «Прокси-сервер» установите флажок «Использовать».</li>
+    </ol>
+    <p>Проверьте, что в полях «Настройки IP-адреса», «Настройки DNS», «Настройки MTU» установлен флажок «Автоматически».</p>
+    <p>Поле «Хост DHCP» оставьте пустым;</p>
+
+    <div class="article-image" onclick="openModal(this)">
+        <img src="https://blog.astroproxy.com/storage/uploads/images/130/ps-pic-4-4a7d75dd-5b1b-4be9-a370-a78752b380df.jpg" alt="Настройка прокси на PS5">
+        <div class="image-caption">Активация прокси-сервера в настройках сети</div>
+    </div>
+
+    <ol start="4">
+        <li>В появившихся ниже полях «Адрес» и «Номер порта» введите данные из личного кабинета Astro в разделе «Мои прокси»;</li>
+    </ol>
+
+    <div class="article-image" onclick="openModal(this)">
+        <img src="https://blog.astroproxy.com/storage/uploads/images/130/ast-pic-4-a7931ec2-e39c-403e-8824-73b6aee40ee5.png" alt="Данные прокси в личном кабинете">
+        <div class="image-caption">Данные прокси (адрес и порт) в личном кабинете Astro</div>
+    </div>
+
+    <ol start="5">
+        <li>Нажмите «ОК»;</li>
+        <li>Проверьте, что у вашей новой сети с прокси стоит отметка «Соединение установлено»;</li>
+        <li>Вернитесь на вкладку «Сеть» и нажмите «Проверить соединение с Интернетом», чтобы убедиться, что прокси работает.</li>
+    </ol>
+
+    <div class="article-image" onclick="openModal(this)">
+        <img src="https://blog.astroproxy.com/storage/uploads/images/130/ps-pic-5-bb27d35b-5c9b-4ec6-a874-76ce2a71c0fc.jpg" alt="Проверка соединения на PS5">
+        <div class="image-caption">Проверка соединения с интернетом после настройки прокси</div>
+    </div>
+
+    <h3>Ошибки и решения</h3>
+    <p>При проблемах с подключением:</p>
+    <ul>
+        <li>Подключите консоль к мобильному интернету;</li>
+        <li>Используйте мобильный тип сети прокси (Mobile);</li>
+        <li>Смените внешний IP-адрес прокси. Для этого в личном кабинете Astro на вкладке «Мои прокси» нажмите «Сменить IP»;</li>
+        <li>PlayStation не поддерживает авторизацию по логину и паролю, поэтому подключаться к прокси-серверу нужно напрямую по IP. Проверьте, верно ли указан ваш IP-адрес в настройках прокси.</li>
+    </ul>
+
+    <div class="article-image" onclick="openModal(this)">
+        <img src="https://blog.astroproxy.com/storage/uploads/images/130/ast-pic-5-4e2c24e8-c9fa-4856-83a9-aa5aa82a1da2.png" alt="Смена IP в личном кабинете">
+        <div class="image-caption">Кнопка «Сменить IP» в личном кабинете Astro</div>
+    </div>
+
+    <div class="info-banner">
+        <p>Если у вас остались вопросы или требуется помощь с настройкой прокси, <a href="https://astroproxy.com/en/blog#webchat_widget" target="_blank" rel="nofollow">обратитесь в нашу техподдержку</a>. Ответим в течение 15 минут с 10:00 до 2:00 (GMT+4).</p>
+    </div>
+</div>
+
+<!-- Модальное окно для увеличения фото -->
+<div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<script>
+    let currentModalImage = null;
+
+    function openModal(element) {
+        const img = element.querySelector('img');
+        if (img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = img.src;
+            currentModalImage = modalImg;
+        }
+    }
+
+    function closeModal() {
+        const modal = document.getElementById('imageModal');
+        modal.style.display = 'none';
+    }
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeModal();
+        }
+    });
+</script>
+
+    <script defer src="https://umami-stats-ten.vercel.app/script.js" data-website-id="706c1472-5d7d-48b3-9ffe-f99364dee7cd"></script>
+
+</body>
+</html>
