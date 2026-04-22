@@ -6,7 +6,6 @@
 
 html, body {
     height: 100%;
-    overflow: hidden;
 }
 
 body {
@@ -17,6 +16,8 @@ body {
     color: #e6edf3;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* ===== HEADER ===== */
@@ -155,8 +156,6 @@ body {
 /* ===== MAIN CONTENT ===== */
 .main-content {
     flex: 1;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
     padding: 1rem;
 }
 
@@ -490,7 +489,6 @@ h1 {
     font-size: 0.7rem;
     color: #6e7681;
     border-top: 1px solid rgba(255,255,255,0.05);
-    flex-shrink: 0;
     background: rgba(11, 15, 20, 0.95);
 }
 
