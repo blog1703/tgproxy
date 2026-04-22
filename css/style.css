@@ -6,11 +6,15 @@
 
 html {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
     min-height: 100vh;
     width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     background: radial-gradient(1200px at 20% -10%, #1f3a8a33, transparent),
                 radial-gradient(800px at 90% 10%, #16a34a22, transparent),
@@ -20,6 +24,13 @@ body {
     color: #e6edf3;
     display: flex;
     flex-direction: column;
+}
+
+/* Запрещаем любому элементу вылезать за пределы */
+* {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 /* ===== HEADER ===== */
@@ -32,6 +43,8 @@ body {
     z-index: 100;
     background: rgba(11, 15, 20, 0.8);
     width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .header-container {
@@ -47,6 +60,7 @@ body {
 .logo-img {
     height: 64px;
     width: auto;
+    max-width: 100%;
     display: block;
     transition: opacity 0.2s;
 }
@@ -160,16 +174,20 @@ body {
 /* ===== MAIN CONTENT ===== */
 .main-content {
     flex: 1;
-    padding: 1rem;
+    padding: 0.75rem;
     width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .content-wrapper {
     width: 100%;
-    max-width: 460px;
+    max-width: 420px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 /* ===== CARDS & BANNERS ===== */
@@ -177,10 +195,11 @@ body {
     background: rgba(22, 27, 34, 0.7);
     backdrop-filter: blur(16px);
     border-radius: 1.5rem;
-    padding: 1.5rem 1.25rem;
+    padding: 1.25rem 1rem;
     border: 1px solid rgba(255,255,255,.06);
     box-shadow: 0 10px 30px rgba(0,0,0,.4);
     transition: transform 0.25s, box-shadow 0.25s;
+    overflow-x: hidden;
 }
 
 .card:hover {
@@ -194,24 +213,27 @@ body {
     border-radius: 1rem;
     border: 1px solid rgba(255,255,255,0.08);
     padding: 0.75rem 1rem;
+    overflow-x: hidden;
 }
 
 .top-banner {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 .bottom-banner {
-    margin-top: 1rem;
+    margin-top: 0.75rem;
 }
 
 .banner-content {
     display: flex;
     align-items: center;
     gap: 0.875rem;
+    flex-wrap: wrap;
 }
 
 .banner-text {
     flex: 1;
+    min-width: 0;
 }
 
 .banner-title {
@@ -240,6 +262,7 @@ body {
     display: inline-block;
     white-space: nowrap;
     transition: all 0.2s;
+    flex-shrink: 0;
 }
 
 .banner-button:hover {
@@ -309,6 +332,7 @@ h1 {
     background: rgba(13, 17, 23, 0.8);
     border: 1px solid rgba(255,255,255,.05);
     animation: fadeSlide 0.3s ease;
+    overflow-x: hidden;
 }
 
 @keyframes fadeSlide {
@@ -369,6 +393,8 @@ h1 {
     cursor: pointer;
     transition: all 0.2s;
     word-break: break-all;
+    overflow-wrap: break-word;
+    white-space: normal;
     text-align: center;
 }
 
@@ -497,6 +523,8 @@ h1 {
     border-top: 1px solid rgba(255,255,255,0.05);
     background: rgba(11, 15, 20, 0.95);
     width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* ===== LOADER ===== */
@@ -519,7 +547,7 @@ h1 {
 /* ===== RESPONSIVE ===== */
 @media (max-width: 480px) {
     .card {
-        padding: 1.25rem 1rem;
+        padding: 1rem;
     }
     
     .banner-content {
@@ -551,6 +579,15 @@ h1 {
     
     .header-container {
         padding: 0;
+    }
+    
+    .main-content {
+        padding: 0.5rem;
+    }
+    
+    .content-wrapper {
+        max-width: 100%;
+        padding: 0 0.25rem;
     }
 }
 
