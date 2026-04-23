@@ -8,7 +8,7 @@
     <!-- Главная страница -->
     <url>
         <loc>https://telegaproxy.vercel.app/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2026-04-15</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -16,7 +16,7 @@
     <!-- Страница блога -->
     <url>
         <loc>https://telegaproxy.vercel.app/blog/index.html</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2026-04-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -24,7 +24,7 @@
     <!-- Статья 1: PS5 -->
     <url>
         <loc>https://telegaproxy.vercel.app/blog/nastroyka-proksi-na-playstation-5-i-playstation-4-poshagovaya-instruktsiya.html</loc>
-        <lastmod>2025-04-10</lastmod>
+        <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
@@ -36,7 +36,7 @@
     <!-- Статья 2: Клименко -->
     <url>
         <loc>https://telegaproxy.vercel.app/blog/eks-sovetnik-prezidenta-german-klimenko-cheburnet-internet-ogranicheniya.html</loc>
-        <lastmod>2025-03-23</lastmod>
+        <lastmod>2026-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -44,7 +44,7 @@
     <!-- Статья 3: Плата за VPN -->
     <url>
         <loc>https://telegaproxy.vercel.app/blog/plat-za-vpn-traffic-2026.html</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2026-04-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
