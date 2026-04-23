@@ -1,0 +1,6 @@
+# Для всех роботов — полный доступ
+User-agent: *
+Allow: /
+
+# Показываем путь к карте сайта
+Sitemap: https://telegaproxy.vercel.app/sitemap.xml
