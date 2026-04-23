@@ -1,0 +1,21 @@
+# Googlebot
+User-agent: Googlebot
+Crawl-delay: 1
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Crawl-delay: 2
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Crawl-delay: 1
+Allow: /
+
+# Для всех остальных
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Sitemap: https://telegaproxy.vercel.app/sitemap.xml
