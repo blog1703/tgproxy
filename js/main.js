@@ -153,7 +153,9 @@
         return false;
     }
     
+    // Новая логика для стрелки вправо
     function goForwardInHistory() {
+        // Если есть следующий в истории - переключаем
         if (state.historyPosition < state.history.length - 1) {
             state.historyPosition++;
             const historyItem = state.history[state.historyPosition];
@@ -164,12 +166,46 @@
                 return true;
             }
         }
+        
+        // Если нет следующего в истории - получаем новый прокси из списка
+        if (state.cachedProxies.length > 0) {
+            getNewProxyFromList();
+            return true;
+        }
+        
         return false;
+    }
+    
+    // Новая функция для получения нового прокси (как кнопка)
+    function getNewProxyFromList() {
+        if (!state.cachedProxies.length) return false;
+        
+        state.currentIndex = (state.currentIndex + 1) % state.cachedProxies.length;
+        state.currentProxyUrl = state.cachedProxies[state.currentIndex];
+        
+        addToHistory(state.currentProxyUrl);
+        updateProxyDisplay();
+        updateNavigationButtons();
+        
+        if (elements.totalNum && state.currentIndex >= 0) {
+            if (elements.attemptNum) elements.attemptNum.textContent = `${state.currentIndex + 1}`;
+        }
+        
+        localStorage.setItem(STORAGE_KEY, state.currentIndex.toString());
+        
+        if (elements.resultArea) elements.resultArea.style.display = 'block';
+        
+        return true;
     }
     
     function updateNavigationButtons() {
         if (elements.prevProxyBtn) elements.prevProxyBtn.disabled = state.historyPosition <= 0;
-        if (elements.nextProxyBtn) elements.nextProxyBtn.disabled = state.historyPosition >= state.history.length - 1;
+        // Стрелка вправо отключается только если нет истории и нет списка прокси
+        if (elements.nextProxyBtn) {
+            const hasHistoryForward = state.historyPosition < state.history.length - 1;
+            const hasProxies = state.cachedProxies.length > 0;
+            elements.nextProxyBtn.disabled = !hasHistoryForward && !hasProxies;
+        }
     }
     
     function updateProxyDisplay() {
@@ -314,14 +350,14 @@
         const success = await copyToClipboard(state.currentProxyUrl);
         if (success) {
             const originalText = elements.statusText.textContent;
-            elements.statusText.textContent = '✅ Ссылка скопирована!';
+            elements.statusText.textContent = 'Ссылка скопирована';
             setTimeout(() => {
-                if (elements.statusText.textContent === '✅ Ссылка скопирована!') {
+                if (elements.statusText.textContent === 'Ссылка скопирована') {
                     updateStatusIndicator();
                 }
             }, 2000);
         } else {
-            elements.statusText.textContent = '❌ Ошибка копирования';
+            elements.statusText.textContent = 'Ошибка копирования';
             setTimeout(() => updateStatusIndicator(), 2000);
         }
     }
