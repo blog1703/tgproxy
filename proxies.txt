@@ -1,31 +1,31 @@
-# Updated: 2026-04-27 01:37:10 (MSK)
+# Updated: 2026-04-27 02:29:04 (MSK)
 # Total proxies: 27
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=hotmoms.today&port=443&secret=7iXLuSy-XvkaIdpOgC5gZ19hZHMueDUucnU
-tg://proxy?server=172.234.115.238&port=443&secret=ed9a2a2855155d4ff768a2a0bef9465a
-tg://proxy?server=188.225.86.137&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
 tg://proxy?server=cintiabot.duckdns.org&port=8445&secret=eff26409bf9edc229a5b009f4fe2d646&channel=@resistencia_censura
-tg://proxy?server=178.104.244.158&port=8080&secret=dd104462821249bd7ac519130220c25d09
-tg://proxy?server=2.26.20.25&port=443&secret=ee274cd877cbea067c44aa676f38ddc4e479616e6465782e7275
-tg://proxy?server=158.220.96.243&port=443&secret=ee602404acdf5669aedf205691a613befd636c6f7564666c6172652e636f6d
-tg://proxy?server=mt2.twistedos.shop&port=443&secret=eed830e49d5f4d4b2ef5f69075b7774c316d74322e747769737465646f732e73686f70
-tg://proxy?server=213.226.127.61&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
 tg://proxy?server=173.249.8.245&port=443&secret=ee99dc82d629d9d7cfd41e690029878522636c6f7564666c6172652e636f6d
-tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
-tg://proxy?server=144.124.248.122&port=443&secret=93987494e34612b0676a8ca2a9638622
-tg://proxy?port=443&secret=ee03391d9e585b20ee18f588274347c2ff7777772e676f6f676c652e636f6d&server=185.224.215.172
-tg://proxy?server=concord.servervless.ru&port=443&secret=ee25cbb92cbe5ef91a21da4e802e60675f6164732e78352e7275
-tg://proxy?server=92.53.104.40&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
-tg://proxy?server=fast.telehelp.top&port=443&secret=eea767a7821af88983492880c0752e434264726976652e676f6f676c652e636f6d
-tg://proxy?server=164.68.122.140&port=443&secret=ee6346164eb9fd41c57c1256c5f6c63757636c6f7564666c6172652e636f6d
-tg://proxy?server=45.83.21.91&port=443&secret=ee9bb07d0ddb2102f54f9575d3aceafc455669736c616e6469692e636f6d
-tg://proxy?server=my.rkn.guru&port=443&secret=eeace955337324085a71eae0d3c1b4f9ed64726976652e676f6f676c652e636f6d
-tg://proxy?port=443&secret=ee03391d9e585b20ee18f588274347c2ff646c2e676f6f676c652e636f6d&server=188.137.254.117
-tg://proxy?server=188.137.252.93&port=443&secret=eeace955337324085a71eae0d3c1b4f9ed64726976652e676f6f676c652e636f6d
-tg://proxy?server=144.91.98.66&port=443&secret=ee5fbe077b31222ca0fd6639c317a2d1b3636c6f7564666c6172652e636f6d
 tg://proxy?server=212.113.118.148&port=443&secret=ee510fe4f44d671ed0965879fb175c17387777772e6d6963726f736f66742e636f6d
-tg://proxy?server=proxytg.fit&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
-tg://proxy?server=89.223.64.180&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=concord.servervless.ru&port=443&secret=ee25cbb92cbe5ef91a21da4e802e60675f6164732e78352e7275
 tg://proxy?server=94.232.245.189&port=443&secret=ee973b9a106be8b489adae6481534990ec54656c6567726161662e6e6c
+tg://proxy?server=172.234.115.238&port=443&secret=ed9a2a2855155d4ff768a2a0bef9465a
+tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
+tg://proxy?port=443&secret=ee03391d9e585b20ee18f588274347c2ff7777772e676f6f676c652e636f6d&server=185.224.215.172
+tg://proxy?server=188.225.86.137&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=45.83.21.91&port=443&secret=ee9bb07d0ddb2102f54f9575d3aceafc455669736c616e6469692e636f6d
+tg://proxy?server=178.104.244.158&port=8080&secret=dd104462821249bd7ac519130220c25d09
+tg://proxy?server=213.226.127.61&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=proxytg.fit&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=mt2.twistedos.shop&port=443&secret=eed830e49d5f4d4b2ef5f69075b7774c316d74322e747769737465646f732e73686f70
+tg://proxy?server=144.124.248.122&port=443&secret=93987494e34612b0676a8ca2a9638622
+tg://proxy?server=fast.telehelp.top&port=443&secret=eea767a7821af88983492880c0752e434264726976652e676f6f676c652e636f6d
+tg://proxy?server=144.91.98.66&port=443&secret=ee5fbe077b31222ca0fd6639c317a2d1b3636c6f7564666c6172652e636f6d
 tg://proxy?server=2.26.21.74&port=443&secret=eef826c481839f3668bef7377baf9350a179616e6465782e7275
+tg://proxy?server=158.220.96.243&port=443&secret=ee602404acdf5669aedf205691a613befd636c6f7564666c6172652e636f6d
+tg://proxy?server=92.53.104.40&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=hotmoms.today&port=443&secret=7iXLuSy-XvkaIdpOgC5gZ19hZHMueDUucnU
+tg://proxy?port=443&secret=ee03391d9e585b20ee18f588274347c2ff646c2e676f6f676c652e636f6d&server=188.137.254.117
+tg://proxy?server=my.rkn.guru&port=443&secret=eeace955337324085a71eae0d3c1b4f9ed64726976652e676f6f676c652e636f6d
+tg://proxy?server=164.68.122.140&port=443&secret=ee6346164eb9fd41c57c1256c5f6c63757636c6f7564666c6172652e636f6d
+tg://proxy?server=188.137.252.93&port=443&secret=eeace955337324085a71eae0d3c1b4f9ed64726976652e676f6f676c652e636f6d
+tg://proxy?server=89.223.64.180&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=2.26.20.25&port=443&secret=ee274cd877cbea067c44aa676f38ddc4e479616e6465782e7275
