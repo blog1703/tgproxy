@@ -1,35 +1,37 @@
-# Updated: 2026-04-26 11:55:49 (MSK)
-# Total proxies: 31
+# Updated: 2026-04-26 12:44:13 (MSK)
+# Total proxies: 33
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=my.rkn.guru&port=443&secret=eeace955337324085a71eae0d3c1b4f9ed64726976652e676f6f676c652e636f6d
-tg://proxy?server=proxytg.fit&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
-tg://proxy?server=144.124.248.122&port=443&secret=93987494e34612b0676a8ca2a9638622
-tg://proxy?server=2.27.13.204&port=4515&secret=ee36b4c4a184fccaaf69294acb086212706170706c652e636f6d
-tg://proxy?server=188.225.86.137&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
-tg://proxy?server=212.113.118.148&port=443&secret=ee510fe4f44d671ed0965879fb175c17387777772e6d6963726f736f66742e636f6d
-tg://proxy?server=89.223.64.180&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
-tg://proxy?server=193.233.126.173&port=443&secret=eef9d146b5fe32de9f4d8d0a0650b21b6873746179646f776e2e6363
-tg://proxy?port=443&secret=ee03391d9e585b20ee18f588274347c2ff646c2e676f6f676c652e636f6d&server=188.137.254.117
-tg://proxy?server=rkn.caxero.ru&port=6767&secret=fffc0efade691faeaccb0ee0cdbf1773
-tg://proxy?server=147.45.103.62&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
-tg://proxy?server=45.83.21.91&port=443&secret=ee9bb07d0ddb2102f54f9575d3aceafc455669736c616e6469692e636f6d
-tg://proxy?server=tg.postpulse.space&port=13443&secret=7p2RddSbDvtYNWcQUaDBbzNwZXRyb3ZpY2gucnU
-tg://proxy?server=144.91.81.42&port=443&secret=eebd5c2d3910f5c0feddc71a71a0c417a8636c6f7564666c6172652e636f6d
-tg://proxy?server=185.154.193.219&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
-tg://proxy?server=167.86.111.159&port=443&secret=eeec8d3ef2887f4d4236dbf1dd176ac144636c6f7564666c6172652e636f6d
-tg://proxy?server=188.137.252.93&port=443&secret=eeace955337324085a71eae0d3c1b4f9ed64726976652e676f6f676c652e636f6d
-tg://proxy?server=94.232.245.189&port=443&secret=ee973b9a106be8b489adae6481534990ec54656c6567726161662e6e6c
-tg://proxy?server=150.241.66.252&port=443&secret=ee5fd7b266fac67f22b0c4e1ecd3be171a6578616d706c652e636f6d
-tg://proxy?server=85.193.83.136&port=443&secret=ee6fc160dcdaf0329e7a34b24bf7c0224e7777772e6d6963726f736f66742e636f6d
-tg://proxy?server=158.220.96.243&port=443&secret=ee602404acdf5669aedf205691a613befd636c6f7564666c6172652e636f6d
-tg://proxy?server=cintiabot.duckdns.org&port=8445&secret=eff26409bf9edc229a5b009f4fe2d646&channel=@resistencia_censura
-tg://proxy?server=pr.hellinvite7up.ru&port=443&secret=ee3c1f25afd937cc59ac5e0464ffbae54a6465762e6368612d74612e73686f70
-tg://proxy?server=promo.begemot.cc&port=2083&secret=ee373d9145c48187996ee15a0ca68959e27275737369616e2d616e696d616c732e7275
 tg://proxy?port=443&secret=ee03391d9e585b20ee18f588274347c2ff7777772e676f6f676c652e636f6d&server=185.224.215.172
-tg://proxy?server=65.109.16.146&port=443&secret=dd104462821249bd7ac519130220c25d09
-tg://proxy?server=proxysb.xyz&port=443&secret=eef7ca86268af768135f9ca41f89e9efb670726f787973622e78797a
-tg://proxy?server=bella-cook.com&port=443&secret=ee25cbb92cbe5ef91a21da4e802e60675f6164732e78352e7275
-tg://proxy?server=tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
+tg://proxy?server=173.249.8.245&port=443&secret=ee99dc82d629d9d7cfd41e690029878522636c6f7564666c6172652e636f6d
 tg://proxy?server=swekitty.grittytarantula.sbs&port=443&secret=ee34103785f92b58549310adb46f79a87f7377656b697474792e677269747479746172616e74756c612e736273
+tg://proxy?server=tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
+tg://proxy?server=150.241.66.252&port=443&secret=ee5fd7b266fac67f22b0c4e1ecd3be171a6578616d706c652e636f6d
 tg://proxy?server=tg.caxero.ru&port=6767&secret=fffc0efade691faeaccb0ee0cdbf1773
+tg://proxy?server=167.86.111.159&port=443&secret=eeec8d3ef2887f4d4236dbf1dd176ac144636c6f7564666c6172652e636f6d
+tg://proxy?server=193.233.126.173&port=443&secret=eef9d146b5fe32de9f4d8d0a0650b21b6873746179646f776e2e6363
+tg://proxy?server=188.225.86.137&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=2.27.13.204&port=4515&secret=ee36b4c4a184fccaaf69294acb086212706170706c652e636f6d
+tg://proxy?server=164.68.122.140&port=443&secret=ee6346164eb9fd41c57c1256c5f6c63757636c6f7564666c6172652e636f6d
+tg://proxy?server=proxytg.fit&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=185.154.193.219&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?port=443&secret=ee03391d9e585b20ee18f588274347c2ff646c2e676f6f676c652e636f6d&server=188.137.254.117
+tg://proxy?server=pr.hellinvite7up.ru&port=443&secret=ee3c1f25afd937cc59ac5e0464ffbae54a6465762e6368612d74612e73686f70
+tg://proxy?server=rkn.caxero.ru&port=6767&secret=fffc0efade691faeaccb0ee0cdbf1773
+tg://proxy?server=tg.postpulse.space&port=13443&secret=7p2RddSbDvtYNWcQUaDBbzNwZXRyb3ZpY2gucnU
+tg://proxy?server=65.109.16.146&port=443&secret=dd104462821249bd7ac519130220c25d09
+tg://proxy?server=my.rkn.guru&port=443&secret=eeace955337324085a71eae0d3c1b4f9ed64726976652e676f6f676c652e636f6d
+tg://proxy?server=94.232.245.189&port=443&secret=ee973b9a106be8b489adae6481534990ec54656c6567726161662e6e6c
+tg://proxy?server=144.91.81.42&port=443&secret=eebd5c2d3910f5c0feddc71a71a0c417a8636c6f7564666c6172652e636f6d
+tg://proxy?server=85.193.83.136&port=443&secret=ee6fc160dcdaf0329e7a34b24bf7c0224e7777772e6d6963726f736f66742e636f6d
+tg://proxy?server=proxysb.xyz&port=443&secret=eef7ca86268af768135f9ca41f89e9efb670726f787973622e78797a
+tg://proxy?server=212.113.118.148&port=443&secret=ee510fe4f44d671ed0965879fb175c17387777772e6d6963726f736f66742e636f6d
+tg://proxy?server=188.137.252.93&port=443&secret=eeace955337324085a71eae0d3c1b4f9ed64726976652e676f6f676c652e636f6d
+tg://proxy?server=89.223.64.180&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=bella-cook.com&port=443&secret=ee25cbb92cbe5ef91a21da4e802e60675f6164732e78352e7275
+tg://proxy?server=147.45.103.62&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=144.124.248.122&port=443&secret=93987494e34612b0676a8ca2a9638622
+tg://proxy?server=158.220.96.243&port=443&secret=ee602404acdf5669aedf205691a613befd636c6f7564666c6172652e636f6d
+tg://proxy?server=45.83.21.91&port=443&secret=ee9bb07d0ddb2102f54f9575d3aceafc455669736c616e6469692e636f6d
+tg://proxy?server=cintiabot.duckdns.org&port=8445&secret=eff26409bf9edc229a5b009f4fe2d646&channel=@resistencia_censura
+tg://proxy?server=promo.begemot.cc&port=2083&secret=ee373d9145c48187996ee15a0ca68959e27275737369616e2d616e696d616c732e7275
