@@ -1,21 +1,21 @@
-# Updated: 2026-05-04 00:31:57 (MSK)
+# Updated: 2026-05-04 01:29:20 (MSK)
 # Total proxies: 17
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=81.90.21.237&port=443&secret=eef97fccdfa1bf4c0de586e6282f07778c706574726f766963682e7275
-tg://proxy?server=tproxy.postpulse.space&port=443&secret=7t9wXPAjSLyG5qaB0nL7Y9hwZXRyb3ZpY2gucnU
-tg://proxy?server=piter.probizvpn.com&port=443&secret=ee17b74055d5fc85cad97b0aacf95bf90d74677765622e70726f62697a76706e2e636f6d
-tg://proxy?server=proxysb.xyz&port=443&secret=eef7ca86268af768135f9ca41f89e9efb670726f787973622e78797a
-tg://proxy?server=prx.postpulse.space&port=443&secret=7t9wXPAjSLyG5qaB0nL7Y9hwZXRyb3ZpY2gucnU
-tg://proxy?server=sw1337.ciaowner.lol&port=443&secret=ee60446ad1e814e00454e1f448eda0425d6d2e766b2e636f6d
-tg://proxy?server=raketa67.duckdns.org&port=443&secret=eebc9ea86e9c3060dcb21e9f87e6bd9172696d616765732e6170706c652e636f6d
-tg://proxy?server=proxytg.live&port=443&secret=ee347358dc309fbf96304b28460ef7cd7a70726f787974672e6c697665
-tg://proxy?server=proxytg.fit&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
-tg://proxy?server=94.183.177.239&port=443&secret=ee1f1e82326bfdd9633604a61d7df8018d7777772e6d6963726f736f66742e7275
-tg://proxy?server=74.214.174.156&port=443&secret=ee12c3453dfec9f3cbcddf5792b90215e46d61696c2e676f6f676c652e636f6d
 tg://proxy?server=turbo.telehelp.top&port=443&secret=eec78d031111aa7b447ebde0120598a00664726976652e676f6f676c652e636f6d
+tg://proxy?server=proxysb.xyz&port=443&secret=eef7ca86268af768135f9ca41f89e9efb670726f787973622e78797a
+tg://proxy?server=fast.tg.toggle.org&port=443&secret=ee4ef574bb2e39f96833252cdfa792eee4676f6f676c652e636f6d
+tg://proxy?server=152.53.247.3&port=443&secret=ee143b7981eb4bf546520ba3f29dcf59ca7370656564746573742e72742e7275
+tg://proxy?server=74.214.174.156&port=443&secret=ee12c3453dfec9f3cbcddf5792b90215e46d61696c2e676f6f676c652e636f6d
+tg://proxy?server=sw1337.ciaowner.lol&port=443&secret=ee60446ad1e814e00454e1f448eda0425d6d2e766b2e636f6d
 tg://proxy?server=2.27.41.207&port=443&secret=7i7m9mm-RJwxcrTN_vCqxBtyZXBsYXlleWUuY29t
 tg://proxy?server=mtproto.wemakecode.ru&port=6443&secret=e569c9792f984167ea08d493735fe342
-tg://proxy?server=152.53.247.3&port=443&secret=ee143b7981eb4bf546520ba3f29dcf59ca7370656564746573742e72742e7275
+tg://proxy?server=81.90.21.237&port=443&secret=eef97fccdfa1bf4c0de586e6282f07778c706574726f766963682e7275
+tg://proxy?server=raketa67.duckdns.org&port=443&secret=eebc9ea86e9c3060dcb21e9f87e6bd9172696d616765732e6170706c652e636f6d
+tg://proxy?server=94.183.177.239&port=443&secret=ee1f1e82326bfdd9633604a61d7df8018d7777772e6d6963726f736f66742e7275
+tg://proxy?server=piter.probizvpn.com&port=443&secret=ee17b74055d5fc85cad97b0aacf95bf90d74677765622e70726f62697a76706e2e636f6d
+tg://proxy?server=proxytg.live&port=443&secret=ee347358dc309fbf96304b28460ef7cd7a70726f787974672e6c697665
+tg://proxy?server=prx.postpulse.space&port=443&secret=7t9wXPAjSLyG5qaB0nL7Y9hwZXRyb3ZpY2gucnU
+tg://proxy?server=tproxy.postpulse.space&port=443&secret=7t9wXPAjSLyG5qaB0nL7Y9hwZXRyb3ZpY2gucnU
 tg://proxy?server=2.27.15.97&port=443&secret=eef97fccdfa1bf4c0de586e6282f07778c706574726f766963682e7275
-tg://proxy?server=fast.tg.toggle.org&port=443&secret=ee4ef574bb2e39f96833252cdfa792eee4676f6f676c652e636f6d
+tg://proxy?server=proxytg.fit&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
