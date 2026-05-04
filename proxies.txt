@@ -1,23 +1,24 @@
-# Updated: 2026-05-04 18:27:36 (MSK)
-# Total proxies: 19
+# Updated: 2026-05-04 20:10:15 (MSK)
+# Total proxies: 20
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=2.27.15.97&port=443&secret=eef97fccdfa1bf4c0de586e6282f07778c706574726f766963682e7275
-tg://proxy?server=amsterdam.geodns.info&port=443&secret=ee79e344818749bd7ac519130220c25d09
-tg://proxy?server=fast.tg.toggle.org&port=443&secret=ee4ef574bb2e39f96833252cdfa792eee4676f6f676c652e636f6d
-tg://proxy?server=etherealvpn.uk&port=443&secret=ee5ef5207bf96aff8d40ca1c59d6eaa2437777772e6d6963726f736f66742e636f6d
-tg://proxy?server=74.214.174.156&port=443&secret=ee12c3453dfec9f3cbcddf5792b90215e46d61696c2e676f6f676c652e636f6d
+tg://proxy?server=152.53.247.3&port=443&secret=ee143b7981eb4bf546520ba3f29dcf59ca7370656564746573742e72742e7275
+tg://proxy?server=94.183.177.239&port=443&secret=ee9b457838f1d7abd1eeee90020f3563b47777772e6d6963726f736f66742e636f6d
+tg://proxy?server=proxytg.live&port=443&secret=ee347358dc309fbf96304b28460ef7cd7a70726f787974672e6c697665
 tg://proxy?server=win.sosproxy.space&port=443&secret=ee477ccce74a28c13a2ef6ec9e01510c3164726976652e676f6f676c652e636f6d
 tg://proxy?server=raketa67.duckdns.org&port=443&secret=eebc9ea86e9c3060dcb21e9f87e6bd9172696d616765732e6170706c652e636f6d
-tg://proxy?server=love.etherealvpn.uk&port=443&secret=ee5ef5207bf96aff8d40ca1c59d6eaa2437777772e6d6963726f736f66742e636f6d
-tg://proxy?server=proxysb.xyz&port=443&secret=eef7ca86268af768135f9ca41f89e9efb670726f787973622e78797a
-tg://proxy?server=94.183.177.239&port=443&secret=ee1f1e82326bfdd9633604a61d7df8018d7777772e6d6963726f736f66742e7275
 tg://proxy?server=proxytg.fit&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=amsterdam.geodns.info&port=443&secret=ee79e344818749bd7ac519130220c25d09
 tg://proxy?server=ultra.telehelp.top&port=443&secret=ee1d36cba6cc6ae2eb779806189b95efb864726976652e676f6f676c652e636f6d
 tg://proxy?server=94.183.177.201&port=443&secret=dd4dfae341b3dba1516cd9cfea3196f6ed
-tg://proxy?server=mt.citadel.rest&port=443&secret=ee9b1d957fabb94a8a114057bc69cf8f75706574726f766963682e7275
+tg://proxy?server=proxysb.xyz&port=443&secret=eef7ca86268af768135f9ca41f89e9efb670726f787973622e78797a
+tg://proxy?server=fast.tg.toggle.org&port=443&secret=ee4ef574bb2e39f96833252cdfa792eee4676f6f676c652e636f6d
 tg://proxy?server=rawmilk.voltlab.su&port=443&secret=eecacfc4d512f6456f443148a9ad484be77261776d696c6b2e766f6c746c61622e7375
-tg://proxy?server=proxytg.live&port=443&secret=ee347358dc309fbf96304b28460ef7cd7a70726f787974672e6c697665
-tg://proxy?server=152.53.247.3&port=443&secret=ee143b7981eb4bf546520ba3f29dcf59ca7370656564746573742e72742e7275
-tg://proxy?server=81.90.21.237&port=443&secret=eef97fccdfa1bf4c0de586e6282f07778c706574726f766963682e7275
+tg://proxy?server=89.124.120.103&port=443&secret=be920f13285e10280511381b79c1008a
 tg://proxy?server=2.27.15.146&port=443&secret=ee54397c45c7ed12a4712de90b1b1bda5e706574726f766963682e7275
+tg://proxy?server=etherealvpn.uk&port=443&secret=ee5ef5207bf96aff8d40ca1c59d6eaa2437777772e6d6963726f736f66742e636f6d
+tg://proxy?server=74.214.174.156&port=443&secret=ee12c3453dfec9f3cbcddf5792b90215e46d61696c2e676f6f676c652e636f6d
+tg://proxy?server=mt.citadel.rest&port=443&secret=ee9b1d957fabb94a8a114057bc69cf8f75706574726f766963682e7275
+tg://proxy?server=81.90.21.237&port=443&secret=eef97fccdfa1bf4c0de586e6282f07778c706574726f766963682e7275
+tg://proxy?server=2.27.15.97&port=443&secret=eef97fccdfa1bf4c0de586e6282f07778c706574726f766963682e7275
+tg://proxy?server=love.etherealvpn.uk&port=443&secret=ee5ef5207bf96aff8d40ca1c59d6eaa2437777772e6d6963726f736f66742e636f6d
