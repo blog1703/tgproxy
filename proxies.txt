@@ -1,23 +1,23 @@
-# Updated: 2026-05-07 00:36:06 (MSK)
+# Updated: 2026-05-07 01:38:20 (MSK)
 # Total proxies: 19
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=ge.ultraproxy.wiki&port=443&secret=ee5a829057834a20a0747ed2e6edd3f0b167652e756c74726170726f78792e77696b69
-tg://proxy?server=free-niderl.kimt.space&port=443&secret=ee7d025179c3b272e9631a5e2eb313b6b36164732e78352e7275
-tg://proxy?server=193.23.199.16&port=8443&secret=eed942e15d1c4f6a22a8c8fc1d631f6eb9646c2e676f6f676c652e636f6d
-tg://proxy?server=proxytg.fit&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
 tg://proxy?server=89.124.120.103&port=443&secret=be920f13285e10280511381b79c1008a
-tg://proxy?server=azamatx.ru&port=443&secret=ee688db4c727b67a544f95989d257b524d706574726f766963682e7275
-tg://proxy?server=theoriginalproxies-1.com&port=443&secret=ee27c4532f9315ca77089fab62f2f1ed8c7777772e79616e6465782e7275
-tg://proxy?server=win.sosproxy.space&port=443&secret=ee477ccce74a28c13a2ef6ec9e01510c3164726976652e676f6f676c652e636f6d
-tg://proxy?server=172.234.115.238&port=443&secret=3a3365be03d6bc13518d65e70a3146c2
-tg://proxy?server=free-nl-ru.kimt.space&port=443&secret=ee3efced182e68e689a17d58c71ff6fafe667265652d6e6c2e6b696d742e7370616365
-tg://proxy?server=5.230.201.129&port=443&secret=ee03391d9e585b20ee18f588274347c2ff7777772e6d6963726f736f66742e636f6d
-tg://proxy?server=130.49.218.57&port=443&secret=ee8aa50573bd2e964427df682f93935ce4646c2e676f6f676c652e636f6d
+tg://proxy?server=ge.ultraproxy.wiki&port=443&secret=ee5a829057834a20a0747ed2e6edd3f0b167652e756c74726170726f78792e77696b69
+tg://proxy?server=magic-networks.ru&port=2083&secret=4931e9e6000537266a0de4dbb81f81fa
 tg://proxy?server=195.63.137.90&port=443&secret=7sTgjdOZqRL_eEsznTQ0OUNwZXRyb3ZpY2gucnU
-tg://proxy?server=193.23.199.57&port=443&secret=ee03391d9e585b20ee18f588274347c2ff7777772e6d6963726f736f66742e636f6d
+tg://proxy?server=win.sosproxy.space&port=443&secret=ee477ccce74a28c13a2ef6ec9e01510c3164726976652e676f6f676c652e636f6d
+tg://proxy?server=130.49.218.57&port=443&secret=ee8aa50573bd2e964427df682f93935ce4646c2e676f6f676c652e636f6d
+tg://proxy?server=theoriginalproxies-1.com&port=443&secret=ee27c4532f9315ca77089fab62f2f1ed8c7777772e79616e6465782e7275
+tg://proxy?server=free-niderl.kimt.space&port=443&secret=ee7d025179c3b272e9631a5e2eb313b6b36164732e78352e7275
+tg://proxy?server=azamatx.ru&port=443&secret=ee688db4c727b67a544f95989d257b524d706574726f766963682e7275
+tg://proxy?server=proxytg.fit&port=443&secret=eec8f164f338f20e2e3c7a0f4e0408a51270726f787974672e666974
+tg://proxy?server=mtp.ascel.la&port=8443&secret=dd5a168da5855fbccf12ccba3e0c4df359
+tg://proxy?server=172.234.115.238&port=443&secret=3a3365be03d6bc13518d65e70a3146c2
 tg://proxy?server=tg.uniqvpn.online&port=4515&secret=eedec441b220d54b1b067d97384d92e7096170706c652e636f6d
 tg://proxy?server=154.86.119.84&port=8443&secret=ee8839155c11a57823772ed5508a89fc106e6c30312e737062657965732e636f6d
 tg://proxy?server=theoriginalproxies-5.com&port=443&secret=ee722ba6ba8dca2a31690a58c3a3223e2f7777772e636c6f7564666c6172652e636f6d
-tg://proxy?server=mtp.ascel.la&port=8443&secret=dd5a168da5855fbccf12ccba3e0c4df359
-tg://proxy?server=magic-networks.ru&port=2083&secret=4931e9e6000537266a0de4dbb81f81fa
+tg://proxy?server=193.23.199.57&port=443&secret=ee03391d9e585b20ee18f588274347c2ff7777772e6d6963726f736f66742e636f6d
+tg://proxy?server=5.230.201.129&port=443&secret=ee03391d9e585b20ee18f588274347c2ff7777772e6d6963726f736f66742e636f6d
+tg://proxy?server=193.23.199.16&port=8443&secret=eed942e15d1c4f6a22a8c8fc1d631f6eb9646c2e676f6f676c652e636f6d
+tg://proxy?server=free-nl-ru.kimt.space&port=443&secret=ee3efced182e68e689a17d58c71ff6fafe667265652d6e6c2e6b696d742e7370616365
