@@ -1,19 +1,19 @@
-# Updated: 2026-05-09 13:01:11 (MSK)
+# Updated: 2026-05-09 14:15:33 (MSK)
 # Total proxies: 15
 # Sources: ProxyMTProto, TProxyRU
 
+tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
+tg://proxy?server=now.tproxyru.click&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
+tg://proxy?server=172.86.95.195&port=443&secret=eeb30612d6f0fac137fa363faee6afe3377262632e7275
+tg://proxy?server=xn--80agb2axz5d.xn--80ajveggb2e.xn--p1ai&port=443&secret=ee69e899d89ec68e220ca177557322b27f7275737369616e2d616e696d616c732e7275
+tg://proxy?server=quickrouteapp.xyz&port=443&secret=7n5PHIs9Kl6cbwtNihxefytxdWlja3JvdXRlYXBwLnh5eg
+tg://proxy?server=89.124.120.103&port=443&secret=be920f13285e10280511381b79c1008a
 tg://proxy?server=win.sosproxy.space&port=443&secret=ee477ccce74a28c13a2ef6ec9e01510c3164726976652e676f6f676c652e636f6d
 tg://proxy?server=2.26.98.239&port=443&secret=ee2b65f9171b435d2eee91225b93089127d186d1
-tg://proxy?server=quickrouteapp.xyz&port=443&secret=7n5PHIs9Kl6cbwtNihxefytxdWlja3JvdXRlYXBwLnh5eg
+tg://proxy?server=ninja.spectranet.pro&port=443&secret=eec72c7ef46ddd254e5fb5f248521c4f986e696e6a612e737065637472616e65742e70726f
 tg://proxy?server=connect.tproxyru.click&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
-tg://proxy?server=89.124.120.103&port=443&secret=be920f13285e10280511381b79c1008a
-tg://proxy?server=now.tproxyru.click&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
-tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
 tg://proxy?server=45.66.228.148&port=443&secret=eea432a48faa550283cfffabe62f7047e9d186d17777772e6d6963726f736f66742e636f6d
-tg://proxy?server=proxy.citadel.rest&port=443&secret=ee3c1e842f9a5ee63a8fd68192a680e44f706574726f766963682e7275
+tg://proxy?server=arixo.shop&port=443&secret=eec11798ab008831b474066c9e1ebf5c9978352e7275
+tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
 tg://proxy?server=172.234.115.238&port=443&secret=3a3365be03d6bc13518d65e70a3146c2
 tg://proxy?server=yazaebalsyadelatproxy.uk&port=443&secret=ee69e899d89ec68e220ca177557322b27f7275737369616e2d616e696d616c732e7275
-tg://proxy?server=arixo.shop&port=443&secret=eec11798ab008831b474066c9e1ebf5c9978352e7275
-tg://proxy?server=xn--80agb2axz5d.xn--80ajveggb2e.xn--p1ai&port=443&secret=ee69e899d89ec68e220ca177557322b27f7275737369616e2d616e696d616c732e7275
-tg://proxy?server=172.86.95.195&port=443&secret=eeb30612d6f0fac137fa363faee6afe3377262632e7275
-tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
