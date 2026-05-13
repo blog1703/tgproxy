@@ -1,19 +1,19 @@
-# Updated: 2026-05-14 00:50:00 (MSK)
+# Updated: 2026-05-14 01:55:21 (MSK)
 # Total proxies: 15
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=peyk.acharbashi.info&port=4515&secret=eee9a4f23b1d768c04a8d7f39120ca5b6e626973636f7474692e79656b74616e65742e636f6d
-tg://proxy?server=89.125.48.232&port=443&secret=ee72f3ca54320d22b0c5d8daf53168962d706574726f766963682e7275
-tg://proxy?server=89.125.48.95&port=443&secret=ee76741a222fce20505ee26a78c2b8ad95706574726f766963682e7275
-tg://proxy?server=proxy.nolags.pw&port=443&secret=dd1ceee809992f1b5205b6fc3cea02aac7
-tg://proxy?server=i-dontlike-femboys.etherealvpn.uk&port=443&secret=ee57203620e3e6c5ced2a332dab5381fc8617669746f2e7275
-tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
 tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
-tg://proxy?server=alo.acharbashi.info&port=4515&secret=eee9a4f23b1d768c04a8d7f39120ca5b6e626973636f7474692e79656b74616e65742e636f6d
+tg://proxy?server=proxy.nolags.pw&port=443&secret=dd1ceee809992f1b5205b6fc3cea02aac7
+tg://proxy?server=89.125.48.232&port=443&secret=ee72f3ca54320d22b0c5d8daf53168962d706574726f766963682e7275
 tg://proxy?server=proproxiesnl.grittytarantula.sbs&port=443&secret=ee912185345c7aa4487938d4c88bdd517470726f70726f786965736e6c2e677269747479746172616e74756c612e736273
-tg://proxy?server=swekitty2.grittytarantula.sbs&port=443&secret=ee1b4456c4b8da22694104e315c747b0de7377656b69747479322e677269747479746172616e74756c612e736273
-tg://proxy?server=31.58.220.74&port=443&secret=dd32b29196e09ed5119f7b7fac3cd4cdab
-tg://proxy?server=proxy.chunkycorp.shop&port=443&secret=3a3365be03d6bc13518d65e70a3146c2
-tg://proxy?server=2.26.53.140&port=8443&secret=ee11692222333217445555615377778888322e32362e35332e313430
 tg://proxy?server=proto.loveproxy.xyz&port=443&secret=ee40c0c13000d2b71453f949c1e46594bc62726f777365722e79616e6465782e636f6d
+tg://proxy?server=peyk.acharbashi.info&port=4515&secret=eee9a4f23b1d768c04a8d7f39120ca5b6e626973636f7474692e79656b74616e65742e636f6d
+tg://proxy?server=i-dontlike-femboys.etherealvpn.uk&port=443&secret=ee57203620e3e6c5ced2a332dab5381fc8617669746f2e7275
+tg://proxy?server=89.125.48.95&port=443&secret=ee76741a222fce20505ee26a78c2b8ad95706574726f766963682e7275
+tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
+tg://proxy?server=alo.acharbashi.info&port=4515&secret=eee9a4f23b1d768c04a8d7f39120ca5b6e626973636f7474692e79656b74616e65742e636f6d
 tg://proxy?server=80.241.216.110&port=443&secret=7vaJt82Sn9_w6Ojol_x57I9wZXRyb3ZpY2gucnU
+tg://proxy?server=2.26.53.140&port=8443&secret=ee11692222333217445555615377778888322e32362e35332e313430
+tg://proxy?server=31.58.220.74&port=443&secret=dd32b29196e09ed5119f7b7fac3cd4cdab
+tg://proxy?server=swekitty2.grittytarantula.sbs&port=443&secret=ee1b4456c4b8da22694104e315c747b0de7377656b69747479322e677269747479746172616e74756c612e736273
+tg://proxy?server=proxy.chunkycorp.shop&port=443&secret=3a3365be03d6bc13518d65e70a3146c2
