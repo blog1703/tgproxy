@@ -1,19 +1,14 @@
-# Updated: 2026-05-16 17:18:24 (MSK)
-# Total proxies: 15
+# Updated: 2026-05-16 18:31:52 (MSK)
+# Total proxies: 10
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=swekitty.grittytarantula.sbs&port=443&secret=ee51cb8137d7fc9ac4ef73184f45d6208e7377656b697474792e677269747479746172616e74756c612e736273
-tg://proxy?server=2.26.83.27&port=443&secret=eec414e47f14d9422e554607b48f719708706574726f766963682e7275
-tg://proxy?server=f1.kurduk.store&port=443&secret=ee1e34c689f1f76dff1f2ae4aefb4c6848706574726f766963682e7275
-tg://proxy?server=f2.kurduk.store&port=443&secret=ee1e34c689f1f76dff1f2ae4aefb4c6848706574726f766963682e7275
-tg://proxy?server=another.life.mambabot.net&port=4515&secret=eec485b564c0178c338d8bf4f3f17539c4613234382e652e616b616d61692e6e6574
-tg://proxy?server=34.51.189.93&port=443&secret=dd2d7d9877fd3e4240f2ffd5596a39c68c
-tg://proxy?server=217.60.98.160&port=443&secret=eed9fd89062ab62abcbf1bd82dfe9140047777772e6d6963726f736f66742e636f6d
-tg://proxy?server=hot.proxytg.space&port=443&secret=ee12ff13d128ef99c8565ff9b580577959686f742e70726f787974672e7370616365
-tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
-tg://proxy?server=204.168.255.33&port=8080&secret=dd104462821249bd7ac519130220c25d09
 tg://proxy?server=pika.proxytg.space&port=443&secret=ee09ca9424322894efa56ebc7e6c88f87b70696b612e70726f787974672e7370616365
+tg://proxy?server=204.168.255.33&port=8080&secret=dd104462821249bd7ac519130220c25d09
 tg://proxy?server=88.198.203.112&port=8080&secret=dd104462821249bd7ac519130220c25d09
-tg://proxy?server=87.239.135.114&port=8080&secret=eec430d769492e9da90eb5106af4c80a2273742e6f7a6f6e652e7275
+tg://proxy?server=hot.proxytg.space&port=443&secret=ee12ff13d128ef99c8565ff9b580577959686f742e70726f787974672e7370616365
+tg://proxy?server=another.life.mambabot.net&port=4515&secret=eec485b564c0178c338d8bf4f3f17539c4613234382e652e616b616d61692e6e6574
+tg://proxy?server=2.26.83.27&port=443&secret=eec414e47f14d9422e554607b48f719708706574726f766963682e7275
+tg://proxy?server=swekitty.grittytarantula.sbs&port=443&secret=ee51cb8137d7fc9ac4ef73184f45d6208e7377656b697474792e677269747479746172616e74756c612e736273
+tg://proxy?server=34.51.189.93&port=443&secret=dd2d7d9877fd3e4240f2ffd5596a39c68c
 tg://proxy?server=hello.proxytg.space&port=443&secret=ee57b7509fe484325abedc85f18804843768656c6c6f2e70726f787974672e7370616365
-tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
+tg://proxy?server=87.239.135.114&port=8080&secret=eec430d769492e9da90eb5106af4c80a2273742e6f7a6f6e652e7275
