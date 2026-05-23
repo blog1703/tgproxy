@@ -1,28 +1,29 @@
-# Updated: 2026-05-23 19:48:10 (MSK)
-# Total proxies: 24
+# Updated: 2026-05-23 20:52:38 (MSK)
+# Total proxies: 25
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=v.vkgosuslugi.ru&port=443&secret=ee34fd4e8e9b8d0008a2d80f7e8b80ce8277622e7275
-tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
-tg://proxy?server=free-finland.kimt.space&port=443&secret=ee33a6dcb429c2952d80e01bcbae16912f6164732e78352e7275
-tg://proxy?server=hl.routefastnet.online&port=443&secret=eea9a5f5674069d982088b5ad27dca4584686c2e726f757465666173746e65742e6f6e6c696e65
-tg://proxy?server=speed.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
-tg://proxy?server=sasiski.bibabobabobus.site&port=443&secret=eeef3805b0d823d6c7add43843065e5b5c636c6f7564666c6172652e636f6d
-tg://proxy?server=186.246.16.232&port=443&secret=eec11798ab008831b474066c9e1ebf5c85617669746f2e7275
-tg://proxy?server=72.56.41.35&port=443&secret=eec11798ab008831b474066c9e1ebf5c85617669746f2e7275
-tg://proxy?server=proxy2.nexorabust.ru&port=443&secret=eed5e3281a837a9532a9a900148178750f706574726f766963682e7275
-tg://proxy?server=proxy1.fsproxy.site&port=443&secret=ee13f2a6bfe1db76b08a45c16eee55a543617669746f2e7275
-tg://proxy?server=2.26.255.73&port=443&secret=eeab03f51ca82ec9e172a5eba3b169f6cd7777772e77702e706c
-tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
-tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
-tg://proxy?server=154.83.149.221&port=443&secret=ee337adbe08421008d20006794a8ddeb1f676f6f676c652e636f6d
-tg://proxy?server=31.56.229.49&port=443&secret=ee4e8084b6d0f3a39986ceb5fab26859ee7777772e6d6963726f736f66742e636f6d
-tg://proxy?server=94.125.102.217&port=443&secret=ee244217408227effcd6234e992d9bd9827777772e77702e706c
-tg://proxy?server=176.124.207.237&port=443&secret=fad015155defc3a8bd8ebc16b5d2b300
 tg://proxy?server=premium1.fsproxy.site&port=443&secret=eed29605852bf2e034c63c6f866062600f696e2e6d7974686963616c2e686f757365
-tg://proxy?server=195.133.20.10&port=443&secret=eec11798ab008831b474066c9e1ebf5c86617669746f2e7275
 tg://proxy?server=tg.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
+tg://proxy?server=a.krasnodar.russia34.ru&port=443&secret=eefcd5362b381fadcec9bdfd25ef0e3e16766b2e636f6d
+tg://proxy?server=94.125.102.217&port=443&secret=ee244217408227effcd6234e992d9bd9827777772e77702e706c
+tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
+tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
+tg://proxy?server=72.56.41.35&port=443&secret=eec11798ab008831b474066c9e1ebf5c85617669746f2e7275
+tg://proxy?server=free-finland.kimt.space&port=443&secret=ee33a6dcb429c2952d80e01bcbae16912f6164732e78352e7275
+tg://proxy?server=proxy2.nexorabust.ru&port=443&secret=eed5e3281a837a9532a9a900148178750f706574726f766963682e7275
 tg://proxy?server=plg-proxy.duckdns.org&port=9443&secret=7nI_RL0Z_1CkMYeMay0LRqBwbGctcHJveHkuZHVja2Rucy5vcmc
-tg://proxy?server=free-germany2.kimt.space&port=443&secret=ee927123552f30f69883d9d62d16382d66667265652d6765726d616e79322e6b696d742e7370616365
-tg://proxy?server=b.ufa.russia34.ru&port=443&secret=eeec0cb1dd18c7074acc1784c04db91d42617669746f2e7275
 tg://proxy?server=c.omsk.russia34.ru&port=443&secret=ee94793e00af4ee358c1d67e5608f684836164732e78352e7275
+tg://proxy?server=v.vkgosuslugi.ru&port=443&secret=ee34fd4e8e9b8d0008a2d80f7e8b80ce8277622e7275
+tg://proxy?server=c.sochi.russia34.ru&port=443&secret=eece8a3c8c8a7e038d271572a1fee52a7b617669746f2e7275
+tg://proxy?server=b.ufa.russia34.ru&port=443&secret=eeec0cb1dd18c7074acc1784c04db91d42617669746f2e7275
+tg://proxy?server=speed.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
+tg://proxy?server=186.246.16.232&port=443&secret=eec11798ab008831b474066c9e1ebf5c85617669746f2e7275
+tg://proxy?server=2.26.255.73&port=443&secret=eeab03f51ca82ec9e172a5eba3b169f6cd7777772e77702e706c
+tg://proxy?server=free-germany2.kimt.space&port=443&secret=ee927123552f30f69883d9d62d16382d66667265652d6765726d616e79322e6b696d742e7370616365
+tg://proxy?server=195.133.20.10&port=443&secret=eec11798ab008831b474066c9e1ebf5c86617669746f2e7275
+tg://proxy?server=proxy1.fsproxy.site&port=443&secret=ee13f2a6bfe1db76b08a45c16eee55a543617669746f2e7275
+tg://proxy?server=hl.routefastnet.online&port=443&secret=eea9a5f5674069d982088b5ad27dca4584686c2e726f757465666173746e65742e6f6e6c696e65
+tg://proxy?server=31.56.229.49&port=443&secret=ee4e8084b6d0f3a39986ceb5fab26859ee7777772e6d6963726f736f66742e636f6d
+tg://proxy?server=176.124.207.237&port=443&secret=fad015155defc3a8bd8ebc16b5d2b300
+tg://proxy?server=154.83.149.221&port=443&secret=ee337adbe08421008d20006794a8ddeb1f676f6f676c652e636f6d
+tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
