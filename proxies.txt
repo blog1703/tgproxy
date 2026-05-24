@@ -1,24 +1,24 @@
-# Updated: 2026-05-24 13:52:36 (MSK)
+# Updated: 2026-05-24 14:57:24 (MSK)
 # Total proxies: 20
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=mt.nowaboost.com&port=443&secret=4fd95a487c5c87ae82b6639a9b6b5ff2
-tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
-tg://proxy?server=f.krasnodar.russia34.ru&port=443&secret=7jx6Z62Z4TuTPmqca9OIurV5YW5kZXgucnU
-tg://proxy?server=2.26.99.245&port=8443&secret=ee17263409876123456712342349876554322e32362e39392e323435
-tg://proxy?server=speed.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
-tg://proxy?server=185.147.127.50&port=443&secret=eec11798ab008831b474066c9e1ebf5c81617669746f2e7275
-tg://proxy?server=72.56.41.35&port=443&secret=eec11798ab008831b474066c9e1ebf5c85617669746f2e7275
-tg://proxy?server=plg-proxy.duckdns.org&port=9443&secret=7nI_RL0Z_1CkMYeMay0LRqBwbGctcHJveHkuZHVja2Rucy5vcmc
-tg://proxy?server=186.246.16.232&port=443&secret=eec11798ab008831b474066c9e1ebf5c81617669746f2e7275
-tg://proxy?server=31.56.229.49&port=443&secret=ee4e8084b6d0f3a39986ceb5fab26859ee7777772e6d6963726f736f66742e636f6d
-tg://proxy?server=a.ufa.russia34.ru&port=443&secret=eeedf13f556774c1c23d295fdbed40687e617669746f2e7275
-tg://proxy?server=31.76.251.112&port=443&secret=ee9b493daf382008ddc41dc6de382cef9d6172746c6562656465762e7275
-tg://proxy?server=free-finland.kimt.space&port=443&secret=ee33a6dcb429c2952d80e01bcbae16912f6164732e78352e7275
-tg://proxy?server=195.133.20.10&port=443&secret=eec11798ab008831b474066c9e1ebf5c86617669746f2e7275
-tg://proxy?server=proxy2.nexorabust.ru&port=443&secret=eed5e3281a837a9532a9a900148178750f706574726f766963682e7275
-tg://proxy?server=free-germany2.kimt.space&port=443&secret=ee927123552f30f69883d9d62d16382d66667265652d6765726d616e79322e6b696d742e7370616365
-tg://proxy?server=92.246.136.98&port=443&secret=eef44f0438699ded25aabf8f0d855ac36a31632e7275
 tg://proxy?server=dream.nolags.pw&port=443&secret=dd9b8378a9bc2bfc1eb0bed0c2b3ba7584
-tg://proxy?server=v.vkgosuslugi.ru&port=443&secret=ee34fd4e8e9b8d0008a2d80f7e8b80ce8277622e7275
+tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
+tg://proxy?server=72.56.41.35&port=443&secret=eec11798ab008831b474066c9e1ebf5c85617669746f2e7275
+tg://proxy?server=a.ufa.russia34.ru&port=443&secret=eeedf13f556774c1c23d295fdbed40687e617669746f2e7275
+tg://proxy?server=185.147.127.50&port=443&secret=eec11798ab008831b474066c9e1ebf5c81617669746f2e7275
+tg://proxy?server=31.56.229.49&port=443&secret=ee4e8084b6d0f3a39986ceb5fab26859ee7777772e6d6963726f736f66742e636f6d
+tg://proxy?server=31.76.251.112&port=443&secret=ee9b493daf382008ddc41dc6de382cef9d6172746c6562656465762e7275
+tg://proxy?server=speed.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
+tg://proxy?server=89.169.55.7&port=443&secret=ee7a580424ff21d4652d2fa97d13faa88531632e7275
+tg://proxy?server=free-germany2.kimt.space&port=443&secret=ee927123552f30f69883d9d62d16382d66667265652d6765726d616e79322e6b696d742e7370616365
+tg://proxy?server=proxy2.nexorabust.ru&port=443&secret=eed5e3281a837a9532a9a900148178750f706574726f766963682e7275
+tg://proxy?server=mt.nowaboost.com&port=443&secret=4fd95a487c5c87ae82b6639a9b6b5ff2
+tg://proxy?server=186.246.16.232&port=443&secret=eec11798ab008831b474066c9e1ebf5c81617669746f2e7275
+tg://proxy?server=2.26.99.245&port=8443&secret=ee17263409876123456712342349876554322e32362e39392e323435
+tg://proxy?server=f.krasnodar.russia34.ru&port=443&secret=7jx6Z62Z4TuTPmqca9OIurV5YW5kZXgucnU
+tg://proxy?server=free-finland.kimt.space&port=443&secret=ee33a6dcb429c2952d80e01bcbae16912f6164732e78352e7275
 tg://proxy?server=hl.routefastnet.online&port=443&secret=eea9a5f5674069d982088b5ad27dca4584686c2e726f757465666173746e65742e6f6e6c696e65
+tg://proxy?server=dreams.nolags.pw&port=443&secret=dd2d558135931b5e0c5da5e7501724b32c
+tg://proxy?server=195.133.20.10&port=443&secret=eec11798ab008831b474066c9e1ebf5c86617669746f2e7275
+tg://proxy?server=v.vkgosuslugi.ru&port=443&secret=ee34fd4e8e9b8d0008a2d80f7e8b80ce8277622e7275
