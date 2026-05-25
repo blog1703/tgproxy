@@ -1,35 +1,36 @@
-# Updated: 2026-05-25 17:19:12 (MSK)
-# Total proxies: 31
+# Updated: 2026-05-25 19:36:25 (MSK)
+# Total proxies: 32
 # Sources: ProxyMTProto, TProxyRU
 
+tg://proxy?server=dns.vdl.lat&port=853&secret=ee534adcf23a16f425cbae129c4cb574cb6164732e78352e7275
 tg://proxy?server=www.tproxy.momPort:&port=8090&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275@TProxyRU
-tg://proxy?server=185.147.127.50&port=443&secret=7sEXmKsAiDG0dAZsnh6_XHlhdml0by5ydQ
-tg://proxy?server=r1.proxytg.spacePort:&port=8443&secret=eecd671d2032569f6cea0fb4c61c32756972312e70726f787974672e7370616365@TProxyRU
-tg://proxy?server=tproxy.momPort:&port=8090&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275@TProxyRU
-tg://proxy?server=main.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
-tg://proxy?server=premium1.fsproxy.sitePort:&port=443&secret=eed29605852bf2e034c63c6f866062600f696e2e6d7974686963616c2e686f757365@TProxyRU
-tg://proxy?server=tproxy.inkPort:&port=443&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275@TProxyRU
-tg://proxy?server=dreams.nolags.pw&port=443&secret=dd2d558135931b5e0c5da5e7501724b32c
-tg://proxy?server=donate.fsproxy.site&port=443&secret=eefad444de846ff9dd157f9ecfd03baf1a696e2e6d7974686963616c2e686f757365
-tg://proxy?server=www.tproxy.monsterPort:&port=2053&secret=ee104462821249bd7ac519130220c25d096d61696c2e7275@TProxyRU
 tg://proxy?server=g.proxytg.spacePort:&port=8443&secret=eedc41bbb2f33136f9e5f58f258e2f5a8a672e70726f787974672e7370616365@TProxyRU
+tg://proxy?server=free.proproxies.topPort:&port=443&secret=ee4fb60224ec3ba77691889623ffd44dc8667265652e70726f70726f786965732e746f70@TProxyRU
+tg://proxy?server=premium1.fsproxy.sitePort:&port=443&secret=eed29605852bf2e034c63c6f866062600f696e2e6d7974686963616c2e686f757365@TProxyRU
+tg://proxy?server=186.246.21.34&port=443&secret=eec11798ab008831b474066c9e1ebf5c75617669746f2e7275
+tg://proxy?server=www.tproxy.monsterPort:&port=2053&secret=ee104462821249bd7ac519130220c25d096d61696c2e7275@TProxyRU
 tg://proxy?server=server-1.shustrik.world&port=443&secret=ee53fed7a45b8fcb2ef5a2e0223c76bb4e766b766964656f2e7275
 tg://proxy?server=m.proxytg.spacePort:&port=8443&secret=ee80ef2a7832ccab1a02cdad0a958a027a6d2e70726f787974672e7370616365@TProxyRU
 tg://proxy?server=tproxy.monsterPort:&port=2053&secret=ee104462821249bd7ac519130220c25d096d61696c2e7275@TProxyRU
-tg://proxy?server=new19.mtproxygram.lolPort:&port=443&secret=eef93c82ed855afefc72eeb2c10b7f84b362726f777365722e79616e6465782e636f6d🇷🇺
-tg://proxy?server=45.192.12.75Port:&port=443&secret=ee19426616ddcdda433cf4aa9866d12b3363616368657374617469632e636f6d@TProxyRU
-tg://proxy?server=195.133.20.10&port=443&secret=7sEXmKsAiDG0dAZsnh6_XIJhdml0by5ydQ
-tg://proxy?server=in.mythical.housePort:&port=443&secret=eeecc03a8eabe3443a254a09bcd5681d75696e2e6d7974686963616c2e686f757365@TProxyRU
-tg://proxy?server=another.life.mambabot.net&port=4515&secret=eec485b564c0178c338d8bf4f3f17539c4613234382e652e616b616d61692e6e6574
-tg://proxy?server=www.tproxy.inkPort:&port=443&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275@TProxyRU
-tg://proxy?server=rkn.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
-tg://proxy?server=72.56.41.35&port=443&secret=7sEXmKsAiDG0dAZsnh6_XINhdml0by5ydQ
-tg://proxy?server=186.246.16.232&port=443&secret=eec11798ab008831b474066c9e1ebf5c81617669746f2e7275
-tg://proxy?server=62.60.228.136&port=443&secret=ee4fdb47b5c93d2b46c0c155b90106418379616e6465782e7275
-tg://proxy?server=s.proxytg.spacePort:&port=8443&secret=eefefc4f17248e59437bb451447a9170b2732e70726f787974672e7370616365@TProxyRU
-tg://proxy?server=45.192.12.75&port=443&secret=ee19426616ddcdda433cf4aa9866d12b3363616368657374617469632e636f6d
-tg://proxy?server=72.56.87.28&port=443&secret=eec11798ab008831b474066c9e1ebf5c76617669746f2e7275
 tg://proxy?server=public2.mtproxygram.lolPort:&port=443&secret=eea4eaf1027f4b431bc2e711523e1f1b4062726f777365722e79616e6465782e636f6d🇷🇺
-tg://proxy?server=prx-1-velora.getvelora.spacePort:&port=443&secret=eee8a13cbfd00919e3d686b0c8e99939d8636c6f7564666c6172652e636f6d@TProxyRU
+tg://proxy?server=dreams.nolags.pw&port=443&secret=dd2d558135931b5e0c5da5e7501724b32c
+tg://proxy?server=r-finland.kimt.space&port=443&secret=ee33a6dcb429c2952d80e01bcbae16912f6164732e78352e7275
+tg://proxy?server=rkn.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
+tg://proxy?server=tproxy.momPort:&port=8090&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275@TProxyRU
+tg://proxy?server=main.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
+tg://proxy?server=donate.fsproxy.site&port=443&secret=eefad444de846ff9dd157f9ecfd03baf1a696e2e6d7974686963616c2e686f757365
+tg://proxy?server=putin.sotna.orgPort:&port=443&secret=ee043f4515944965b96171f3a68a5cfe3e7362657262616e6b2e7275@TProxyRU
+tg://proxy?server=r3.proxytg.spacePort:&port=8443&secret=ee9e7d0938299a082ee98989994a38aa9772332e70726f787974672e7370616365@TProxyRU
+tg://proxy?server=185.147.127.50&port=443&secret=7sEXmKsAiDG0dAZsnh6_XHlhdml0by5ydQ
+tg://proxy?server=r-finland.kimt.spacePort:&port=443&secret=ee33a6dcb429c2952d80e01bcbae16912f6164732e78352e7275@TProxyRU
+tg://proxy?server=www.tproxy.inkPort:&port=443&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275@TProxyRU
+tg://proxy?server=62.60.228.136&port=443&secret=ee4fdb47b5c93d2b46c0c155b90106418379616e6465782e7275
+tg://proxy?server=in.mythical.housePort:&port=443&secret=eeecc03a8eabe3443a254a09bcd5681d75696e2e6d7974686963616c2e686f757365@TProxyRU
 tg://proxy?server=offni-vpn.nolags.pw&port=443&secret=dda69632d86d88061ea6e94523027b0470
-tg://proxy?server=free.proproxies.topPort:&port=443&secret=ee4fb60224ec3ba77691889623ffd44dc8667265652e70726f70726f786965732e746f70@TProxyRU
+tg://proxy?server=r1.proxytg.spacePort:&port=8443&secret=eecd671d2032569f6cea0fb4c61c32756972312e70726f787974672e7370616365@TProxyRU
+tg://proxy?server=prx-1-velora.getvelora.spacePort:&port=443&secret=eee8a13cbfd00919e3d686b0c8e99939d8636c6f7564666c6172652e636f6d@TProxyRU
+tg://proxy?server=free-germany2.kimt.space&port=443&secret=ee927123552f30f69883d9d62d16382d66667265652d6765726d616e79322e6b696d742e7370616365
+tg://proxy?server=72.56.41.35&port=443&secret=7sEXmKsAiDG0dAZsnh6_XINhdml0by5ydQ
+tg://proxy?server=tproxy.inkPort:&port=443&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275@TProxyRU
+tg://proxy?server=72.56.87.28&port=443&secret=eec11798ab008831b474066c9e1ebf5c76617669746f2e7275
+tg://proxy?server=s.proxytg.spacePort:&port=8443&secret=eefefc4f17248e59437bb451447a9170b2732e70726f787974672e7370616365@TProxyRU
