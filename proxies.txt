@@ -1,26 +1,24 @@
-# Updated: 2026-05-27 09:52:39 (MSK)
-# Total proxies: 22
+# Updated: 2026-05-27 13:45:08 (MSK)
+# Total proxies: 20
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=186.246.21.40&port=443&secret=eec11798ab008831b474066c9e1ebf5c74617669746f2e7275
-tg://proxy?server=mtp2.sosproxy.space&port=443&secret=eef369ac4ca8df8c89750de6966ad961b464726976652e676f6f676c652e636f6d
-tg://proxy?server=2.26.252.43&port=443&secret=ee6cc9e422a51432ca4df25293389adef06172746c6562656465762e7275
-tg://proxy?server=r12.proxytg.space&port=8443&secret=ee3569f898f3125116cdacc445919070717231322e70726f787974672e7370616365
-tg://proxy?server=vk.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
-tg://proxy?server=mt.nowaboost.com&port=443&secret=4fd95a487c5c87ae82b6639a9b6b5ff2
-tg://proxy?server=r14.proxytg.space&port=8443&secret=ee20085b424592e30b46373c98b0b0a1737231342e70726f787974672e7370616365
-tg://proxy?server=186.246.21.87&port=443&secret=7sEXmKsAiDG0dAZsnh6_XHFhdml0by5ydQ
 tg://proxy?server=r13.proxytg.space&port=8443&secret=ee57ca87accc47bcd0259091f4cd0c8a6b7231332e70726f787974672e7370616365
-tg://proxy?server=r10.proxytg.space&port=8443&secret=ee65032756d1cfb78ebbd0ea8db83d43937231302e70726f787974672e7370616365
-tg://proxy?server=186.246.21.89&port=443&secret=eec11798ab008831b474066c9e1ebf5c73617669746f2e7275
+tg://proxy?server=r14.proxytg.space&port=8443&secret=ee20085b424592e30b46373c98b0b0a1737231342e70726f787974672e7370616365
 tg://proxy?server=r11.proxytg.space&port=8443&secret=ee4e28f14af6d0e7d9dc65eecb94066c717231312e70726f787974672e7370616365
-tg://proxy?server=r9.proxytg.space&port=8443&secret=ee3e77e6aa740bda96a1dabd06717f51b272392e70726f787974672e7370616365
-tg://proxy?server=mtp.hypershark.net&port=443&secret=7kLt7CJi_3Dpz2b1JKDDuro1cG9zdC1nYXRlLXRlc3QueDUucnU
+tg://proxy?server=main.mtproxy.pw&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa27786170692e6f7a6f6e2e727527
+tg://proxy?server=r10.proxytg.space&port=8443&secret=ee65032756d1cfb78ebbd0ea8db83d43937231302e70726f787974672e7370616365
+tg://proxy?server=bucket-finland.kimt.space&port=443&secret=ee4f0a7e5cc85416fbd743f2d89da0c8bf6275636b65742d66696e6c616e642e6b696d742e7370616365
+tg://proxy?server=186.246.21.87&port=443&secret=7sEXmKsAiDG0dAZsnh6_XHFhdml0by5ydQ
+tg://proxy?server=bucket-germ.kimt.space&port=443&secret=eeba80997686fd929dbbfb9aa34b213ed76275636b65742d6765726d2e6b696d742e7370616365
+tg://proxy?server=dns.vdl.lat&port=853&secret=ee534adcf23a16f425cbae129c4cb574cb6164732e78352e7275
 tg://proxy?server=72.56.40.4&port=443&secret=eec11798ab008831b474066c9e1ebf5c68617669746f2e7275
+tg://proxy?server=r12.proxytg.space&port=8443&secret=ee3569f898f3125116cdacc445919070717231322e70726f787974672e7370616365
+tg://proxy?server=mt.nowaboost.com&port=443&secret=4fd95a487c5c87ae82b6639a9b6b5ff2
 tg://proxy?server=186.246.21.87&port=443&secret=eec11798ab008831b474066c9e1ebf5c71617669746f2e7275
 tg://proxy?server=otklyuchi-vpn.nolags.pw&port=443&secret=dd5a4411851bef1cf92cc9fe3ed99c72e1
-tg://proxy?server=main.mtproxy.pw&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa27786170692e6f7a6f6e2e727527
-tg://proxy?server=edge.mtproxy.pw&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275
-tg://proxy?server=dns.vdl.lat&port=853&secret=ee534adcf23a16f425cbae129c4cb574cb6164732e78352e7275
 tg://proxy?server=186.246.21.31&port=443&secret=eeb4977787e9a3f4c9d51ec528688f922e617669746f2e7275
+tg://proxy?server=mtp2.sosproxy.space&port=443&secret=eef369ac4ca8df8c89750de6966ad961b464726976652e676f6f676c652e636f6d
+tg://proxy?server=mtp.hypershark.net&port=443&secret=7kLt7CJi_3Dpz2b1JKDDuro1cG9zdC1nYXRlLXRlc3QueDUucnU
+tg://proxy?server=186.246.21.40&port=443&secret=eec11798ab008831b474066c9e1ebf5c74617669746f2e7275
+tg://proxy?server=edge.mtproxy.pw&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275
 tg://proxy?server=gov.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
