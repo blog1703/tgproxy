@@ -1,18 +1,19 @@
-# Updated: 2026-05-30 07:31:24 (MSK)
-# Total proxies: 14
+# Updated: 2026-05-30 10:34:45 (MSK)
+# Total proxies: 15
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=free4.fsproxy.site&port=443&secret=ee4f9dcc1259bfc9de5ce17ef5e2f1857462726f777365722e79616e6465782e636f6d
-tg://proxy?server=186.246.21.96&port=443&secret=eec11798ab008831b474066c9e1ebf5c66617669746f2e7275
-tg://proxy?server=mtp5.sosproxy.space&port=443&secret=eeea18e43befdd0f084644202591de8e3e6d7470352e736f7370726f78792e7370616365
+tg://proxy?server=hotmtpro.duckdns.org&port=443&secret=7u-wXMxodyqALbbZW3bovVF3d3cuYW1hem9uLmNvbQ
+tg://proxy?server=perfect.nolags.pw&port=443&secret=dd4658543dd0973d78171da4552480fd23
+tg://proxy?server=186.246.19.42&port=443&secret=eec11798ab008831b474066c9e1ebf5c62617669746f2e7275
+tg://proxy?server=95.182.86.60&port=443&secret=ee82dd957be0c6899a82879d05fecfc73a617669746f2e7275
+tg://proxy?server=31.76.251.25&port=853&secret=ee6aa9eb2bd47d97b43be8ac203cfd3c0e6d742e616b656e61692e636c69636b,
+tg://proxy?server=top.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
+tg://proxy?server=bucket-germ.kimt.space&port=443&secret=eeba80997686fd929dbbfb9aa34b213ed76275636b65742d6765726d2e6b696d742e7370616365
+tg://proxy?server=bucket-finland.kimt.space&port=443&secret=ee4f0a7e5cc85416fbd743f2d89da0c8bf6275636b65742d66696e6c616e642e6b696d742e7370616365
+tg://proxy?server=186.246.19.54&port=443&secret=eec11798ab008831b474066c9e1ebf5c61617669746f2e7275
+tg://proxy?server=mtp6.sosproxy.space&port=443&secret=ee9027d0159ff2bd3bf172df9f18dd84ac64726976652e676f6f676c652e636f6d
+tg://proxy?server=186.246.19.78&port=443&secret=eec11798ab008831b474066c9e1ebf5c64617669746f2e7275
 tg://proxy?server=dns.vdl.lat&port=853&secret=ee9963ec50cf89d852bb1e084a44b196e4646e732e76646c2e6c6174
 tg://proxy?server=vpn.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
-tg://proxy?server=perfect.nolags.pw&port=443&secret=dd4658543dd0973d78171da4552480fd23
-tg://proxy?server=bucket-finland.kimt.space&port=443&secret=ee4f0a7e5cc85416fbd743f2d89da0c8bf6275636b65742d66696e6c616e642e6b696d742e7370616365
-tg://proxy?server=186.246.19.78&port=443&secret=eec11798ab008831b474066c9e1ebf5c64617669746f2e7275
-tg://proxy?server=31.76.251.25&port=853&secret=ee6aa9eb2bd47d97b43be8ac203cfd3c0e6d742e616b656e61692e636c69636b,
+tg://proxy?server=free4.fsproxy.site&port=443&secret=ee4f9dcc1259bfc9de5ce17ef5e2f1857462726f777365722e79616e6465782e636f6d
 tg://proxy?server=hotmtpro2.duckdns.org&port=443&secret=7kBjzU5SbZqTzIJZZEf4Tvp3d3cubWljcm9zb2Z0LmNvbQ
-tg://proxy?server=hotmtpro.duckdns.org&port=443&secret=7u-wXMxodyqALbbZW3bovVF3d3cuYW1hem9uLmNvbQ
-tg://proxy?server=bucket-germ.kimt.space&port=443&secret=eeba80997686fd929dbbfb9aa34b213ed76275636b65742d6765726d2e6b696d742e7370616365
-tg://proxy?server=95.182.86.60&port=443&secret=ee82dd957be0c6899a82879d05fecfc73a617669746f2e7275
-tg://proxy?server=186.246.19.54&port=443&secret=eec11798ab008831b474066c9e1ebf5c61617669746f2e7275
