@@ -1,17 +1,18 @@
-# Updated: 2026-05-30 17:23:05 (MSK)
-# Total proxies: 13
+# Updated: 2026-05-30 18:43:29 (MSK)
+# Total proxies: 14
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=bucket-finland.kimt.space&port=443&secret=ee4f0a7e5cc85416fbd743f2d89da0c8bf6275636b65742d66696e6c616e642e6b696d742e7370616365
-tg://proxy?server=186.246.19.42&port=443&secret=eec11798ab008831b474066c9e1ebf5c62617669746f2e7275
-tg://proxy?server=dns.vdl.lat&port=853&secret=ee9963ec50cf89d852bb1e084a44b196e4646e732e76646c2e6c6174
-tg://proxy?server=hotmtpro.duckdns.org&port=443&secret=7u-wXMxodyqALbbZW3bovVF3d3cuYW1hem9uLmNvbQ
-tg://proxy?server=bucket-ru-finland.kimt.space&port=443&secret=eedffefd3b8c4d2e35e91094524bd3010e6275636b65742d72752d66696e6c616e642e6b696d742e7370616365
-tg://proxy?server=perfect.nolags.pw&port=443&secret=dd4658543dd0973d78171da4552480fd23
-tg://proxy?server=nolagss.nolags.pw&port=443&secret=dd5f7ccf9101d5af659fc40eb40da60ad1
-tg://proxy?server=mtp6.sosproxy.space&port=443&secret=ee9027d0159ff2bd3bf172df9f18dd84ac64726976652e676f6f676c652e636f6d
-tg://proxy?server=free4.love-pussy.ru&port=443&secret=ee7b9c79e811a185d7df66d948abd1fbba62726f777365722e79616e6465782e636f6d
-tg://proxy?server=top.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
-tg://proxy?server=hotmtpro2.duckdns.org&port=443&secret=7kBjzU5SbZqTzIJZZEf4Tvp3d3cubWljcm9zb2Z0LmNvbQ
+tg://proxy?server=fast.mtp.llc&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275
 tg://proxy?server=95.182.86.60&port=443&secret=ee82dd957be0c6899a82879d05fecfc73a617669746f2e7275
+tg://proxy?server=free4.love-pussy.ru&port=443&secret=ee7b9c79e811a185d7df66d948abd1fbba62726f777365722e79616e6465782e636f6d
+tg://proxy?server=mtp6.sosproxy.space&port=443&secret=ee9027d0159ff2bd3bf172df9f18dd84ac64726976652e676f6f676c652e636f6d
+tg://proxy?server=top.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
 tg://proxy?server=186.246.19.54&port=443&secret=eec11798ab008831b474066c9e1ebf5c61617669746f2e7275
+tg://proxy?server=sexy.arixo.shop&port=443&secret=eec11798ab008831b474066c9e1ebf5c59617669746f2e7275
+tg://proxy?server=bucket-ru-finland.kimt.space&port=443&secret=eedffefd3b8c4d2e35e91094524bd3010e6275636b65742d72752d66696e6c616e642e6b696d742e7370616365
+tg://proxy?server=bucket-finland.kimt.space&port=443&secret=ee4f0a7e5cc85416fbd743f2d89da0c8bf6275636b65742d66696e6c616e642e6b696d742e7370616365
+tg://proxy?server=nolagss.nolags.pw&port=443&secret=dd5f7ccf9101d5af659fc40eb40da60ad1
+tg://proxy?server=secure.mtp.llc&port=443&secret=ee3f8a91c2d7e04b6a9f12c5e8370bd4aa786170692e6f7a6f6e2e7275
+tg://proxy?server=186.246.19.42&port=443&secret=eec11798ab008831b474066c9e1ebf5c62617669746f2e7275
+tg://proxy?server=perfect.nolags.pw&port=443&secret=dd4658543dd0973d78171da4552480fd23
+tg://proxy?server=dns.vdl.lat&port=853&secret=ee9963ec50cf89d852bb1e084a44b196e4646e732e76646c2e6c6174
