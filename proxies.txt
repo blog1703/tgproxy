@@ -1,23 +1,15 @@
-# Updated: 2026-06-05 09:46:45 (MSK)
-# Total proxies: 19
+# Updated: 2026-06-05 13:39:31 (MSK)
+# Total proxies: 11
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=turbovpn.obhod.fun&port=9443&secret=76706e76706e76706e76706e76706e76
-tg://proxy?server=82.40.62.118&port=443&secret=3e64b80710217097cbf383e8f4ee97d4
-tg://proxy?server=82.40.62.82&port=443&secret=81cef820782787be4b25770ee86f5df5
-tg://proxy?server=mtp8.sosproxy.space&port=443&secret=eee9dab8aa5e5ede020088b669a17b907864726976652e676f6f676c652e636f6d
-tg://proxy?server=connect.arixo.shop&port=443&secret=eeed5518514cf40187d905c5b7c9e4d595617669746f2e7275
-tg://proxy?server=starsvpn.obhod.fun&port=6443&secret=76706e76706e76706e76706e76706e76
 tg://proxy?server=mtp11.sosproxy.space&port=443&secret=ee066f09f5ce8299dae51c25ee34dc431a64726976652e676f6f676c652e636f6d
-tg://proxy?server=mtp10.sosproxy.space&port=443&secret=ee3ab621bbb1dea6b3be09c8f3582c61a364726976652e676f6f676c652e636f6d
-tg://proxy?server=s01.neo-trading.org&port=443&secret=ee7391242569590e01416101927d38b565646e732d73686f702e7275
-tg://proxy?server=london.nolags.pw&port=443&secret=dd6fe89c6d1f5f8b54afc931cf4f640b91
 tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
-tg://proxy?server=31.76.39.36&port=443&secret=eeed5518514cf40187d905c5b7c9e4d595617669746f2e7275
-tg://proxy?server=warsaw.nolags.pw&port=443&secret=dd68c2ee708b2e88d8d12802479d4d5026
+tg://proxy?server=london.nolags.pw&port=443&secret=dd6fe89c6d1f5f8b54afc931cf4f640b91
+tg://proxy?server=mtp10.sosproxy.space&port=443&secret=ee3ab621bbb1dea6b3be09c8f3582c61a364726976652e676f6f676c652e636f6d
 tg://proxy?server=155.212.129.41&port=443&secret=ee3ece43327d98718402666a7f1adb32bc77622e7275
-tg://proxy?server=durov.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
-tg://proxy?server=connect.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
-tg://proxy?server=31.76.39.36&port=443&secret=ee2dd3624aeb4b6a454407bff0a49f682d617669746f2e7275
-tg://proxy?server=51.250.32.76&port=443&secret=ee5636d7729d8726e81dbc5c3388b73549617669746f2e7275
+tg://proxy?server=s01.neo-trading.org&port=443&secret=ee7391242569590e01416101927d38b565646e732d73686f702e7275
+tg://proxy?server=one.nolags.pw&port=443&secret=ddb42df8d0f53f13032f0e8b3e145ef053
+tg://proxy?server=connect.arixo.shop&port=443&secret=eeed5518514cf40187d905c5b7c9e4d595617669746f2e7275
 tg://proxy?server=as.mkim.click&port=443&secret=ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b
+tg://proxy?server=connect.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
+tg://proxy?server=51.250.32.76&port=443&secret=ee5636d7729d8726e81dbc5c3388b73549617669746f2e7275
