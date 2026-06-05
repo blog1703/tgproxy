@@ -1,15 +1,19 @@
-# Updated: 2026-06-05 13:39:31 (MSK)
-# Total proxies: 11
+# Updated: 2026-06-05 16:46:39 (MSK)
+# Total proxies: 15
 # Sources: ProxyMTProto, TProxyRU
 
 tg://proxy?server=mtp11.sosproxy.space&port=443&secret=ee066f09f5ce8299dae51c25ee34dc431a64726976652e676f6f676c652e636f6d
-tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
-tg://proxy?server=london.nolags.pw&port=443&secret=dd6fe89c6d1f5f8b54afc931cf4f640b91
-tg://proxy?server=mtp10.sosproxy.space&port=443&secret=ee3ab621bbb1dea6b3be09c8f3582c61a364726976652e676f6f676c652e636f6d
-tg://proxy?server=155.212.129.41&port=443&secret=ee3ece43327d98718402666a7f1adb32bc77622e7275
-tg://proxy?server=s01.neo-trading.org&port=443&secret=ee7391242569590e01416101927d38b565646e732d73686f702e7275
-tg://proxy?server=one.nolags.pw&port=443&secret=ddb42df8d0f53f13032f0e8b3e145ef053
-tg://proxy?server=connect.arixo.shop&port=443&secret=eeed5518514cf40187d905c5b7c9e4d595617669746f2e7275
-tg://proxy?server=as.mkim.click&port=443&secret=ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b
-tg://proxy?server=connect.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
+tg://proxy?server=yc3.indigogift.fun&port=443&secret=ee0e61aaf45658c3ef5fc0fef90549fda67777772e636c6f7564666c6172652e636f6d
 tg://proxy?server=51.250.32.76&port=443&secret=ee5636d7729d8726e81dbc5c3388b73549617669746f2e7275
+tg://proxy?server=as.mkim.click&port=443&secret=ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b
+tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
+tg://proxy?server=whiltelist-prx1.getvelora.space&port=443&secret=ee6f8c5619eef69de325d0c3ff8a9b7a336d61782e7275
+tg://proxy?server=one.nolags.pw&port=443&secret=ddb42df8d0f53f13032f0e8b3e145ef053
+tg://proxy?server=vktop.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
+tg://proxy?server=sexy.arixo.shop&port=443&secret=eec11798ab008831b474066c9e1ebf5c59617669746f2e7275
+tg://proxy?server=144.31.243.187&port=443&secret=ee79616e6465782e7275b51999be23ec&tag=dddb39c763947456229c9cef138c2f42
+tg://proxy?server=connect.chunkycorp.shop&port=443&secret=ee3a3365be03d6bc13518d65e70a3146c2617669746f2e7275
+tg://proxy?server=connect.arixo.shop&port=443&secret=eeed5518514cf40187d905c5b7c9e4d595617669746f2e7275
+tg://proxy?server=150.241.75.150&port=443&secret=ee79616e6465782e72757f81f31151d7&tag=3632821b5589d24939a91d6652f495bf
+tg://proxy?server=yc1.indigogift.fun&port=443&secret=ee0e61aaf45658c3ef5fc0fef90549fda67777772e636c6f7564666c6172652e636f6d
+tg://proxy?server=155.212.129.41&port=443&secret=ee3ece43327d98718402666a7f1adb32bc77622e7275
