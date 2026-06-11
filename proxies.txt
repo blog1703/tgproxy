@@ -1,34 +1,34 @@
-# Updated: 2026-06-11 23:42:23 (MSK)
+# Updated: 2026-06-12 01:46:12 (MSK)
 # Total proxies: 30
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=echo.proxym.worldPort:&port=443&secret=ee03856fdd3a0b54784892677df90144a06563686f2e70726f78796d2e776f726c64@TProxyRU
-tg://proxy?server=googel.alo-otp.info.Port:&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d🇷🇺
-tg://proxy?server=51.250.82.201&port=443&secret=eeb290d308106db4562c44aa36686c2c7c617669746f2e7275
-tg://proxy?server=spark.proxyonline.onlinePort:&port=443&secret=eed53c649a00ade7bf1f7071d019a426a7737061726b2e70726f78796f6e6c696e652e6f6e6c696e65@TProxyRU
-tg://proxy?server=fast.proxytelega.storePort:&port=8443&secret=ee3d75d4605342be40f01e37f606946e81666173742e70726f787974656c6567612e73746f7265@TProxyRU
-tg://proxy?server=142.132.167.80Port:&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b🇷🇺
-tg://proxy?server=portal.old-but-new.co.uk.Port:&port=443&secret=7t3_BeZaaaan_RoooooSH_93ZWIuYmFsZS5haQ==🇷🇺
 tg://proxy?server=flux.proxytelega.storePort:&port=443&secret=eec57f379567b25a79cbd1fa0ad73b98d9666c75782e70726f787974656c6567612e73746f7265@TProxyRU
-tg://proxy?server=live.proxyvpn.sitePort:&port=443&secret=eed2430edff0d3fc503099f982282bd0066c6976652e70726f787976706e2e73697465@TProxyRU
-tg://proxy?server=lava.proxyobhod.online&port=8443&secret=eef4a2f9b8134cfed8c6215de541c06cb46c6176612e70726f78796f62686f642e6f6e6c696e65
-tg://proxy?server=65.109.253.138Port:&port=443&secret=FgMBAgABAAH8AxOG4kw63Q🇷🇺
-tg://proxy?server=api.prxtoday.storePort:&port=443&secret=ee1fed31d4c3ce8255aedc8c4c14a36f536170692e707278746f6461792e73746f7265@TProxyRU
-tg://proxy?server=moh.kingproxynewdomailasiatech.inkPort:&port=25565&secret=FgMBAgABAAH8AxOG4kw63Q🇷🇺
-tg://proxy?server=mt.nowabst.net&port=853&secret=7hKJP_0gRM7NMRBO3AKn5VhhZHMueDUucnU
-tg://proxy?server=assets.prx.todayPort:&port=443&secret=ee595ef26a3a0072f97dadb2be7007dbac6173736574732e7072782e746f646179@TProxyRU
-tg://proxy?server=zone.nolags.pw&port=443&secret=dd04d2a884220d45de24af8bade64322ac
-tg://proxy?server=wb.proxyonline.online&port=8443&secret=eee8f530985fe58c2518873a7899fd690b77622e70726f78796f6e6c696e652e6f6e6c696e65
-tg://proxy?server=feed.proxytg.live&port=443&secret=ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665
-tg://proxy?server=jet.proxym.worldPort:&port=443&secret=ee894a8e1c70d3ec137af76968609e04666a65742e70726f78796d2e776f726c64@TProxyRU
 tg://proxy?server=wave.proxytelega.storePort:&port=443&secret=eee12b7ef9718c53b06c8a416387c8d4a6776176652e70726f787974656c6567612e73746f7265@TProxyRU
-tg://proxy?server=data.proxyvpn.sitePort:&port=443&secret=ee7d75b7a3d02eefad99691681a534c1fe646174612e70726f787976706e2e73697465@TProxyRU
-tg://proxy?server=mtp.nowabst.net&port=853&secret=7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU
-tg://proxy?server=double.nolags.pw&port=443&secret=dd96d0f04ace50bb54a492c1415bfff1e5
-tg://proxy?server=bale-ai.vingardium.co.uk.Port:&port=443&secret=7t3____FoRaLL_Proxy___93ZWIuYmFsZS5haQ==🇷🇺
-tg://proxy?server=app.proxydlyavseh.sbsPort:&port=8443&secret=ee1f624ba108544ef469a2c0d47279bbcb6170702e70726f7879646c7961767365682e736273@TProxyRU
-tg://proxy?server=country.nolags.pw&port=443&secret=ddc5a3afebedae870af378217569f6586c
 tg://proxy?server=web.proxyrknsosatb.sitePort:&port=8443&secret=ee7350e8e49a9b8793ad9e77ade7bc990a7765622e70726f7879726b6e736f736174622e73697465@TProxyRU
-tg://proxy?server=the-nice-future.info.Port:&port=443&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d🇷🇺
-tg://proxy?server=track.proxytg.live&port=443&secret=ee8e4bd7b2a034418fd924aeed3c97cd7b747261636b2e70726f787974672e6c697665
+tg://proxy?server=65.109.253.138Port:&port=443&secret=FgMBAgABAAH8AxOG4kw63Q🇷🇺
 tg://proxy?server=kilo.proxym.worldPort:&port=443&secret=ee4b74f12070063421d61c13d470bc1d206b696c6f2e70726f78796d2e776f726c64@TProxyRU
+tg://proxy?server=data.proxyvpn.sitePort:&port=443&secret=ee7d75b7a3d02eefad99691681a534c1fe646174612e70726f787976706e2e73697465@TProxyRU
+tg://proxy?server=api.prxtoday.storePort:&port=443&secret=ee1fed31d4c3ce8255aedc8c4c14a36f536170692e707278746f6461792e73746f7265@TProxyRU
+tg://proxy?server=mt.nowabst.net&port=853&secret=7hKJP_0gRM7NMRBO3AKn5VhhZHMueDUucnU
+tg://proxy?server=lava.proxyobhod.online&port=8443&secret=eef4a2f9b8134cfed8c6215de541c06cb46c6176612e70726f78796f62686f642e6f6e6c696e65
+tg://proxy?server=portal.old-but-new.co.uk.Port:&port=443&secret=7t3_BeZaaaan_RoooooSH_93ZWIuYmFsZS5haQ==🇷🇺
+tg://proxy?server=double.nolags.pw&port=443&secret=dd96d0f04ace50bb54a492c1415bfff1e5
+tg://proxy?server=track.proxytg.live&port=443&secret=ee8e4bd7b2a034418fd924aeed3c97cd7b747261636b2e70726f787974672e6c697665
+tg://proxy?server=51.250.82.201&port=443&secret=eeb290d308106db4562c44aa36686c2c7c617669746f2e7275
+tg://proxy?server=country.nolags.pw&port=443&secret=ddc5a3afebedae870af378217569f6586c
+tg://proxy?server=googel.alo-otp.info.Port:&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d🇷🇺
+tg://proxy?server=wb.proxyonline.online&port=8443&secret=eee8f530985fe58c2518873a7899fd690b77622e70726f78796f6e6c696e652e6f6e6c696e65
+tg://proxy?server=fast.proxytelega.storePort:&port=8443&secret=ee3d75d4605342be40f01e37f606946e81666173742e70726f787974656c6567612e73746f7265@TProxyRU
+tg://proxy?server=jet.proxym.worldPort:&port=443&secret=ee894a8e1c70d3ec137af76968609e04666a65742e70726f78796d2e776f726c64@TProxyRU
+tg://proxy?server=bale-ai.vingardium.co.uk.Port:&port=443&secret=7t3____FoRaLL_Proxy___93ZWIuYmFsZS5haQ==🇷🇺
+tg://proxy?server=142.132.167.80Port:&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b🇷🇺
+tg://proxy?server=the-nice-future.info.Port:&port=443&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d🇷🇺
+tg://proxy?server=assets.prx.todayPort:&port=443&secret=ee595ef26a3a0072f97dadb2be7007dbac6173736574732e7072782e746f646179@TProxyRU
+tg://proxy?server=mtp.nowabst.net&port=853&secret=7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU
+tg://proxy?server=app.proxydlyavseh.sbsPort:&port=8443&secret=ee1f624ba108544ef469a2c0d47279bbcb6170702e70726f7879646c7961767365682e736273@TProxyRU
+tg://proxy?server=live.proxyvpn.sitePort:&port=443&secret=eed2430edff0d3fc503099f982282bd0066c6976652e70726f787976706e2e73697465@TProxyRU
+tg://proxy?server=moh.kingproxynewdomailasiatech.inkPort:&port=25565&secret=FgMBAgABAAH8AxOG4kw63Q🇷🇺
+tg://proxy?server=spark.proxyonline.onlinePort:&port=443&secret=eed53c649a00ade7bf1f7071d019a426a7737061726b2e70726f78796f6e6c696e652e6f6e6c696e65@TProxyRU
+tg://proxy?server=feed.proxytg.live&port=443&secret=ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665
+tg://proxy?server=echo.proxym.worldPort:&port=443&secret=ee03856fdd3a0b54784892677df90144a06563686f2e70726f78796d2e776f726c64@TProxyRU
+tg://proxy?server=zone.nolags.pw&port=443&secret=dd04d2a884220d45de24af8bade64322ac
