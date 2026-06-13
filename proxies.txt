@@ -1,32 +1,15 @@
-# Updated: 2026-06-13 12:49:18 (MSK)
-# Total proxies: 28
+# Updated: 2026-06-13 14:45:31 (MSK)
+# Total proxies: 11
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=167.233.54.153Port:&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b🇷🇺
-tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
-tg://proxy?server=176.124.207.237&port=443&secret=fad015155defc3a8bd8ebc16b5d2b300
-tg://proxy?server=51.250.7.238&port=443&secret=ee15d4800ba49d3ac087413770a80de3ba617669746f2e7275
-tg://proxy?server=onyx.proxym.worldPort:&port=443&secret=ee532e278962412ddeacca4d86a606743a6f6e79782e70726f78796d2e776f726c64@TProxyRU
-tg://proxy?server=176.124.207.237Port:&port=443&secret=fad015155defc3a8bd8ebc16b5d2b300🇷🇺
-tg://proxy?server=feed.proxyvpn.inkPort:&port=443&secret=eef9cbb3978cf95814666a7760fec37f90666565642e70726f787976706e2e696e6b@TProxyRU
-tg://proxy?server=subobdoa.co.uk.Port:&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d🇷🇺
-tg://proxy?server=nova.proxytop.spacePort:&port=443&secret=ee11fc839a7e51789ec6a7901c261d778d6e6f76612e70726f7879746f702e7370616365@TProxyRU
-tg://proxy?server=feed.proxytg.live&port=443&secret=ee7c1dc73472aff6b273c603d9713900d1666565642e70726f787974672e6c697665
-tg://proxy?server=iranian-cheetah.ir.the-nice-mtproto.info.Port:&port=88&secret=ee0000f00f0f775555fffffff5006e2e696d656469612e737465616d706f77657265642e636f6d🇷🇺
-tg://proxy?server=cab.proxytg.live&port=443&secret=ee172f5214b57f137805957e350d01e0946361622e70726f787974672e6c697665
-tg://proxy?server=rocket.proxlet.sitePort:&port=443&secret=eed820fcb44d576ead3854439b5b044d32726f636b65742e70726f786c65742e73697465@TProxyRU
-tg://proxy?server=free16.mtproxygram.lolPort:&port=443&secret=ddffb552fe270a898393fa59cfa57753d2🇷🇺
-tg://proxy?server=proxy2.legendary.acPort:&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411🇷🇺
-tg://proxy?server=lumen.proxytop.spacePort:&port=443&secret=ee77a9c0a7c576db75ddb379ffc1ea49786c756d656e2e70726f7879746f702e7370616365@TProxyRU
-tg://proxy?server=fresh.t-proxy.info.Port:&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d🇷🇺
-tg://proxy?server=pulse.proxytelega.storePort:&port=443&secret=ee03a380e712e90ec011ab33582441aee170756c73652e70726f787974656c6567612e73746f7265@TProxyRU
-tg://proxy?server=surge.proxytelega.storePort:&port=443&secret=ee77f1410624584eab9f1fa3726150dbb673757267652e70726f787974656c6567612e73746f7265@TProxyRU
+tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
+tg://proxy?server=hl.routefastnet.online&port=443&secret=eea9a5f5674069d982088b5ad27dca4584686c2e726f757465666173746e65742e6f6e6c696e65
 tg://proxy?server=office.proxytg.live&port=443&secret=eed604acbe90be65ddf34629f1e2234f7d6f66666963652e70726f787974672e6c697665
-tg://proxy?server=public2.mtproxygram.lolPort:&port=443&secret=eea4eaf1027f4b431bc2e711523e1f1b4062726f777365722e79616e6465782e636f6d🇷🇺
-tg://proxy?server=googel.alo-otp.info.Port:&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d🇷🇺
-tg://proxy?server=kilo.proxym.worldPort:&port=443&secret=ee4b74f12070063421d61c13d470bc1d206b696c6f2e70726f78796d2e776f726c64@TProxyRU
+tg://proxy?server=vegas.nolags.pw&port=443&secret=dd0c7f9a8781cf31a8aaae72e341834449
 tg://proxy?server=desk.proxytg.live&port=443&secret=ee7930091e4348bb260a09c61562aa661a6465736b2e70726f787974672e6c697665
 tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
-tg://proxy?server=onyx.proxyux.sitePort:&port=443&secret=eed253def67abf4d0924d1679fc1a9c5206f6e79782e70726f787975782e73697465@TProxyRU
+tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
 tg://proxy?server=last.nolags.pw&port=443&secret=ddab90965a833231bb7c6e024564b75a91
+tg://proxy?server=51.250.7.238&port=443&secret=ee15d4800ba49d3ac087413770a80de3ba617669746f2e7275
 tg://proxy?server=glide.proxyonline.online&port=443&secret=eeb4cf448c2c66dc6151b6746bd1799ae5676c6964652e70726f78796f6e6c696e652e6f6e6c696e65
+tg://proxy?server=176.124.207.237&port=443&secret=fad015155defc3a8bd8ebc16b5d2b300
