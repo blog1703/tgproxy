@@ -1,15 +1,15 @@
-# Updated: 2026-06-13 14:45:31 (MSK)
+# Updated: 2026-06-13 16:21:32 (MSK)
 # Total proxies: 11
 # Sources: ProxyMTProto, TProxyRU
 
 tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
-tg://proxy?server=hl.routefastnet.online&port=443&secret=eea9a5f5674069d982088b5ad27dca4584686c2e726f757465666173746e65742e6f6e6c696e65
 tg://proxy?server=office.proxytg.live&port=443&secret=eed604acbe90be65ddf34629f1e2234f7d6f66666963652e70726f787974672e6c697665
-tg://proxy?server=vegas.nolags.pw&port=443&secret=dd0c7f9a8781cf31a8aaae72e341834449
+tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
+tg://proxy?server=176.124.207.237&port=443&secret=fad015155defc3a8bd8ebc16b5d2b300
+tg://proxy?server=last.nolags.pw&port=443&secret=ddab90965a833231bb7c6e024564b75a91
 tg://proxy?server=desk.proxytg.live&port=443&secret=ee7930091e4348bb260a09c61562aa661a6465736b2e70726f787974672e6c697665
 tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
-tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
-tg://proxy?server=last.nolags.pw&port=443&secret=ddab90965a833231bb7c6e024564b75a91
 tg://proxy?server=51.250.7.238&port=443&secret=ee15d4800ba49d3ac087413770a80de3ba617669746f2e7275
+tg://proxy?server=hl.routefastnet.online&port=443&secret=eea9a5f5674069d982088b5ad27dca4584686c2e726f757465666173746e65742e6f6e6c696e65
 tg://proxy?server=glide.proxyonline.online&port=443&secret=eeb4cf448c2c66dc6151b6746bd1799ae5676c6964652e70726f78796f6e6c696e652e6f6e6c696e65
-tg://proxy?server=176.124.207.237&port=443&secret=fad015155defc3a8bd8ebc16b5d2b300
+tg://proxy?server=vegas.nolags.pw&port=443&secret=dd0c7f9a8781cf31a8aaae72e341834449
