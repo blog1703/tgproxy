@@ -1,30 +1,29 @@
-# Updated: 2026-06-13 18:15:27 (MSK)
-# Total proxies: 26
+# Updated: 2026-06-13 19:53:42 (MSK)
+# Total proxies: 25
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=51.250.7.238&port=443&secret=ee15d4800ba49d3ac087413770a80de3ba617669746f2e7275
-tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
-tg://proxy?server=176.124.207.237&port=443&secret=fad015155defc3a8bd8ebc16b5d2b300
-tg://proxy?server=glide.proxyonline.online&port=443&secret=eeb4cf448c2c66dc6151b6746bd1799ae5676c6964652e70726f78796f6e6c696e652e6f6e6c696e65
-tg://proxy?server=UnknownPort:&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d@ProxyMTProto
-tg://proxy?server=UnknownPort:&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d@ProxyMTProto
 tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
-tg://proxy?server=lumen.proxytop.spacePort:&port=443&secret=ee77a9c0a7c576db75ddb379ffc1ea49786c756d656e2e70726f7879746f702e7370616365@ProxyMTProto
-tg://proxy?server=glide.proxyonline.onlinePort:&port=443&secret=eeb4cf448c2c66dc6151b6746bd1799ae5676c6964652e70726f78796f6e6c696e652e6f6e6c696e65@ProxyMTProto
-tg://proxy?server=apex.proxytop.spacePort:&port=443&secret=ee05d3d7463edfb7a674cc1d89ba24eeba617065782e70726f7879746f702e7370616365@ProxyMTProto
-tg://proxy?server=apex.proxym.worldPort:&port=443&secret=ee4459d77ba2b570d1a593a478d3cd94a4617065782e70726f78796d2e776f726c64@ProxyMTProto
-tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
-tg://proxy?server=last.nolags.pw&port=443&secret=ddab90965a833231bb7c6e024564b75a91
-tg://proxy?server=apex.proxyux.sitePort:&port=443&secret=ee1e16392ec634c2ebce9387a9edcf24e3617065782e70726f787975782e73697465@ProxyMTProto
-tg://proxy?server=UnknownPort:&port=88&secret=ee0000f00f0f775555fffffff5006e2e696d656469612e737465616d706f77657265642e636f6d@ProxyMTProto
 tg://proxy?server=13.chunkycorp.shopPort:&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275@ProxyMTProto
-tg://proxy?server=UnknownPort:&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b@ProxyMTProto
 tg://proxy?server=flux.proxyux.sitePort:&port=443&secret=ee0a7ecff0ebda97b34dc84157b8cbfad3666c75782e70726f787975782e73697465@ProxyMTProto
-tg://proxy?server=vegas.nolags.pw&port=443&secret=dd0c7f9a8781cf31a8aaae72e341834449
-tg://proxy?server=proxy15.arixo.shopPort:&port=443&secret=ee5669d9005f2b50ed4777e1bbfdfb01e2617669746f2e7275@ProxyMTProto
-tg://proxy?server=flux.proxytop.spacePort:&port=443&secret=ee939c94e58cb9ac7dec74ae86d8461089666c75782e70726f7879746f702e7370616365@ProxyMTProto
-tg://proxy?server=vegas.nolags.pwPort:&port=443&secret=dd0c7f9a8781cf31a8aaae72e341834449@ProxyMTProto
-tg://proxy?server=hl.routefastnet.online&port=443&secret=eea9a5f5674069d982088b5ad27dca4584686c2e726f757465666173746e65742e6f6e6c696e65
-tg://proxy?server=last.nolags.pwPort:&port=443&secret=ddab90965a833231bb7c6e024564b75a91@ProxyMTProto
-tg://proxy?server=UnknownPort:&port=25565&secret=FgMBAgABAAH8AxOG4kw63Q@ProxyMTProto
 tg://proxy?server=UnknownPort:&port=7443&secret=AAAAAAAAAAAAAAAAAAAAABQ=@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=88&secret=ee0000f00f0f775555fffffff5006e2e696d656469612e737465616d706f77657265642e636f6d@ProxyMTProto
+tg://proxy?server=176.124.207.237&port=443&secret=fad015155defc3a8bd8ebc16b5d2b300
+tg://proxy?server=UnknownPort:&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=bolt.proxyonline.onlinePort:&port=443&secret=ee98741a4df96ee86a25ca542a538a3484626f6c742e70726f78796f6e6c696e652e6f6e6c696e65@ProxyMTProto
+tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
+tg://proxy?server=51.250.7.238&port=443&secret=ee15d4800ba49d3ac087413770a80de3ba617669746f2e7275
+tg://proxy?server=hl.routefastnet.online&port=443&secret=eea9a5f5674069d982088b5ad27dca4584686c2e726f757465666173746e65742e6f6e6c696e65
+tg://proxy?server=jet.proxym.worldPort:&port=443&secret=ee894a8e1c70d3ec137af76968609e04666a65742e70726f78796d2e776f726c64@ProxyMTProto
+tg://proxy?server=apex.proxyux.sitePort:&port=443&secret=ee1e16392ec634c2ebce9387a9edcf24e3617065782e70726f787975782e73697465@ProxyMTProto
+tg://proxy?server=flux.proxytop.spacePort:&port=443&secret=ee939c94e58cb9ac7dec74ae86d8461089666c75782e70726f7879746f702e7370616365@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=apex.proxym.worldPort:&port=443&secret=ee4459d77ba2b570d1a593a478d3cd94a4617065782e70726f78796d2e776f726c64@ProxyMTProto
+tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
+tg://proxy?server=UnknownPort:&port=25565&secret=FgMBAgABAAH8AxOG4kw63Q@ProxyMTProto
+tg://proxy?server=vegas.nolags.pw&port=443&secret=dd0c7f9a8781cf31a8aaae72e341834449
+tg://proxy?server=vegas.nolags.pwPort:&port=443&secret=dd0c7f9a8781cf31a8aaae72e341834449@ProxyMTProto
+tg://proxy?server=proxy15.arixo.shopPort:&port=443&secret=ee5669d9005f2b50ed4777e1bbfdfb01e2617669746f2e7275@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b@ProxyMTProto
+tg://proxy?server=apex.proxytop.spacePort:&port=443&secret=ee05d3d7463edfb7a674cc1d89ba24eeba617065782e70726f7879746f702e7370616365@ProxyMTProto
+tg://proxy?server=lumen.proxytop.spacePort:&port=443&secret=ee77a9c0a7c576db75ddb379ffc1ea49786c756d656e2e70726f7879746f702e7370616365@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=443&secret=7t3_BeZaaaan_RoooooSH_93ZWIuYmFsZS5haQ%3D%3D@ProxyMTProto
