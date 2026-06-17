@@ -1,19 +1,19 @@
-# Updated: 2026-06-18 01:28:30 (MSK)
+# Updated: 2026-06-18 02:56:06 (MSK)
 # Total proxies: 15
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=81.90.17.230&port=8530&secret=eed9d1fceb145ca35d0b9a07bd662e57df7777772e6f6e65742e706c
-tg://proxy?server=93.77.190.100&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=as.mkim.click&port=443&secret=ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b
-tg://proxy?server=vl.lees.linkpc.net&port=443&secret=eeb5790afbdbe2185fae23837b6ea699f3626c7a6464697374312d612e616b616d616968642e6e6574
-tg://proxy?server=144.31.28.211&port=443&secret=ee6d6963726f736f66742e636f6d25ae&tag=6d057a4d4fcdc3b6395df3ad0983293d
-tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
-tg://proxy?server=81.90.25.247&port=443&secret=ee6d6963726f736f66742e636f6dd95c&tag=5ad9179e1aa4ae496d45e17aeb294992
-tg://proxy?server=150.241.65.151&port=443&secret=ee6d6963726f736f66742e636f6d2e03&tag=df87cc848f48ab08925b26a30d0b4483
-tg://proxy?server=150.241.68.198&port=443&secret=ee6d6963726f736f66742e636f6dd95c&tag=d359dbcbbc9f53ceaa4c539b52db0ec4
-tg://proxy?server=93.77.191.135&port=443&secret=ee2adf378e4dda51ba74fcdfa375e9ef1a617669746f2e7275
-tg://proxy?server=144.31.215.119&port=443&secret=ee6d6963726f736f66742e636f6d2379&tag=ce2526283a81bc33bc6ca782d82290a6
-tg://proxy?server=150.241.87.133&port=443&secret=eebf2b18633bd20310eeb833852083d1277777772e77702e706c
-tg://proxy?server=51.250.12.63&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=f.reverse.linkpc.net&port=443&secret=ee465651a1836fd4320395aba3f4d621556a2e736e692d3634342d64656661756c742e73736c2e666173746c792e6e6574
 tg://proxy?server=2.26.125.82&port=443&secret=ee6d6963726f736f66742e636f6dd95c&tag=84e6bfbd4e8fed2cea3abc8566641562
+tg://proxy?server=81.90.17.230&port=8530&secret=eed9d1fceb145ca35d0b9a07bd662e57df7777772e6f6e65742e706c
+tg://proxy?server=150.241.65.151&port=443&secret=ee6d6963726f736f66742e636f6d2e03&tag=df87cc848f48ab08925b26a30d0b4483
+tg://proxy?server=vl.lees.linkpc.net&port=443&secret=eeb5790afbdbe2185fae23837b6ea699f3626c7a6464697374312d612e616b616d616968642e6e6574
+tg://proxy?server=93.77.191.135&port=443&secret=ee2adf378e4dda51ba74fcdfa375e9ef1a617669746f2e7275
+tg://proxy?server=93.77.190.100&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=81.90.25.247&port=443&secret=ee6d6963726f736f66742e636f6dd95c&tag=5ad9179e1aa4ae496d45e17aeb294992
+tg://proxy?server=as.mkim.click&port=443&secret=ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b
+tg://proxy?server=150.241.68.198&port=443&secret=ee6d6963726f736f66742e636f6dd95c&tag=d359dbcbbc9f53ceaa4c539b52db0ec4
+tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
+tg://proxy?server=150.241.87.133&port=443&secret=eebf2b18633bd20310eeb833852083d1277777772e77702e706c
+tg://proxy?server=144.31.28.211&port=443&secret=ee6d6963726f736f66742e636f6d25ae&tag=6d057a4d4fcdc3b6395df3ad0983293d
+tg://proxy?server=51.250.12.63&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=144.31.215.119&port=443&secret=ee6d6963726f736f66742e636f6d2379&tag=ce2526283a81bc33bc6ca782d82290a6
+tg://proxy?server=f.reverse.linkpc.net&port=443&secret=ee465651a1836fd4320395aba3f4d621556a2e736e692d3634342d64656661756c742e73736c2e666173746c792e6e6574
