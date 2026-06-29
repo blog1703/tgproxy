@@ -1,13 +1,29 @@
-# Updated: 2026-06-29 11:48:02 (MSK)
-# Total proxies: 9
+# Updated: 2026-06-29 15:55:21 (MSK)
+# Total proxies: 25
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=proxy17.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=ru1.loveproxy.xyz&port=443&secret=ee10a9bbc28226bf8b41915af388cd4eb562726f777365722e79616e6465782e7275
-tg://proxy?server=ru2.loveproxy.xyz&port=443&secret=ee10a9bbc28226bf8b41915af388cd4eb562726f777365722e79616e6465782e7275
-tg://proxy?server=81.91.179.74&port=443&secret=ee9d510af7b8eced7ed5eda1bfb35348f262726f777365722e79616e6465782e636f6d
+tg://proxy?server=ethereal8.arixo.shopPort:&port=443&secret=ee229d823c9edddf43de43f240ce98e75c657468657265616c382e617269786f2e73686f70@ProxyMTProto
+tg://proxy?server=grow.chunkycorp.shopPort:&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275@ProxyMTProto
+tg://proxy?server=persian.gulf.ir.olsjddhf.info.Port:&port=88&secret=ee0000f00f0f775555fffffff5006e2e69626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=cdn.savelyev.clickPort:&port=443&secret=ee0e25d36b89ee532fcc5767a9dae2669e63646e2e736176656c7965762e636c69636b@ProxyMTProto
+tg://proxy?server=get.utkanos.lifePort:&port=443&secret=eef09a7a4c51b6bc6caf4d3134b312b0f56765742e75746b616e6f732e6c696665@ProxyMTProto
+tg://proxy?server=openhostings.co.uk.Port:&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=proxy16.chunkycorp.shopPort:&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275@ProxyMTProto
+tg://proxy?server=ad3.arixo.shopPort:&port=443&secret=ee722fba8d97b9027b5fc4deb041b290cb6164332e617269786f2e73686f70@ProxyMTProto
 tg://proxy?server=34.7.181.135&port=443&secret=ddebf4e93d8565ca5d242efe5aa70822c3
-tg://proxy?server=34.6.97.246&port=443&secret=dde15c0efa2f77bf7378cb3dc8cea5ddde
+tg://proxy?server=proxy17.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=ethereal9.arixo.shopPort:&port=443&secret=ee974408a08166600f468fb7e9a9d5fa4b657468657265616c392e617269786f2e73686f70@ProxyMTProto
+tg://proxy?server=proxy18.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=ftp.asiaadomainsshatelhamrahaval.co.uk.Port:&port=443&secret=7t3_BeZaaaan_RoooooSH_93ZWIuYmFsZS5haQ==@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=443&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
 tg://proxy?server=grow.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=proxy15.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=vagon.belotfelipo.co.ukPort:&port=443&secret=ee1603010200010001fc030386e24c3add6d656469612e737465616d706f77657265642e636f6d@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=92.246.87.243Port:&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=443&secret=ee1f46fcc7e9b3991677f71d2c1cb2ac92656467652e726b6e77617463682e6469676974616c@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=443&secret=eee8633ba82795b727c7af91f5c3f5923b6c696e6b2e6672656574672e7077@ProxyMTProto
+tg://proxy?server=pl.nowabst.netPort:&port=853&secret=ee82ce1f84af4033cc7e7b021069be3d5b766b2e636f6d@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=443&secret=7t3____FoRaLL_Proxy___93ZWIuYmFsZS5haQ==@ProxyMTProto
+tg://proxy?server=34.6.97.246&port=443&secret=dde15c0efa2f77bf7378cb3dc8cea5ddde
+tg://proxy?server=link.freetg.pwPort:&port=443&secret=eee8633ba82795b727c7af91f5c3f5923b6c696e6b2e6672656574672e7077@ProxyMTProto
 tg://proxy?server=proxy16.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
