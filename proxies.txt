@@ -1,13 +1,14 @@
-# Updated: 2026-07-02 23:13:42 (MSK)
-# Total proxies: 9
+# Updated: 2026-07-03 00:40:07 (MSK)
+# Total proxies: 10
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=proxy25.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=proxy26.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=34.59.241.15&port=443&secret=ddf70b01138c5288162ff480a690a4c45b
 tg://proxy?server=help1.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=help2.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=tea.hotstbvs.ru&port=8443&secret=ee9e5bab6c881ddf24aa5bd5612198e3387465612e686f7473746276732e7275
-tg://proxy?server=proxy26.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=proxy12.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=34.6.107.226&port=443&secret=dd576db7cb0acd36cefd91a4d8aad84ab3
 tg://proxy?server=proxy27.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=proxy12.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=proxy25.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=34.6.217.239&port=443&secret=dd51dc2e5b61a83f2b571aaabbff52c9fc
+tg://proxy?server=tea.hotstbvs.ru&port=8443&secret=ee9e5bab6c881ddf24aa5bd5612198e3387465612e686f7473746276732e7275
+tg://proxy?server=34.6.107.226&port=443&secret=dd576db7cb0acd36cefd91a4d8aad84ab3
