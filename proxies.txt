@@ -1,31 +1,30 @@
-# Updated: 2026-07-03 11:45:40 (MSK)
-# Total proxies: 27
+# Updated: 2026-07-03 14:24:03 (MSK)
+# Total proxies: 26
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=34.6.217.239&port=443&secret=dd51dc2e5b61a83f2b571aaabbff52c9fc
-tg://proxy?server=link.freetg.pwPort:&port=443&secret=ee367e9d49996c327ff6684577cf2427fa6c696e6b2e6672656574672e7077@ProxyMTProto
-tg://proxy?server=net.freetg.pwPort:&port=443&secret=ee5149538ef4476db6e76d74a7a7c8a48b6e65742e6672656574672e7077@ProxyMTProto
-tg://proxy?server=malmo.viking-vibe.co.ukPort:&port=25565&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
-tg://proxy?server=92.246.87.243Port:&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0@ProxyMTProto
-tg://proxy?server=proxy27.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=34.6.107.226Port:&port=443&secret=dd576db7cb0acd36cefd91a4d8aad84ab3@ProxyMTProto
-tg://proxy?server=UnknownPort:&port=443&secret=7t3____FoRaLL_Proxy___93ZWIuYmFsZS5haQ==@ProxyMTProto
-tg://proxy?server=UnknownPort:&port=7443&secret=AAAAAAAAAAAAAAAAAAAAABQ=@ProxyMTProto
 tg://proxy?server=UnknownPort:&port=443&secret=eeae4238427921aba7b1fcb407e1f37ce1676f6f676c65617069732e636f6d@ProxyMTProto
-tg://proxy?server=i-love.ascel.laPort:&port=443&secret=eef1a12a129e596c84f0d0edad1ad331c6692d6c6f76652e617363656c2e6c61@ProxyMTProto
-tg://proxy?server=proxy.lodkirmm.ru&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
-tg://proxy?server=help3.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=UnknownPort:&port=443&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
-tg://proxy?server=cdn.kvakzon.topPort:&port=443&secret=eec085c2738cef200b39ee8f29d23095f063646e2e6b76616b7a6f6e2e746f70@ProxyMTProto
-tg://proxy?server=tea.hotstbvs.ru&port=8443&secret=ee9e5bab6c881ddf24aa5bd5612198e3387465612e686f7473746276732e7275
-tg://proxy?server=34.6.107.226&port=443&secret=dd576db7cb0acd36cefd91a4d8aad84ab3
-tg://proxy?server=gate.soluqent.proPort:&port=443&secret=ee204d0b60a6b41370c66a64551f06b233676174652e736f6c7571656e742e70726f@ProxyMTProto
-tg://proxy?server=34.59.241.15&port=443&secret=ddf70b01138c5288162ff480a690a4c45b
-tg://proxy?server=full-vasl.ir-xyz.gdhbvjshjrf.info.Port:&port=88&secret=ee0000f00f0f775555fffffff5006e2e69626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
-tg://proxy?server=UnknownPort:&port=443&secret=eee09f46368021f91b92ad3dea14c7ac896164312e617269786f2e73686f70@ProxyMTProto
-tg://proxy?server=pl.nowabst.netPort:&port=853&secret=ee82ce1f84af4033cc7e7b021069be3d5b766b2e636f6d@ProxyMTProto
-tg://proxy?server=s01.neo-trading.orgPort:&port=443&secret=ee7391242569590e01416101927d38b565646e732d73686f702e7275@ProxyMTProto
 tg://proxy?server=paid1.arixo.shop&port=443&secret=eec54c7a89cf194572ed8d7c8ba8867dc770616964312e617269786f2e73686f70
-tg://proxy?server=UnknownPort:&port=6775&secret=eee9a4f23b1d768c04a8d7f39120ca5b6e626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
-tg://proxy?server=UnknownPort:&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=34.6.217.239&port=443&secret=dd51dc2e5b61a83f2b571aaabbff52c9fc
+tg://proxy?server=pl.nowabst.netPort:&port=853&secret=ee82ce1f84af4033cc7e7b021069be3d5b766b2e636f6d@ProxyMTProto
+tg://proxy?server=malmo.viking-vibe.co.ukPort:&port=25565&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=full-vasl.ir-xyz.gdhbvjshjrf.info.Port:&port=88&secret=ee0000f00f0f775555fffffff5006e2e69626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=proxy.lodkirmm.ru&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
 tg://proxy?server=proxy12.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=proxy28.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=UnknownPort:&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=tea.hotstbvs.ru&port=8443&secret=ee9e5bab6c881ddf24aa5bd5612198e3387465612e686f7473746276732e7275
+tg://proxy?server=UnknownPort:&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=one.gram.blogPort:&port=443&secret=ee1e500c27b5ca23c07c56738e9309344e62726f777365722e79616e6465782e7275@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=443&secret=7t3____FoRaLL_Proxy___93ZWIuYmFsZS5haQ==@ProxyMTProto
+tg://proxy?server=help3.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=UnknownPort:&port=443&secret=eee09f46368021f91b92ad3dea14c7ac896164312e617269786f2e73686f70@ProxyMTProto
+tg://proxy?server=s01.neo-trading.orgPort:&port=443&secret=ee7391242569590e01416101927d38b565646e732d73686f702e7275@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=7443&secret=AAAAAAAAAAAAAAAAAAAAABQ=@ProxyMTProto
+tg://proxy?server=net.freetg.pwPort:&port=443&secret=ee5149538ef4476db6e76d74a7a7c8a48b6e65742e6672656574672e7077@ProxyMTProto
+tg://proxy?server=one.gram.blog&port=443&secret=ee1e500c27b5ca23c07c56738e9309344e62726f777365722e79616e6465782e7275
+tg://proxy?server=cdn.kvakzon.topPort:&port=443&secret=eec085c2738cef200b39ee8f29d23095f063646e2e6b76616b7a6f6e2e746f70@ProxyMTProto
+tg://proxy?server=gate.soluqent.proPort:&port=443&secret=ee204d0b60a6b41370c66a64551f06b233676174652e736f6c7571656e742e70726f@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=6775&secret=eee9a4f23b1d768c04a8d7f39120ca5b6e626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=34.59.241.15&port=443&secret=ddf70b01138c5288162ff480a690a4c45b
+tg://proxy?server=100.gram.blog&port=443&secret=dd1e500c27b5ca23c07c56738e9309344e
+tg://proxy?server=UnknownPort:&port=443&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
