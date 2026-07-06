@@ -1,18 +1,18 @@
-# Updated: 2026-07-06 02:55:00 (MSK)
+# Updated: 2026-07-06 05:00:59 (MSK)
 # Total proxies: 14
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=34.155.165.141&port=443&secret=dd5661d8bd367197edffcee9305fd054f7
 tg://proxy?server=tea.hotstbvs.ru&port=8443&secret=ee9e5bab6c881ddf24aa5bd5612198e3387465612e686f7473746276732e7275
-tg://proxy?server=34.163.197.109&port=443&secret=dd30906b72b5be98c53e51b604b76e4c1a
-tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
-tg://proxy?server=proxy.lodkirmm.ru&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
-tg://proxy?server=power.nolags.pw&port=443&secret=ddc44116b4d7fbd81392e8978089eec7f4
-tg://proxy?server=34.163.125.186&port=443&secret=dd045b22038bb255d0ce01db3ed417dc32
+tg://proxy?server=34.155.165.141&port=443&secret=dd5661d8bd367197edffcee9305fd054f7
 tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=proxy.lodkirmm.ru&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
+tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=34.7.50.106&port=443&secret=dd39a22112c392f0cbfb056066b429addd
 tg://proxy?server=mtp.nowabst.net&port=853&secret=7oLOH4SvQDPMfnsCEGm-PVthZHMueDUucnU
+tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
 tg://proxy?server=swag.caxero.ru&port=443&secret=8f3c7a1d4b92e6c51a7d0fb843c2e91f
-tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=eerie.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=34.163.125.186&port=443&secret=dd045b22038bb255d0ce01db3ed417dc32
+tg://proxy?server=power.nolags.pw&port=443&secret=ddc44116b4d7fbd81392e8978089eec7f4
+tg://proxy?server=34.163.197.109&port=443&secret=dd30906b72b5be98c53e51b604b76e4c1a
