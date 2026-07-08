@@ -1,16 +1,17 @@
-# Updated: 2026-07-08 04:26:20 (MSK)
-# Total proxies: 12
+# Updated: 2026-07-08 07:40:54 (MSK)
+# Total proxies: 13
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=34.155.62.38&port=443&secret=dd69d25efb5429c95b6a50c8f6cb0b50b4
-tg://proxy?server=proxy.lodkirmm.ru&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
-tg://proxy?server=34.6.122.236&port=443&secret=dd5ce750c0f6787b81051bc5da67626b0d
-tg://proxy?server=join.mishutkin.click&port=443&secret=ee9d510af7b8eced7ed5eda1bfb35348f262726f777365722e79616e6465782e636f6d
+tg://proxy?server=eerie.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=thebestone.nolags.pw&port=443&secret=dd500852dff560b32a1580986b7f43cd28
+tg://proxy?server=34.155.47.167&port=443&secret=dd73f5d2e2065737a1d08c085883355e55
 tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=thebestone.nolags.pw&port=443&secret=dd500852dff560b32a1580986b7f43cd28
-tg://proxy?server=eerie.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=65.109.247.192&port=4455&secret=dd104462821249bd7ac519130220c25d09
-tg://proxy?server=34.155.47.167&port=443&secret=dd73f5d2e2065737a1d08c085883355e55
+tg://proxy?server=join.mishutkin.click&port=443&secret=ee9d510af7b8eced7ed5eda1bfb35348f262726f777365722e79616e6465782e636f6d
+tg://proxy?server=proxy.lodkirmm.ru&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
+tg://proxy?server=34.6.122.236&port=443&secret=dd5ce750c0f6787b81051bc5da67626b0d
+tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=aerie.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=proxy2.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=34.155.62.38&port=443&secret=dd69d25efb5429c95b6a50c8f6cb0b50b4
+tg://proxy?server=65.109.247.192&port=4455&secret=dd104462821249bd7ac519130220c25d09
