@@ -1,15 +1,15 @@
-# Updated: 2026-07-11 00:00:11 (MSK)
+# Updated: 2026-07-11 01:05:23 (MSK)
 # Total proxies: 11
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=eerie.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=34.155.207.237&port=443&secret=dd6efa6d88b486baf028f2c8f965ee89c4
-tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=clitor.waycdn.ru&port=443&secret=8f3c7a1d4b92e6c51a7d0fb843c2e91f
-tg://proxy?server=34.141.143.95&port=443&secret=dd3fca63b4b1816dc78d7d5d66ad6ea177
-tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=adieu.shmelproxy.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=65.109.247.192&port=4455&secret=dd104462821249bd7ac519130220c25d09
 tg://proxy?server=idyll.shmelproxy.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=65.109.247.192&port=4455&secret=dd104462821249bd7ac519130220c25d09
+tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=clitor.waycdn.ru&port=443&secret=8f3c7a1d4b92e6c51a7d0fb843c2e91f
+tg://proxy?server=adieu.shmelproxy.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=34.155.207.237&port=443&secret=dd6efa6d88b486baf028f2c8f965ee89c4
+tg://proxy?server=eerie.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=proxy9.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=34.141.143.95&port=443&secret=dd3fca63b4b1816dc78d7d5d66ad6ea177
