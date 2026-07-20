@@ -1,12 +1,12 @@
-# Updated: 2026-07-20 04:51:36 (MSK)
+# Updated: 2026-07-20 08:28:16 (MSK)
 # Total proxies: 8
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=proxy.lodkirmm.ru&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
-tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=95.85.237.7&port=14305&secret=dd36d988a8d13716c2c3aa9e90b7a8b18a
+tg://proxy?server=aerie.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=testt1.nolags.pw&port=443&secret=ddc2d13ebbc4ab5596c87f99b0928aa150
+tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=s010.neo-trading.org&port=443&secret=ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275
-tg://proxy?server=eerie.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=eerie.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=95.85.237.7&port=14305&secret=dd36d988a8d13716c2c3aa9e90b7a8b18a
+tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
