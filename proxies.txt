@@ -1,18 +1,18 @@
-# Updated: 2026-07-26 01:14:46 (MSK)
+# Updated: 2026-07-26 02:25:46 (MSK)
 # Total proxies: 14
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=mtp3.hlebushek.com&port=443&secret=ee49b03637799a40446509a268d99ff91b706574726f766963682e7275
-tg://proxy?server=mtp1.hlebushek.com&port=443&secret=eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275
 tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=mtp2.hlebushek.com&port=443&secret=ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275
 tg://proxy?server=lazeyka-2-4-hi.getvelora.space&port=443&secret=ee697e723e8ba1ff23642036fbf9e84a926f7a6f6e2e7275
-tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
-tg://proxy?server=ad.workingproxy.xyz&port=443&secret=dd286c761f9f4aada689aaf8ac12acf63e
-tg://proxy?server=lazeyka-2-4.getvelora.space&port=443&secret=ee4df4e953f31605fe2397dc326cfd8e7f6f7a6f6e2e7275
-tg://proxy?server=eerie.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=aerie.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=lazeyka-2-4-cor.getvelora.space&port=443&secret=ee9ba9032466643b3c917f00a8a41033c76f7a6f6e2e7275
-tg://proxy?server=mtp2.hlebushek.com&port=443&secret=ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275
 tg://proxy?server=probably.nolags.pw&port=443&secret=ddc986c839977fd65cfbc10a931129e311
+tg://proxy?server=eerie.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=ad.workingproxy.xyz&port=443&secret=dd286c761f9f4aada689aaf8ac12acf63e
+tg://proxy?server=mtp1.hlebushek.com&port=443&secret=eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275
+tg://proxy?server=lazeyka-2-4.getvelora.space&port=443&secret=ee4df4e953f31605fe2397dc326cfd8e7f6f7a6f6e2e7275
+tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=mtp3.hlebushek.com&port=443&secret=ee49b03637799a40446509a268d99ff91b706574726f766963682e7275
+tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
+tg://proxy?server=lazeyka-2-4-cor.getvelora.space&port=443&secret=ee9ba9032466643b3c917f00a8a41033c76f7a6f6e2e7275
