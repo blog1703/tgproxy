@@ -1,29 +1,27 @@
-# Updated: 2026-07-26 21:53:20 (MSK)
-# Total proxies: 25
+# Updated: 2026-07-26 23:03:01 (MSK)
+# Total proxies: 23
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=proxy.lodkirmm.ru&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
-tg://proxy?server=mc-ssh.t-proxyru.info.Port:&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d🇷🇺
-tg://proxy?server=proxy.lodkirmm.ruPort:&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275@TProxyRU
-tg://proxy?server=options.nolags.pw&port=443&secret=dd1cfd25e7607e8ede7cc49b925165728a
-tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
-tg://proxy?server=link.freetg.pwPort:&port=443&secret=ee0130a860a634590d543496ced923a18a6c696e6b2e6672656574672e7077@TProxyRU
-tg://proxy?server=sisu.proxytales.lifePort:&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275@TProxyRU
-tg://proxy?server=lazeyka-2-5.getvelora.space&port=443&secret=ee32ee4962951c5b2bb70bc767751761a36f7a6f6e2e7275
-tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=ad2.arixo.shopPort:&port=443&secret=eed09b88cbbd4e744865b890e5a0bd26876164322e617269786f2e73686f70@TProxyRU
-tg://proxy?server=aerie.sosun4ik.topPort:&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275@TProxyRU
-tg://proxy?server=mtproto.workingproxy.xyz&port=443&secret=dd28d1629617423db1e80a7b4a00de6032
-tg://proxy?server=vpn4.primeperformance.space&port=8443&secret=ee4331ae1586ba488e489e092e1783969e76706e342e7072696d65706572666f726d616e63652e7370616365
-tg://proxy?server=opeenhostings.co.uk.Port:&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d🇷🇺
-tg://proxy?server=beest-sellerst.co.uk.Port:&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d🇷🇺
 tg://proxy?server=api.gorbushkin.clickPort:&port=443&secret=eeefb2b30f5db9fcb750264e9c7beea99f6170692e676f72627573686b696e2e636c69636b@TProxyRU
-tg://proxy?server=s5.postpulse.spacePort:&port=443&secret=ee846d23933361faa6211c7ac6765023be6164322e617269786f2e73686f70@TProxyRU
+tg://proxy?server=proxy.lodkirmm.ru&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
+tg://proxy?server=options.nolags.pw&port=443&secret=dd1cfd25e7607e8ede7cc49b925165728a
+tg://proxy?server=neshane-rah.simbol.infoPort:&port=443&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d@TProxyRU
+tg://proxy?server=beest-sellerst.co.uk.Port:&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d@TProxyRU
 tg://proxy?server=subobdoa.co.uk.Port:&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d🇷🇺
-tg://proxy?server=panel-portal.managep.infoPort:&port=443&secret=ee1603010200010001fc030386e24c3add6d656469612e737465616d706f77657265642e636f6d@TProxyRU
-tg://proxy?server=connect.savelyev.clickPort:&port=443&secret=ee9f2e42d8634c83c9b14511b0d28ed1d1636f6e6e6563742e736176656c7965762e636c69636b@TProxyRU
-tg://proxy?server=ardesvpn1.ruPort:&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275@TProxyRU
-tg://proxy?server=aerie.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=lazeyka-2-5.getvelora.space&port=443&secret=ee32ee4962951c5b2bb70bc767751761a36f7a6f6e2e7275
+tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=s5.postpulse.spacePort:&port=443&secret=ee846d23933361faa6211c7ac6765023be6164322e617269786f2e73686f70@TProxyRU
+tg://proxy?server=mc-ssh.t-proxyru.info.Port:&port=25565&secret=ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d🇷🇺
 tg://proxy?server=cz.nowabst.netPort:&port=853&secret=ee19f4ad26c65891fd22cf3b7a59f0d103766b2e636f6d@TProxyRU
-tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=panel-portal.managep.infoPort:&port=443&secret=ee1603010200010001fc030386e24c3add6d656469612e737465616d706f77657265642e636f6d@TProxyRU
+tg://proxy?server=beest-sellerst.co.uk.Port:&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d🇷🇺
+tg://proxy?server=ardesvpn1.ruPort:&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275@TProxyRU
+tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=connect.savelyev.clickPort:&port=443&secret=ee9f2e42d8634c83c9b14511b0d28ed1d1636f6e6e6563742e736176656c7965762e636c69636b@TProxyRU
+tg://proxy?server=aerie.sosun4ik.topPort:&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275@TProxyRU
+tg://proxy?server=sisu.proxytales.lifePort:&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275@TProxyRU
+tg://proxy?server=aerie.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=proxy.lodkirmm.ruPort:&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275@TProxyRU
+tg://proxy?server=mtproto.workingproxy.xyz&port=443&secret=dd28d1629617423db1e80a7b4a00de6032
+tg://proxy?server=ad2.arixo.shopPort:&port=443&secret=eed09b88cbbd4e744865b890e5a0bd26876164322e617269786f2e73686f70@TProxyRU
+tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
