@@ -1,14 +1,15 @@
-# Updated: 2026-07-31 14:02:47 (MSK)
-# Total proxies: 10
+# Updated: 2026-07-31 16:10:24 (MSK)
+# Total proxies: 11
 # Sources: ProxyMTProto, TProxyRU
 
+tg://proxy?server=neo-vpn.ink&port=443&secret=eea40b9cca8c9d1e4eba3c50c16d38358a6e656f2d76706e2e696e6b
 tg://proxy?server=best-proxy.ink&port=443&secret=eecd52b1146f6670de19bc5bf189d1ab58626573742d70726f78792e696e6b
+tg://proxy?server=fleethop.org&port=443&secret=ee5963ce7d4a7f471c330778c419c0b19e666c656574686f702e6f7267
+tg://proxy?server=proxy.lodkirmm.ru&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
+tg://proxy?server=aerie.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=medblock.ink&port=443&secret=ee81bcf42079b8aea4608000f6d77285f36d6564626c6f636b2e696e6b
 tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
-tg://proxy?server=fleethop.org&port=443&secret=ee5963ce7d4a7f471c330778c419c0b19e666c656574686f702e6f7267
 tg://proxy?server=fleethop.online&port=443&secret=ee7b65b9f92173a83dcd4d1c5b8c1031f7666c656574686f702e6f6e6c696e65
-tg://proxy?server=proxy.lodkirmm.ru&port=8443&secret=ee16309abd572d284b309ef26bd7a3f685d0b7d0ba70726f78792e6c6f646b69726d6d2e7275
-tg://proxy?server=neo-vpn.ink&port=443&secret=eea40b9cca8c9d1e4eba3c50c16d38358a6e656f2d76706e2e696e6b
-tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=fast-proxy.ink&port=443&secret=ee98e83ac6806491b9501d3a61cdd59c71666173742d70726f78792e696e6b
 tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
