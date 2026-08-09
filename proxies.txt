@@ -1,16 +1,17 @@
-# Updated: 2026-08-09 20:01:39 (MSK)
-# Total proxies: 12
+# Updated: 2026-08-09 20:54:00 (MSK)
+# Total proxies: 13
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=fast.data.strobox.info&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b
-tg://proxy?server=fast.garden-troll.life&port=443&secret=eecf1c1606226e0962ad67b541a145b9c6666173742e67617264656e2d74726f6c6c2e6c696665
-tg://proxy?server=lazeyka-10.getvelora.space&port=443&secret=ee96d021f5d09ab9f210b7548a15b980d66f7a6f6e2e7275
-tg://proxy?server=life.whiteproxy.baby&port=443&secret=dd775fa5684b6f92e462eb88c1307d338d
-tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=smile.workingproxy.xyz&port=443&secret=dd6767547c5dd848f55281e391e0153eae
+tg://proxy?server=wisp.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=s05.neo-trading.org&port=443&secret=eeecd508d816f611bb329487809f8dac88706574726f766963682e7275
+tg://proxy?server=life.whiteproxy.baby&port=443&secret=dd775fa5684b6f92e462eb88c1307d338d
+tg://proxy?server=fast.data.strobox.info&port=443&secret=ddf0eeb0bd9adc4fd4a93994ee3b2a216b
 tg://proxy?server=s01.neo-trading.org&port=443&secret=ee7391242569590e01416101927d38b565646e732d73686f702e7275
 tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=wisp.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=lazeyka-10.getvelora.space&port=443&secret=ee96d021f5d09ab9f210b7548a15b980d66f7a6f6e2e7275
+tg://proxy?server=sisu.proxytales.life&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=media.happtg.org&port=443&secret=eed9cf709eb48bb5a37471fba84864bd7e766b2e7275
 tg://proxy?server=s03.neo-trading.org&port=443&secret=eeaf794bcc20f70b1436b6b92b01b207e26d61676e69742e7275
+tg://proxy?server=fast.garden-troll.life&port=443&secret=eecf1c1606226e0962ad67b541a145b9c6666173742e67617264656e2d74726f6c6c2e6c696665
 tg://proxy?server=zone.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
