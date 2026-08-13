@@ -1,16 +1,16 @@
-# Updated: 2026-08-13 08:14:51 (MSK)
+# Updated: 2026-08-13 09:52:39 (MSK)
 # Total proxies: 12
 # Sources: ProxyMTProto, TProxyRU
 
+tg://proxy?server=eu2.utkanos.life&port=8443&secret=ee7dc0a82984d861709ee30c6d149f41836575322e75746b616e6f732e6c696665
+tg://proxy?server=skein.chunkycorp.shop&port=8443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=s05.neo-trading.org&port=443&secret=eeecd508d816f611bb329487809f8dac88706574726f766963682e7275
 tg://proxy?server=s02.neo-trading.org&port=443&secret=ee6ec9f7e082baf2397b450727ce78447e6f7a6f6e2e7275
 tg://proxy?server=eu1.kvakzon.top&port=8443&secret=ee75c1ee2fe969feda0442861e991211066575312e6b76616b7a6f6e2e746f70
-tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=s05.neo-trading.org&port=443&secret=eeecd508d816f611bb329487809f8dac88706574726f766963682e7275
 tg://proxy?server=hunna.helloworld.surf&port=443&secret=dd8348f17544c6a17a74ba9a8ee001e006
 tg://proxy?server=tg2.goingflux.online&port=8443&secret=ee39f2f36ec93338eae372566cb078c0aa7467322e676f696e67666c75782e6f6e6c696e65
-tg://proxy?server=zone.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=s010.neo-trading.org&port=8443&secret=ee2c46ee89b4f2c79c1d8325d13091e580647a656e2e7275
-tg://proxy?server=eu2.utkanos.life&port=8443&secret=ee7dc0a82984d861709ee30c6d149f41836575322e75746b616e6f732e6c696665
 tg://proxy?server=lazeyka-13.getvelora.space&port=443&secret=ee46a32561a355dd2e25ffc2bc75f5c1c36f7a6f6e2e7275
+tg://proxy?server=s010.neo-trading.org&port=8443&secret=ee2c46ee89b4f2c79c1d8325d13091e580647a656e2e7275
+tg://proxy?server=zone.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=speed2.luna-tun.site&port=443&secret=ee6e53ed117b401c54bc880b545089e6276f7a6f6e2e7275
