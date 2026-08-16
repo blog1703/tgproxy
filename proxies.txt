@@ -1,14 +1,14 @@
-# Updated: 2026-08-16 20:40:35 (MSK)
+# Updated: 2026-08-16 21:11:47 (MSK)
 # Total proxies: 10
 # Sources: ProxyMTProto, TProxyRU
 
+tg://proxy?server=juke.startnetwork.shop&port=443&secret=dd3eda2b33587de0dad091f72b70fc188d
+tg://proxy?server=lazeyka-17.getvelora.space&port=443&secret=eebc5b6769ff4b96a0ab0ac0aeffc156706f7a6f6e2e7275
 tg://proxy?server=77.110.109.135&port=443&secret=eea65c7fc5a0d5669ba371a7ca88fc19496f7a6f6e2e7275
 tg://proxy?server=redflag.yazaebalsyadelatproxy.cc&port=443&secret=ee69e899d89ec68e220ca177557322b27f726564666c61672e79617a616562616c73796164656c617470726f78792e6363
-tg://proxy?server=s02.neo-trading.org&port=443&secret=ee6ec9f7e082baf2397b450727ce78447e6f7a6f6e2e7275
-tg://proxy?server=s05.neo-trading.org&port=443&secret=eeecd508d816f611bb329487809f8dac88706574726f766963682e7275
-tg://proxy?server=lazeyka-17.getvelora.space&port=443&secret=eebc5b6769ff4b96a0ab0ac0aeffc156706f7a6f6e2e7275
-tg://proxy?server=juke.startnetwork.shop&port=443&secret=dd3eda2b33587de0dad091f72b70fc188d
 tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
-tg://proxy?server=tg3.uniq.care&port=8443&secret=7swcOHh7aWFN6hqGnDPq5RF0ZzMudW5pcS5jYXJl
+tg://proxy?server=s02.neo-trading.org&port=443&secret=ee6ec9f7e082baf2397b450727ce78447e6f7a6f6e2e7275
 tg://proxy?server=yeh.topbelka.ru&port=443&secret=ee050c8f82b0877cccd23a08c65f062b987275747562652e7275
 tg://proxy?server=s010.neo-trading.org&port=8443&secret=ee2c46ee89b4f2c79c1d8325d13091e580647a656e2e7275
+tg://proxy?server=s05.neo-trading.org&port=443&secret=eeecd508d816f611bb329487809f8dac88706574726f766963682e7275
+tg://proxy?server=tg3.uniq.care&port=8443&secret=7swcOHh7aWFN6hqGnDPq5RF0ZzMudW5pcS5jYXJl
