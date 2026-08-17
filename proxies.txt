@@ -1,21 +1,21 @@
-# Updated: 2026-08-18 00:46:04 (MSK)
+# Updated: 2026-08-18 01:12:10 (MSK)
 # Total proxies: 17
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
-tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
-tg://proxy?server=tg2.goingflux.online&port=8443&secret=ee39f2f36ec93338eae372566cb078c0aa7467322e676f696e67666c75782e6f6e6c696e65
-tg://proxy?server=yeh.topbelka.ru&port=443&secret=ee050c8f82b0877cccd23a08c65f062b987275747562652e7275
-tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
-tg://proxy?server=anti.rkn.lat&port=443&secret=ee5ad5e4caef72b74d57ffb9781b3e5f04636c6f756463646e2d6d392d362e63646e2e79616e6465782e6e6574
-tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
 tg://proxy?server=free2.gram.blog&port=443&secret=eee7edfdda71f1dd44c4714fed482a0a1b62726f777365722e79616e6465782e7275
-tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
 tg://proxy?server=176.124.207.237&port=443&secret=fad015155defc3a8bd8ebc16b5d2b300
+tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
+tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
 tg://proxy?server=hl.routefastnet.online&port=443&secret=eea9a5f5674069d982088b5ad27dca4584686c2e726f757465666173746e65742e6f6e6c696e65
-tg://proxy?server=lazeyka-18.getvelora.space&port=443&secret=ee9d8875ade1930e8ae1fd7350efaf487b6f7a6f6e2e7275
-tg://proxy?server=484732.proxyhub.co&port=443&secret=ee5de76052d3430f237337281a95e9cea23438343733322e70726f78796875622e636f
-tg://proxy?server=d438cd.nodeflare.net&port=443&secret=ee9b614f2a8f633f582b011b71dba760966434333863642e6e6f6465666c6172652e6e6574
-tg://proxy?server=peak.helloworld.surf&port=443&secret=ddae7a078698a9289137599c9762db5d65
-tg://proxy?server=b8af0e.hopwire.io&port=443&secret=ee9983e26fda53ed1459d75e3ff9dec9c56238616630652e686f70776972652e696f
 tg://proxy?server=vegas.startnetwork.shop&port=443&secret=dddc4702229ba9f42fd30c7126e162e053
+tg://proxy?server=lazeyka-18.getvelora.space&port=443&secret=ee9d8875ade1930e8ae1fd7350efaf487b6f7a6f6e2e7275
+tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
+tg://proxy?server=484732.proxyhub.co&port=443&secret=ee5de76052d3430f237337281a95e9cea23438343733322e70726f78796875622e636f
+tg://proxy?server=b8af0e.hopwire.io&port=443&secret=ee9983e26fda53ed1459d75e3ff9dec9c56238616630652e686f70776972652e696f
+tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
+tg://proxy?server=peak.helloworld.surf&port=443&secret=ddae7a078698a9289137599c9762db5d65
+tg://proxy?server=tg2.goingflux.online&port=8443&secret=ee39f2f36ec93338eae372566cb078c0aa7467322e676f696e67666c75782e6f6e6c696e65
+tg://proxy?server=d438cd.nodeflare.net&port=443&secret=ee9b614f2a8f633f582b011b71dba760966434333863642e6e6f6465666c6172652e6e6574
+tg://proxy?server=yeh.topbelka.ru&port=443&secret=ee050c8f82b0877cccd23a08c65f062b987275747562652e7275
+tg://proxy?server=anti.rkn.lat&port=443&secret=ee5ad5e4caef72b74d57ffb9781b3e5f04636c6f756463646e2d6d392d362e63646e2e79616e6465782e6e6574
+tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
