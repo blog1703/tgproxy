@@ -1,29 +1,29 @@
-# Updated: 2026-08-20 01:12:38 (MSK)
+# Updated: 2026-08-20 01:47:04 (MSK)
 # Total proxies: 25
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=mtp1.hlebushek.com&port=443&secret=eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275
-tg://proxy?server=edge2.medhata.orgPort:&port=2443&secret=ee210a1476d9f3374fed48b19ccd3ad7b665646765322e6d6564686174612e6f7267@ProxyMTProto
-tg://proxy?server=persian.gulf.ir.olsjddhf.info.Port:&port=88&secret=ee0000f00f0f775555fffffff5006e2e69626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
-tg://proxy?server=media6.happtg.orgPort:&port=443&secret=ee7391242569590e01416101927d38b565646e732d73686f702e7275@ProxyMTProto
-tg://proxy?server=ljox44lz.helper.websitePort:&port=443&secret=eeb4f9b88528d51bd43c20e7d400020711636c6f7564666c6172652e636f6d@ProxyMTProto
-tg://proxy?server=UnknownPort:&port=4455&secret=dd104462821249bd7ac519130220c25d09@ProxyMTProto
-tg://proxy?server=65.21.205.41Port:&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0@ProxyMTProto
-tg://proxy?server=free3.gram.blog&port=443&secret=ee57639673cce7f03e351b8a5a857eea6c62726f777365722e79616e6465782e7275
-tg://proxy?server=mtp2.hlebushek.com&port=443&secret=ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275
-tg://proxy?server=UnknownPort:&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ@ProxyMTProto
-tg://proxy?server=UnknownPort:&port=443&secret=ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275@ProxyMTProto
-tg://proxy?server=qadim.zhigool.co.ukPort:&port=22&secret=EERighJJvXrFGRMCIMJdCQ@ProxyMTProto
-tg://proxy?server=yeh.topbelka.ru&port=443&secret=ee050c8f82b0877cccd23a08c65f062b987275747562652e7275
-tg://proxy?server=t.meow-network.comPort:&port=443&secret=ee5622e11fff3e49bcc85280197a6106b5742e6d656f772d6e6574776f726b2e636f6d@ProxyMTProto
-tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
 tg://proxy?server=max.kimt.clickPort:&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b@ProxyMTProto
 tg://proxy?server=irancell-mci-rightell-adsl.visalawyer.co.uk.Port:&port=443&secret=eeddffffffc5a1168b2ff3eba31cbfffff7765622e62616c652e6169@ProxyMTProto
+tg://proxy?server=yeh.topbelka.ru&port=443&secret=ee050c8f82b0877cccd23a08c65f062b987275747562652e7275
+tg://proxy?server=free3.gram.blog&port=443&secret=ee57639673cce7f03e351b8a5a857eea6c62726f777365722e79616e6465782e7275
 tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
-tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
-tg://proxy?server=UnknownPort:&port=443&secret=eefdf6175e50069c01bd22d786534aa2b2766b2e636f6d@ProxyMTProto
-tg://proxy?server=UnknownPort:&port=443&secret=eefddb26d5047ce1787ece232a57832391617669746f2e7275@ProxyMTProto
-tg://proxy?server=mtp3.hlebushek.com&port=443&secret=ee49b03637799a40446509a268d99ff91b706574726f766963682e7275
-tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
+tg://proxy?server=UnknownPort:&port=8443&secret=eeNEgYdJvXrFGRMCIMJdCQ@ProxyMTProto
 tg://proxy?server=UnknownPort:&port=443&secret=eef0eeb0bd9adc4fd4a93994ee3b2a216b63646e2e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=proxy2.legendary.ac&port=443&secret=dda4c7c07709a2c6a29fca4fc63b1ae411
+tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
+tg://proxy?server=mtp1.hlebushek.com&port=443&secret=eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275
+tg://proxy?server=media6.happtg.orgPort:&port=443&secret=ee7391242569590e01416101927d38b565646e732d73686f702e7275@ProxyMTProto
+tg://proxy?server=ljox44lz.helper.websitePort:&port=443&secret=eeb4f9b88528d51bd43c20e7d400020711636c6f7564666c6172652e636f6d@ProxyMTProto
+tg://proxy?server=t.meow-network.comPort:&port=443&secret=ee5622e11fff3e49bcc85280197a6106b5742e6d656f772d6e6574776f726b2e636f6d@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=4455&secret=dd104462821249bd7ac519130220c25d09@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=443&secret=eefddb26d5047ce1787ece232a57832391617669746f2e7275@ProxyMTProto
+tg://proxy?server=persian.gulf.ir.olsjddhf.info.Port:&port=88&secret=ee0000f00f0f775555fffffff5006e2e69626973636f7474692e79656b74616e65742e636f6d@ProxyMTProto
+tg://proxy?server=ardesvpn1.ru&port=8443&secret=ee05cf8e164f926f4a664b2404d276a1d6617264657376706e312e7275
+tg://proxy?server=edge2.medhata.orgPort:&port=2443&secret=ee210a1476d9f3374fed48b19ccd3ad7b665646765322e6d6564686174612e6f7267@ProxyMTProto
+tg://proxy?server=qadim.zhigool.co.ukPort:&port=22&secret=EERighJJvXrFGRMCIMJdCQ@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=443&secret=eefdf6175e50069c01bd22d786534aa2b2766b2e636f6d@ProxyMTProto
+tg://proxy?server=65.21.205.41Port:&port=443&secret=3XnnAQIAAQAH8AMDhuJMOt0@ProxyMTProto
+tg://proxy?server=mtp2.hlebushek.com&port=443&secret=ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275
+tg://proxy?server=mtp3.hlebushek.com&port=443&secret=ee49b03637799a40446509a268d99ff91b706574726f766963682e7275
 tg://proxy?server=mtp1.hlebushek.comPort:&port=443&secret=eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275@ProxyMTProto
+tg://proxy?server=UnknownPort:&port=443&secret=ee2c46ee89b4f2c79c1d8325d13091e580706574726f766963682e7275@ProxyMTProto
