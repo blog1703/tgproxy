@@ -1,17 +1,17 @@
-# Updated: 2026-08-24 10:55:04 (MSK)
+# Updated: 2026-08-24 11:34:30 (MSK)
 # Total proxies: 13
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=pulse.lovely.lat&port=443&secret=ee6f8c7d9193585ada7d22acf074ad6d976d2e6265626f6f2e7275
-tg://proxy?server=proxy.maxtimes.ru&port=8443&secret=dd1ffe3bcb425f1b8f737d4de2c6dd35b3
-tg://proxy?server=hl.routefastnet.online&port=443&secret=eea9a5f5674069d982088b5ad27dca4584686c2e726f757465666173746e65742e6f6e6c696e65
-tg://proxy?server=proxy.maxtimes.ru&port=8443&secret=1ffe3bcb425f1b8f737d4de2c6dd35b3
-tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
-tg://proxy?server=lazeyka-23.getvelora.space&port=443&secret=eecfda0c988afe3cc7954c1d16d9e044316f7a6f6e2e7275
-tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
-tg://proxy?server=leo.startnetwork.shop&port=443&secret=dd76dcc26703bb6380c910792a2bbf9c31
-tg://proxy?server=bake.mtproto.baby&port=443&secret=dde253fcbca6d9dacd57938476d83a4b80
 tg://proxy?server=proxy.maxtimes.ru&port=8444&secret=ee1ffe3bcb425f1b8f737d4de2c6dd35b36164732e78352e7275
+tg://proxy?server=connect.tproxyru.live&port=8980&secret=ee104462821249bd7ac519130220c25d09617669746f2e7275
+tg://proxy?server=leo.startnetwork.shop&port=443&secret=dd76dcc26703bb6380c910792a2bbf9c31
 tg://proxy?server=yeh.topbelka.ru&port=443&secret=ee050c8f82b0877cccd23a08c65f062b987275747562652e7275
-tg://proxy?server=zone.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=lazeyka-23.getvelora.space&port=443&secret=eecfda0c988afe3cc7954c1d16d9e044316f7a6f6e2e7275
+tg://proxy?server=proxy.maxtimes.ru&port=8443&secret=dd1ffe3bcb425f1b8f737d4de2c6dd35b3
+tg://proxy?server=bake.mtproto.baby&port=443&secret=dde253fcbca6d9dacd57938476d83a4b80
 tg://proxy?server=black.whiteproxy.baby&port=443&secret=dd5418042aeb467cd038dbeb048b06aadb
+tg://proxy?server=hl.routefastnet.online&port=443&secret=eea9a5f5674069d982088b5ad27dca4584686c2e726f757465666173746e65742e6f6e6c696e65
+tg://proxy?server=uplink.techlibrary.ink&port=4501&secret=ee17e6d4e0d143817328e4341210e9bb3a636c6f7564666c6172652e636f6d
+tg://proxy?server=proxy.maxtimes.ru&port=8443&secret=1ffe3bcb425f1b8f737d4de2c6dd35b3
+tg://proxy?server=zone.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=pulse.lovely.lat&port=443&secret=ee6f8c7d9193585ada7d22acf074ad6d976d2e6265626f6f2e7275
