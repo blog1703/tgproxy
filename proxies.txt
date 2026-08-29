@@ -1,16 +1,14 @@
-# Updated: 2026-08-29 14:12:56 (MSK)
-# Total proxies: 12
+# Updated: 2026-08-29 18:40:50 (MSK)
+# Total proxies: 10
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=fish.mtproto.baby&port=443&secret=dd449119ea34c3a8957918cd066e3422d8
-tg://proxy?server=stream.lovely.lat&port=443&secret=eeec835a34516912f161a0073339be3c646d2e6265626f6f2e7275
-tg://proxy?server=mtp2.hlebushek.com&port=443&secret=ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275
 tg://proxy?server=mtp1.hlebushek.com&port=443&secret=eea61deab187a415531ac418cd29ae58ee706574726f766963682e7275
 tg://proxy?server=telegram.vechnostnet.study&port=443&secret=dda8736bb4a03afabc3ebf6b8565400dfc
+tg://proxy?server=mtp2.hlebushek.com&port=443&secret=ee8263f1fdfbfa0629c67c40d208806873706574726f766963682e7275
 tg://proxy?server=ykima.davay.click&port=443&secret=ee06dfdbdf271bab18c6b606484c237384796b696d612e64617661792e636c69636b
 tg://proxy?server=as.mkim.click&port=443&secret=ee2dfa3526fc70b7abd7a09eade6ccea1f61732e6d6b696d2e636c69636b
-tg://proxy?server=vault.lovely.lat&port=443&secret=eeec835a34516912f161a0073339be3c646d2e6265626f6f2e7275
-tg://proxy?server=skein.chunkycorp.shop&port=8443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=vpn.vechnostnet.study&port=443&secret=ddb67158106269274cecaed7c9468e8b74
-tg://proxy?server=lazeyka-28.getvelora.space&port=443&secret=ee6e2d8d1e4ae0fd8446c8176f53996e476f7a6f6e2e7275
 tg://proxy?server=mtp3.hlebushek.com&port=443&secret=ee49b03637799a40446509a268d99ff91b706574726f766963682e7275
+tg://proxy?server=lazeyka-29.getvelora.space&port=443&secret=ee41b9fb69fc7c451449031106d3dd516c6f7a6f6e2e7275
+tg://proxy?server=stream.lovely.lat&port=443&secret=eeec835a34516912f161a0073339be3c646d2e6265626f6f2e7275
+tg://proxy?server=fish.mtproto.baby&port=443&secret=dd449119ea34c3a8957918cd066e3422d8
+tg://proxy?server=vault.lovely.lat&port=443&secret=eeec835a34516912f161a0073339be3c646d2e6265626f6f2e7275
