@@ -1,16 +1,15 @@
-# Updated: 2026-09-05 16:35:17 (MSK)
-# Total proxies: 12
+# Updated: 2026-09-05 19:21:20 (MSK)
+# Total proxies: 11
 # Sources: ProxyMTProto, TProxyRU
 
-tg://proxy?server=yeh.topbelka.ru&port=443&secret=ee050c8f82b0877cccd23a08c65f062b987275747562652e7275
-tg://proxy?server=free3.gram.blog&port=443&secret=ee57639673cce7f03e351b8a5a857eea6c62726f777365722e79616e6465782e7275
-tg://proxy?server=194.59.221.90&port=8444&secret=ee7577a125c7ad9c1d711adb2ebd0f6efc6465636174686c6f6e2e636f6d
-tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=aerie.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
 tg://proxy?server=zone.chunkycorp.shop&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=skein.chunkycorp.shop&port=8443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
-tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
-tg://proxy?server=194.59.221.90&port=8443&secret=eef4b79908a669cfe8f293941da4e388916465636174686c6f6e2e636f6d
 tg://proxy?server=os.vechnostnet.study&port=443&secret=ee5cfacb7941f6260de34393a10d2b1d7d7374726d2e79616e6465782e6e6574
+tg://proxy?server=aerie.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=194.59.221.90&port=8444&secret=ee7577a125c7ad9c1d711adb2ebd0f6efc6465636174686c6f6e2e636f6d
+tg://proxy?server=194.59.221.90&port=8443&secret=eef4b79908a669cfe8f293941da4e388916465636174686c6f6e2e636f6d
+tg://proxy?server=petrichor.slarkfat.icu&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=syzygy.sosun4ik.top&port=443&secret=ee6a0333c1db3f8eaba5c76731a44203b6617669746f2e7275
+tg://proxy?server=god.startnetwork.shop&port=443&secret=ee1b12072197f503e7b598f0faaa982f767374726d2e79616e6465782e6e6574
 tg://proxy?server=adproxy.mtproto.baby&port=443&secret=ddb57ee5caf6ee163bd0a0d08f491a84db
+tg://proxy?server=max.kimt.click&port=443&secret=ee1b153cf06dbd43c6085c359a6702eb936d61782e6b696d742e636c69636b
+tg://proxy?server=yeh.topbelka.ru&port=443&secret=ee050c8f82b0877cccd23a08c65f062b987275747562652e7275
